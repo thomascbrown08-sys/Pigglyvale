@@ -108,6 +108,18 @@ is a reason otherwise.
 | **Gus Thornapple** | *Rule over person* | An old boar. Tends the Pepper Patch and the one good road, grumbles about both. Judged a tomato the winner of the pepper contest once and has never lived it down. Notices things before anyone else and mentions them too late. |
 | **The Bramblewick litter** | *the puncture* | Four piglets — **Fig**, **Dot**, **Sorrel**, and **Bean**, roughly four to nine. Deliver eggs. Chaos. Their job is to ask the plain question that collapses an adult's rationalization, then wander off unaware. Use sparingly or the trick wears out. |
 
+### Supporting appearance tokens *(settled by the Episode One art)*
+
+- **Pim:** a very small anthropomorphic harvest mouse, tawny gold fur, pale cream belly, large round ears,
+  enormous dark eyes, long pink tail, a child-sized white apron with a front pocket, far too big for her
+- **Auntie Yolanda Plum:** a large anthropomorphic goose, white with grey wing edges and a grey cap, orange
+  bill, a scarlet headwrap and a pale work apron heavily stained with spice
+- **Fig Bramblewick:** a very young anthropomorphic piglet, pink, a dark grey patch over one eye, patched
+  blue denim pinafore, usually carrying a basket of eggs
+
+Rough crops for all three are in `images/_reference/` (`pim-crop.png`, `yolanda-crop.png`, `fig-crop.png`).
+Attach them until each gets a proper sheet.
+
 **Reserved:** structural episodes (nobody did wrong; the arrangement was bad) need no antagonist at all.
 Do not assign one out of habit.
 
@@ -197,7 +209,10 @@ rediscovering it. Add to this every time something surprises you.
    and with all eight faces clustered close together, because suppressing the extremes suppresses the range.
    Expect that trade. Roll the calm register and the raw register as separate images rather than hoping one
    strip covers both.
-8. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
+8. **Scale drift is not a one-time fix — it recurs per image.** Episode One's hero shot has Thomas
+   correctly enormous; the hinge shot four images later has him back near parity. Stating the ratio once at
+   the top of a prompt file is not enough. It goes in the composition block of *every* shared frame.
+9. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
    missing from the first draft of the Episode One prompts. Six image slots, not five.
 
 ---
@@ -229,6 +244,14 @@ color the kitchen door is. Future-you will need every one of these.)*
 - Gus Thornapple once gave the pepper-contest ribbon to a tomato.
 - Pim hangs the wooden spoon on its hook **handle outward**, the way she was taught.
 - Thomas appears as a participant in the story, not only as narrator — established Episode One.
+- **The Kitchen Royal:** whitewashed walls, a long scrubbed worktable, copper pots on a rail, garlic and
+  herbs hung to dry, a rack of wooden spoons on the wall, a stone hearth, shuttered windows onto green.
+- **Marketrow:** striped awnings, open baskets of dried chiles and spices, bright and crowded.
+- **The Long Table:** a stone courtyard, benches both sides, paper lanterns strung overhead in warm gold
+  and plum.
+- **Thomas has his own small table at the Long Table**, set at the end — because he takes up the space of
+  three. Established by the art, and it is a running gag rather than an exclusion. He is not sitting apart;
+  he simply does not fit on a bench.
 
 ---
 

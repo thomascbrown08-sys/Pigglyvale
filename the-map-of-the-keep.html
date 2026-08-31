@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Map of the Keep — Pigglyvale</title>
+
+<!-- ============================================================
+     PREVIEW BUILD. Everything below the marked line is page-specific
+     CSS, ready to be lifted whole into assets/style.css. Once it's
+     moved, this file links ../assets/style.css and carries no local
+     CSS block, per the house rule.
+     The :root block here duplicates the shared tokens only so this
+     file renders standalone. Delete it on the way into the site.
+     ============================================================ -->
+
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT,WONK@0,9..144,300..800,50,1;1,9..144,300..800,50,1&family=Literata:ital,opsz,wght@0,7..72,300..600;1,7..72,300..600&display=swap" rel="stylesheet">
+
+<style>
+/* ---- shared tokens (already in assets/style.css — do not duplicate) ---- */
+:root{
+  --paper:#faf0e8; --paper-deep:#f2e1d4; --ink:#33203a; --ink-soft:#5c4560;
+  --plum:#4b2a50; --plum-deep:#2e162f; --guava:#c2456e; --mango:#e6a034; --sofrito:#5a7f4e;
+  --display:'Fraunces',Georgia,serif; --body:'Literata',Georgia,serif;
+  --measure:34rem; --wide:52rem; --step:1.5rem;
+  --butterfly:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 32'><g fill='%23e6a034'><path d='M20 10C17 3 10 1 6 4 2 7 3 13 8 15c4 1.5 9-1 12-5z'/><path d='M20 10c3-7 10-9 14-6 4 3 3 9-2 11-4 1.5-9-1-12-5z'/><path d='M20 12c-2 5-7 9-11 8-4-1-4-6 0-7 4-1 8-1 11-1z'/><path d='M20 12c2 5 7 9 11 8 4-1 4-6 0-7-4-1-8-1-11-1z'/><ellipse cx='20' cy='13' rx='1.1' ry='6'/></g></svg>");
+}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
+  font-size:1.0625rem;line-height:1.72;font-optical-sizing:auto}
+h1,h2,h3{font-family:var(--display);font-variation-settings:'SOFT' 50,'WONK' 1;
+  font-weight:600;line-height:1.12;letter-spacing:-.01em}
+a{color:var(--guava);text-underline-offset:.18em}
+:focus-visible{outline:3px solid var(--mango);outline-offset:3px;border-radius:2px}
+
+/* ============================================================
+   PASTE FROM HERE INTO assets/style.css  →  "The Map of the Keep"
+   ============================================================ */
+
+.keep{max-width:var(--wide);margin:0 auto;padding:2.5rem 1.25rem 5rem}
+.keep p,.keep li{max-width:var(--measure)}
+.keep h1{font-size:clamp(2.1rem,8vw,3.2rem);margin:.2em 0 .1em}
+.keep h2{font-size:clamp(1.35rem,4.6vw,1.85rem);margin:3.2rem 0 .6rem}
+.keep h3{font-size:1.06rem;margin:1.9rem 0 .35rem;color:var(--plum)}
+.keep .standfirst{font-size:1.15rem;color:var(--ink-soft);font-style:italic;margin-top:0}
+.keep .lede{font-size:1.1rem}
+
+/* the rule that separates the frame from the mechanics */
+.keep hr{border:0;height:1px;background:var(--paper-deep);margin:3rem 0}
+
+/* ---- the map ---- */
+/* ---- illustrations ---- */
+.hero-shot{margin:1.6rem 0 2.4rem}
+.hero-shot img{width:100%;border-radius:2px}
+.hero-shot figcaption{color:var(--ink-soft);font-size:.93rem;font-style:italic;
+  margin-top:.5rem;max-width:var(--measure)}
+.kingdom-shot{margin:2.6rem 0 2rem;max-width:26rem}
+.kingdom-shot img{width:100%;border-radius:2px}
+.kingdom-shot figcaption{color:var(--ink-soft);font-size:.9rem;margin-top:.45rem}
+
+.map-figure{margin:2rem 0 1rem}
+.map-figure svg{width:100%;height:auto;display:block}
+.ring-band{cursor:pointer;transition:stroke-width .15s}
+.ring-band:hover{stroke-width:4}
+.ring-label{font-family:var(--display);font-size:21px;fill:var(--ink);
+  font-variation-settings:'SOFT' 50,'WONK' 1;pointer-events:none;text-anchor:middle}
+.ring-label.on-plum{fill:var(--mango);font-size:19px}
+.ring-sel{fill:none;stroke:var(--mango);stroke-width:5;pointer-events:none}
+
+/* ---- the ring chooser: the real control on a phone ---- */
+.ring-pick{display:flex;flex-wrap:wrap;gap:.4rem;margin:.75rem 0 1.75rem;padding:0;list-style:none;max-width:none}
+.ring-pick li{max-width:none}
+.ring-pick button{font-family:var(--body);font-size:.9rem;color:var(--plum);
+  background:var(--paper-deep);border:1px solid #e0cab6;border-radius:999px;
+  padding:.38rem .85rem;cursor:pointer;line-height:1.3}
+.ring-pick button[aria-pressed="true"]{background:var(--plum);color:var(--paper);border-color:var(--plum)}
+.ring-pick .watch-pick button{background:transparent;border-style:dashed;border-color:var(--guava);color:var(--guava)}
+.ring-pick .watch-pick button[aria-pressed="true"]{background:var(--guava);color:var(--paper);border-style:solid}
+
+/* ---- the ring card ---- */
+.ring-card{border-top:3px solid var(--plum);padding-top:1.1rem;margin-bottom:1rem}
+.ring-card.is-watch{border-top-color:var(--guava)}
+.ring-card h3{margin-top:0;font-size:1.5rem;font-family:var(--display);color:var(--plum)}
+.ring-card.is-watch h3{color:var(--guava)}
+.ring-card .who{font-size:1.05rem;color:var(--ink-soft);font-style:italic;margin:.1rem 0 1.1rem}
+.field{margin:0 0 .95rem}
+.field .k{font-family:var(--display);font-size:.94rem;color:var(--sofrito);display:block}
+.field p{margin:.1rem 0}
+.say{background:var(--paper-deep);border-left:3px solid var(--mango);
+  padding:.7rem .95rem;margin:1.1rem 0 0;font-size:1.02rem}
+.say .k{font-family:var(--display);font-size:.88rem;color:var(--ink-soft);display:block;margin-bottom:.15rem}
+.say q{font-style:italic;quotes:'\201C' '\201D'}
+
+/* ---- keys, ladder, expectations ---- */
+.keys{list-style:none;padding:0;margin:1rem 0 0;max-width:var(--measure)}
+.keys li{margin:0 0 1.05rem;padding-left:0}
+.keys b{font-family:var(--display);color:var(--plum);font-weight:600}
+.keys .scale{display:block;color:var(--ink-soft);font-size:.97rem}
+
+.ladder{list-style:none;counter-reset:rung;padding:0;margin:1.2rem 0 0;max-width:var(--measure)}
+.ladder li{counter-increment:rung;position:relative;padding-left:2.6rem;margin:0 0 1.1rem;max-width:none}
+.ladder li::before{content:counter(rung);position:absolute;left:0;top:.1rem;
+  width:1.75rem;height:1.75rem;border-radius:50%;background:var(--plum);color:var(--mango);
+  font-family:var(--display);font-size:.95rem;display:grid;place-items:center}
+.ladder li:last-child::before{background:var(--guava);color:var(--paper)}
+.ladder b{font-family:var(--display);color:var(--plum)}
+
+.four{margin:1.2rem 0 0;padding:0;list-style:none;max-width:var(--measure)}
+.four li{margin:0 0 .9rem;padding-left:1.1rem;border-left:2px solid var(--paper-deep)}
+.four b{font-family:var(--display);color:var(--plum)}
+
+.turn{font-family:var(--display);font-size:clamp(1.2rem,4.4vw,1.5rem);color:var(--plum);
+  line-height:1.35;margin:2rem 0;padding:0 0 0 1rem;border-left:4px solid var(--mango);max-width:30rem}
+
+/* ---- Thomas ---- */
+.notes{margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--paper-deep)}
+.notes::before{content:'';display:block;width:44px;height:35px;
+  background:var(--butterfly) no-repeat center/contain;margin:0 0 1rem}
+.notes h2{margin-top:0}
+.notes .voice{color:var(--ink-soft);font-size:.95rem;font-style:italic;margin-top:-.3rem}
+.talk{padding-left:1.15rem;max-width:var(--measure)}
+.talk li{margin:.5rem 0}
+.verse{font-style:italic}
+.ref{font-style:normal;color:var(--ink-soft);font-size:.92rem;white-space:nowrap}
+
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+@media print{
+  .ring-pick{display:none}
+  .ring-card{display:block!important;break-inside:avoid;border-top-width:2px}
+  body{background:#fff}
+}
+/* ============================================================
+   END PASTE
+   ============================================================ */
+</style>
+</head>
+<body>
+<main class="keep">
+
+  <p style="font-family:var(--display);color:var(--ink-soft);margin-bottom:0">The Chronicles of Pigglyvale</p>
+  <h1>The Map of the Keep</h1>
+  <p class="standfirst">Who gets which key, and how anybody moves.</p>
+
+  <figure class="hero-shot">
+    <img src="../images/keep/02-carolyn-gate.png"
+         alt="Princess Carolyn stands in her lit kitchen doorway at dusk, one hand on the frame, holding
+              out a covered dish to someone beyond the threshold. Her expression is warm and completely
+              level. She is not stepping aside.">
+    <figcaption>She is glad to see them. She is not moving.</figcaption>
+  </figure>
+
+  <p class="lede">The Son of God had rings. He taught crowds of thousands and sent out seventy-two and
+  travelled with twelve and took three of them up the mountain, and there was one He called the disciple
+  whom He loved. Nobody has ever accused Him of being stingy with His heart.</p>
+
+  <p>Which means the thing many of us were quietly afraid of is not true. Giving different people different
+  amounts of access is not a failure of love. It is what love looks like when it has any shape at all. A
+  house with no interior walls is not a generous house. It is a barn.</p>
+
+  <p>So here is a map of the Keep. Six rooms, working inward, and one mark that can be set anywhere.</p>
+
+  <!-- ================= THE MAP ================= -->
+
+  <figure class="map-figure">
+    <svg viewBox="0 0 700 700" role="img" aria-labelledby="maptitle mapdesc">
+      <title id="maptitle">The Keep of Pigglyvale, drawn as six concentric rings</title>
+      <desc id="mapdesc">Six rings from outside in: the Road, Marketrow, the Great Hall, the Inner
+      Court, the Long Table, and at the centre the Hearth. A hatched band labelled the Watch cuts
+      across every ring from the outer edge to the centre, showing that it can be set at any depth.</desc>
+
+      <defs>
+        <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+          <rect width="10" height="10" fill="#faf0e8"/>
+          <line x1="0" y1="0" x2="0" y2="10" stroke="#c2456e" stroke-width="3.4"/>
+        </pattern>
+      </defs>
+
+      <g id="bands">
+        <circle class="ring-band" data-ring="road"    cx="350" cy="350" r="340" fill="#fbf3ea" stroke="#4b2a50" stroke-width="1.4"/>
+        <circle class="ring-band" data-ring="market"  cx="350" cy="350" r="286" fill="#f7e9dc" stroke="#4b2a50" stroke-width="1.4"/>
+        <circle class="ring-band" data-ring="hall"    cx="350" cy="350" r="232" fill="#f2ddca" stroke="#4b2a50" stroke-width="1.4"/>
+        <circle class="ring-band" data-ring="court"   cx="350" cy="350" r="178" fill="#eccfb6" stroke="#4b2a50" stroke-width="1.4"/>
+        <circle class="ring-band" data-ring="table"   cx="350" cy="350" r="122" fill="#e4bf9e" stroke="#4b2a50" stroke-width="1.4"/>
+        <circle class="ring-band" data-ring="hearth"  cx="350" cy="350" r="64"  fill="#4b2a50" stroke="#4b2a50" stroke-width="1.4"/>
+      </g>
+
+      <!-- the Watch: a band that crosses every ring -->
+      <g transform="rotate(-38 350 350)">
+        <rect x="350" y="335" width="342" height="30" fill="url(#hatch)" stroke="#c2456e" stroke-width="1.6"/>
+      </g>
+
+      <g id="sel"></g>
+
+      <text class="ring-label" x="350" y="46">the Road</text>
+      <text class="ring-label" x="350" y="100">Marketrow</text>
+      <text class="ring-label" x="350" y="154">Great Hall</text>
+      <text class="ring-label" x="350" y="209">Inner Court</text>
+      <text class="ring-label" x="350" y="266">Long Table</text>
+      <text class="ring-label on-plum" x="350" y="372">Hearth</text>
+    </svg>
+    <figcaption style="color:var(--ink-soft);font-size:.95rem;max-width:var(--measure)">
+      The hatched band is <b style="font-family:var(--display);color:var(--guava)">the Watch</b>. Notice that
+      it is not a ring. It crosses all of them, because the person who has hurt you is very often already
+      standing near the middle.
+    </figcaption>
+  </figure>
+
+  <ul class="ring-pick">
+    <li><button data-pick="hearth">Hearth</button></li>
+    <li><button data-pick="table">Long Table</button></li>
+    <li><button data-pick="court">Inner Court</button></li>
+    <li><button data-pick="hall">Great Hall</button></li>
+    <li><button data-pick="market">Marketrow</button></li>
+    <li><button data-pick="road">the Road</button></li>
+    <li class="watch-pick"><button data-pick="watch">the Watch</button></li>
+  </ul>
+
+  <!-- ================= RING CARDS ================= -->
+
+  <div id="cards">
+
+  <article class="ring-card" id="card-hearth">
+    <h3>The Hearth</h3>
+    <p class="who">One person, or very nearly. A spouse. The one who sees the unfinished version of you and
+      does not go anywhere.</p>
+    <p class="field"><span class="k">Keys granted</span>All six, freely. Time without an appointment. The
+      thoughts that aren't done yet. A say that can actually change your mind. The door, the purse, and the
+      longest patience you have.</p>
+    <p class="field"><span class="k">What you owe here</span>Honesty before it is tidy. Hard news first,
+      not last. Your own repair, fast, when you are the one who was wrong.</p>
+    <p class="field"><span class="k">How someone arrives</span>Years, weather, and covenant. Never feeling
+      alone. Feeling is how you notice a person; it is not how you promote one.</p>
+    <p class="field"><span class="k">How someone leaves</span>Almost never over one failure. Over sustained,
+      unrepented harm — and even then with counsel beside you, not alone at midnight.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>I want you to know this before anybody
+      else does.</q></p>
+    <p style="color:var(--ink-soft);font-size:.97rem">If this room is empty right now, it is empty. That is a
+      grief and it is not a verdict. An empty Hearth is not the same as a failed one, and it is not filled by
+      promoting somebody early.</p>
+  </article>
+
+  <article class="ring-card" id="card-table">
+    <h3>The Long Table</h3>
+    <p class="who">Household and immediate family. Parents, siblings, children — and the two or three friends
+      who have functioned as family for years.</p>
+    <p class="field"><span class="k">Keys granted</span>Most of your time. Most of what you know about
+      yourself. A real say. The door with a message first. Help that costs you something.</p>
+    <p class="field"><span class="k">What you owe here</span>Presence at the hard things. The truth about
+      yourself within a reasonable time — not immediately, but not never.</p>
+    <p class="field"><span class="k">How someone arrives</span>Birth, marriage, or a decade of Tuesdays. But
+      here is the part people miss: <b>blood gets you the seat, conduct keeps the keys.</b> Family is a
+      standing you cannot lose. It is not a key ring you cannot lose.</p>
+    <p class="field"><span class="k">How someone leaves</span>Usually they don't. Usually the seat stays and
+      specific keys come back to you. That is the Watch, and it is the most useful thing on this page.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>Can I tell you something I haven't figured
+      out yet?</q></p>
+  </article>
+
+  <article class="ring-card" id="card-court">
+    <h3>The Inner Court</h3>
+    <p class="who">Tested friends. Three to five, if you are doing well. Each of them has kept a hard thing
+      you told them, and told you a true thing you didn't want.</p>
+    <p class="field"><span class="k">Keys granted</span>Time, generously, with some notice. Most of the
+      inside story. Advice you genuinely weigh. Your home by invitation. Help within reason.</p>
+    <p class="field"><span class="k">What you owe here</span>Follow-through. Starting the conversation
+      sometimes instead of always being started. Saying the kind true thing when they need it and won't
+      like it.</p>
+    <p class="field"><span class="k">How someone arrives</span>Two or three years, and one hard conversation
+      that both of you survived. The survived conversation matters more than the years.</p>
+    <p class="field"><span class="k">How someone leaves</span>A confidence broken. A long pattern of taking.
+      They usually go back out to the Great Hall — not off the map.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>I have room for that this week, but not on
+      short notice.</q></p>
+  </article>
+
+  <article class="ring-card" id="card-hall">
+    <h3>The Great Hall</h3>
+    <p class="who">Good company. Church, the team, the small group, the neighbours you actually like. Twenty
+      people, or fifty. You are glad to see all of them.</p>
+    <p class="field"><span class="k">Keys granted</span>Planned time. The public version of your life and a
+      little more. Opinions heard, not obeyed. Your home for gatherings. Help that costs you an afternoon.</p>
+    <p class="field"><span class="k">What you owe here</span>Warmth. Doing the thing you said you would do.
+      Not repeating what you heard.</p>
+    <p class="field"><span class="k">How someone arrives</span>Repeated pleasant contact and one kept
+      promise. This ring is easy to enter, which is the point of it.</p>
+    <p class="field"><span class="k">How someone leaves</span>Mostly by drifting, and drifting is not a
+      rupture. People move away, change churches, get busy. Nobody has to be at fault.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>That doesn't work for me, but I'd love to
+      come to the next one.</q></p>
+  </article>
+
+  <article class="ring-card" id="card-market">
+    <h3>Marketrow</h3>
+    <p class="who">Acquaintances. Coworkers, the neighbour two doors down, the man at the fish counter who
+      always saves you the good one. Real, pleasant, and bounded.</p>
+    <p class="field"><span class="k">Keys granted</span>Time inside its own setting — the shop, the office,
+      the school run. The public version. No say. No door. Small favours, cheerfully.</p>
+    <p class="field"><span class="k">What you owe here</span>Courtesy, honesty, fair dealing, and a decent
+      word about them when they are not there. Nothing more. Nothing less, either.</p>
+    <p class="field"><span class="k">How someone arrives</span>Nothing is required. This is simply the
+      default for people you see regularly, and there is no shame in a great many people living here for
+      thirty years.</p>
+    <p class="field"><span class="k">How someone leaves</span>The same way they came. Quietly, and without
+      an announcement being owed to anyone.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>I keep my weekends for family — but I hope
+      it's a good one.</q></p>
+  </article>
+
+  <article class="ring-card" id="card-road">
+    <h3>The Road</h3>
+    <p class="who">Strangers. The public. Comment sections. And — this is the one that costs people
+      dearly — anybody you have known for three delightful weeks.</p>
+    <p class="field"><span class="k">Keys granted</span>The public version and nothing else. No say, no door,
+      no purse. Kindness on demand. Trust on none.</p>
+    <p class="field"><span class="k">What you owe here</span>Dignity. Every one of them is made in the image
+      of God, and courtesy costs you nothing and is owed to all of them.</p>
+    <p class="field"><span class="k">The trap that lives here</span>Charm is a Road-level signal. It is
+      cheap to produce and it arrives early, which is exactly why it cannot be evidence of anything. Three
+      weeks of delight tells you a person is delightful. It does not tell you what they do when keeping
+      their word gets expensive, and that is the only thing you actually need to know.</p>
+    <p class="say"><span class="k">A sentence for here</span><q>It was so nice to meet you.</q> And that is
+      a complete sentence. It does not need a phone number attached to it.</p>
+  </article>
+
+  <article class="ring-card is-watch" id="card-watch">
+    <h3>The Watch</h3>
+    <p class="who">Not a ring. A mark you set on one named person, at whatever ring they are already
+      standing in.</p>
+    <p class="field"><span class="k">Who it is for</span>Anyone who has done real harm and has not repaired
+      it. Your uncle. Your closest friend. Someone at the Long Table, most likely, because the people who can
+      hurt you are the people who were let close enough to.</p>
+    <p class="field"><span class="k">What it does</span>They keep their standing. A brother is still a
+      brother. Specific keys come back to you — the door, the purse, the unfinished thoughts, the benefit of
+      the doubt — and stay with you until behaviour has changed, over time, where you can see it.</p>
+    <p class="field"><span class="k">The three sentences it keeps straight</span>
+      <b>Forgiveness</b> is one-sided, immediate, and commanded: I release what you owe me.
+      <b>Reconciliation</b> is two-sided and needs their repentance: we are at peace again.
+      <b>Trust</b> is evidence-based and slowest of the three: I hand you a key again.
+      They are three different things. Scripture treats them as three different things.</p>
+    <p class="say"><span class="k">The hardest and most useful sentence on this page</span><q>I've forgiven
+      you. I'm not ready to give you access yet. Both of those are true, and neither one is a
+      punishment.</q></p>
+  </article>
+
+  </div>
+
+  <hr>
+
+  <!-- ================= THE KEYS ================= -->
+
+  <h2>What you are actually handing out</h2>
+
+  <p>People talk about closeness as though it were one dial. It isn't. It is six keys, and they are handed
+  over one at a time — which is a mercy, because it means you can give somebody a great deal of warmth
+  without giving them the house.</p>
+
+  <ul class="keys">
+    <li><b>Time.</b><span class="scale">From <i>in its own setting</i> at Marketrow, to <i>scheduled and
+      generous</i> in the Court, to <i>unannounced</i> at the Hearth.</span></li>
+    <li><b>Knowing.</b><span class="scale">From the public version, to the honest version, to the unfinished
+      version. The unfinished version is the valuable one. Spend it slowly.</span></li>
+    <li><b>Say.</b><span class="scale">From <i>heard</i>, to <i>weighed</i>, to <i>able to change your
+      mind</i>. Most people should be heard. Very few should be able to change your mind.</span></li>
+    <li><b>The door.</b><span class="scale">From never, to by invitation, to with a message first, to
+      freely. Physical access is its own key and it is not implied by any of the others.</span></li>
+    <li><b>Purse and hands.</b><span class="scale">From nothing, to a small favour, to an afternoon, to real
+      cost. Your name as a reference belongs on this key, and it is expensive.</span></li>
+    <li><b>The benefit of the doubt.</b><span class="scale">This is the one that ruins people, so read it
+      twice. It does not scale with how fond you are. It scales with how much evidence you have. A new
+      person gets very little of it — not because you are cold, but because you genuinely do not know yet,
+      and pretending you know is not generosity. It is guessing with your own well-being as the
+      stake.</span></li>
+  </ul>
+
+  <p>Note what the last key is <i>not</i>. It is not forgiveness. Forgiveness is never rationed and never
+  earned; you will be asked for it seventy times seven. The benefit of the doubt is something else
+  entirely — a working estimate of what a person is likely to do next. Estimates are supposed to move when
+  the evidence moves. That is the whole job of an estimate.</p>
+
+  <hr>
+
+  <!-- ================= EXPECTATIONS ================= -->
+
+  <h2>Saying it before it goes wrong</h2>
+
+  <p>Most of the hurt in a friendship is not caused by a broken agreement. It is caused by a hope that was
+  never said out loud, and then treated afterwards as though it had been.</p>
+
+  <p>Four different things get called an expectation. They behave completely differently:</p>
+
+  <ul class="four">
+    <li><b>A hope.</b> It lives in your head. They cannot break it, because they were never told it existed.
+      Nearly all the quiet resentment in the world is stored here.</li>
+    <li><b>A request.</b> Said out loud — and a real request is one they are allowed to decline. If they
+      aren't allowed to decline, it wasn't a request, and you should say the truer word.</li>
+    <li><b>An agreement.</b> Both of you said yes. Now it can genuinely be broken, and now you have
+      something fair to raise.</li>
+    <li><b>A boundary.</b> Not about them at all. It is what <i>you</i> will do. It requires nobody's
+      permission, and it does not need them to agree with it.</li>
+  </ul>
+
+  <p class="turn">An expectation is a sentence about them.<br>A boundary is a sentence about you.</p>
+
+  <p>So <i>“you need to stop calling so late”</i> is a request, and they can say no. <i>“After nine I put my
+  phone in the kitchen”</i> is a boundary, and they can't. Notice which one you actually have the power to
+  keep.</p>
+
+  <h3>Pitch it at the right ring</h3>
+
+  <p>The same words fail at the wrong depth. A Marketrow matter handled with a Long Table conversation feels
+  enormous and strange to the other person. A Long Table matter handled with a light remark in passing does
+  not get handled at all.</p>
+
+  <p><b>Road and Marketrow:</b> one light sentence, in the moment, no reason attached. <i>“I don't do
+  weekends.”</i> A reason invites negotiation, and there is nothing here worth negotiating.</p>
+
+  <p><b>Great Hall:</b> one sentence and one warm alternative. <i>“I can't host, but I'll bring the pernil.”</i></p>
+
+  <p><b>Inner Court and Long Table:</b> ask for the conversation before you have it, say the specific thing,
+  and say what you want to be different. <i>“Do you have ten minutes this week? There's something small I
+  want to say before it turns into something large.”</i></p>
+
+  <p><b>Hearth:</b> the same, only sooner, and with your own part named first.</p>
+
+  <hr>
+
+  <!-- ================= MOVING ================= -->
+
+  <figure class="kingdom-shot">
+    <img src="../images/keep/01-keep-aerial.png"
+         alt="A painted view over Pigglyvale in late afternoon: a market street of striped awnings,
+              orchard gardens, the Long Table set with plates, and a stone hearth at the centre with
+              smoke rising. Pigs everywhere.">
+    <figcaption>Pigglyvale, late afternoon. Not the chart — the place the chart is about.</figcaption>
+  </figure>
+
+  <h2>Moving inward</h2>
+
+  <p>A ring is earned by evidence, and there are only four kinds worth counting:</p>
+
+  <p><b>Time under weather.</b> Not how long you have known them. How long you have known them through
+  something inconvenient.</p>
+
+  <p><b>Small things, repeatedly.</b> Being on time. Remembering. Doing the dull thing they said they would
+  do when nobody would have noticed if they hadn't.</p>
+
+  <p><b>How they take a no.</b> This is the single most useful test there is, and it is nearly free. Give a
+  small, early, unimportant no and watch what happens. Somebody who sulks over a Tuesday will not be safe
+  with a Hearth. You want to find this out over a Tuesday. That is precisely why the early no is not unkind:
+  <b>it is the cheapest possible way to learn something you will otherwise learn expensively.</b></p>
+
+  <p><b>What repair looks like when they fail.</b> Everyone fails. What you're watching for is whether the
+  apology has its three parts — what I did, no excuse attached, what I'll do differently — and whether the
+  behaviour actually moves afterward. A person who repairs well can be trusted further than a person who
+  rarely fails.</p>
+
+  <p>And one rule of movement: <b>one ring at a time.</b> Nobody goes from the Road to the Long Table, however
+  well it is going. It is not a rule against them. It is a rule about how evidence works.</p>
+
+  <h2>Moving outward</h2>
+
+  <p>There are five rungs here. Almost all the damage in the world is done by people who used none of them
+  and then used the last one.</p>
+
+  <ol class="ladder">
+    <li><b>Notice it.</b> One sentence to yourself, facts only, no story attached. <i>“That's the third time
+      she's cancelled the same week she asked.”</i> Not <i>“she doesn't respect me.”</i> You don't know that
+      yet, and the story is what makes the next four rungs feel impossible.</li>
+    <li><b>Name it, small and early.</b> Lightly, in the moment, without a speech. <i>“Hey — third time.
+      What's going on?”</i> This rung is the whole page. Everything below it exists because this one gets
+      skipped.</li>
+    <li><b>Adjust one key.</b> Quietly. Stop offering the unfinished version. Stop being available on short
+      notice. You do not owe anyone an announcement that you have stopped volunteering something.</li>
+    <li><b>Step them out one ring — and say so.</b> Out loud, kindly, without a case being prosecuted.
+      <i>“I care about you and I'm pulling back on how much I'm sharing for a while. It isn't a punishment.
+      It's me being honest about where I am.”</i></li>
+    <li><b>Set the Watch.</b> Access closed. Love intact. The door is shut and it is not welded, because
+      nothing here is final and you may be wrong.</li>
+  </ol>
+
+  <p class="turn">Cutting someone off is not a boundary.<br>It is what is left when there weren't any.</p>
+
+  <p>And it is worth being clear about why that final move feels so necessary when it comes. It isn't
+  cruelty and it isn't weakness. It is arithmetic. If somebody was given Hearth-level access on three weeks
+  of charm, then every ordinary disappointment lands at Hearth depth, where the injuries are serious. Twenty
+  of those accumulate with no rung available to release the pressure, because rung two was never used and by
+  now feels wildly out of proportion to a single incident. The only tool left is the axe. Not because you
+  are harsh. Because the smaller tools were never picked up, and the debt got very large in the dark.</p>
+
+  <p>The early no is the kind one. It is what lets you keep people.</p>
+
+  <!-- ================= ADVISOR'S NOTES ================= -->
+
+  <section class="notes">
+    <h2>A Note from the Storykeeper</h2>
+    <p class="voice">Thomas, Drake of Snouton, Master of Lessons, and a duck who has done every single thing
+      on this page wrong at least twice.</p>
+
+    <p>I should confess before I teach. My own failure is not caution — it is that I decide within about
+    four minutes that someone is <i>my</i> person, and then I hand over the whole ring of keys at once, and
+    then I am injured by a stranger and cannot understand how it happened. I have called this
+    warmth. Sometimes it was. Often it was impatience wearing warmth's apron.</p>
+
+    <p>Now, the passage I keep returning to. In John's second chapter, a great crowd in Jerusalem sees the
+    signs and believes in His name — and then comes one of the strangest verses in the Gospels.
+    <span class="verse">“But Jesus on his part did not entrust himself to them, because he knew all
+    people.”</span> <span class="ref">(John 2:24, ESV)</span></p>
+
+    <p>Follow the reasoning, because this is the whole hinge. The same Man who commands us to love our
+    enemies, who washed the feet of the one about to sell Him, declined to entrust Himself to a crowd that
+    had done nothing wrong — that had in fact just believed in Him. So <b>loving</b> and <b>entrusting</b>
+    cannot be the same act. If they were, this verse would make Christ inconsistent with His own command,
+    and He is not. Which yields the principle: <b>love is owed to everyone, and trust is a judgement about
+    evidence.</b> Withholding the second is not a shortage of the first. It is knowing people, which is what
+    the verse actually says He was doing.</p>
+
+    <p>And that principle reaches all the way into a kitchen in Pigglyvale. It is why you may hand somebody
+    a plate of arroz con gandules and a genuinely warm afternoon, and not hand them your unfinished
+    thoughts. Both at once. No contradiction anywhere in it.</p>
+
+    <p>Joseph does the same thing in Genesis and nobody accuses him of coldness. He weeps — he has plainly
+    forgiven them — and he still puts his brothers through three chapters of testing before he says who he
+    is. He wanted to know whether these were the same men who sold him. They were not, and it took a
+    process to find out. Forgiveness was instant. Reconciliation had a procedure.</p>
+
+    <h3>Try it this week</h3>
+    <p>One small, early, unimportant no. Just one. To somebody who is presently between rings. Say:
+    <i>“That doesn't work for me this week.”</i> No reason after it — the reason is what turns a boundary
+    into a negotiation. Then simply watch what they do with it, and write down what you saw. You will have
+    learned something on a Tuesday that most people pay for on a much worse day.</p>
+
+    <h3>Talk it over</h3>
+    <ol class="talk">
+      <li>Name one person who currently has a key they haven't earned. Not to remove it today — only to say
+        which key it is, and out loud.</li>
+      <li>What is the difference between guarding your heart and hardening it? Where is that line for you,
+        and how would you know if you had crossed it?</li>
+      <li>Is there someone you have genuinely forgiven, and are still not ready to trust — and have you been
+        carrying that as though it were a failure? <i>(I have no clean answer for this one. I am not certain
+        there is one.)</i></li>
+    </ol>
+  </section>
+
+</main>
+
+<script>
+(function(){
+  var cards = {}, buttons = {};
+  var ids = ['hearth','table','court','hall','market','road','watch'];
+  var geom = {road:340,market:286,hall:232,court:178,table:122,hearth:64};
+
+  ids.forEach(function(id){ cards[id] = document.getElementById('card-'+id); });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-pick]'), function(b){
+    buttons[b.getAttribute('data-pick')] = b;
+    b.addEventListener('click', function(){ select(b.getAttribute('data-pick')); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.ring-band'), function(c){
+    c.addEventListener('click', function(){ select(c.getAttribute('data-ring')); });
+  });
+
+  var sel = document.getElementById('sel');
+
+  function select(id){
+    ids.forEach(function(k){
+      if(cards[k]) cards[k].style.display = (k === id) ? 'block' : 'none';
+      if(buttons[k]) buttons[k].setAttribute('aria-pressed', k === id ? 'true' : 'false');
+    });
+    sel.innerHTML = '';
+    if(geom[id]){
+      var c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      c.setAttribute('cx',350); c.setAttribute('cy',350);
+      c.setAttribute('r',geom[id]); c.setAttribute('class','ring-sel');
+      sel.appendChild(c);
+    }
+  }
+  select('hearth');   // JS enhances; without it every card simply stays visible
+})();
+</script>
+</body>
+</html>

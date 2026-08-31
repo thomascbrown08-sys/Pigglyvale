@@ -269,6 +269,7 @@ main { padding: 0 1.5rem 4rem; }
   aspect-ratio: 16 / 9;
   object-fit: cover;
   background: var(--paper-deep);
+  border: 1px solid rgba(51, 32, 58, 0.10);
   margin-bottom: 0.9rem;
 }
 
@@ -334,7 +335,11 @@ main { padding: 0 1.5rem 4rem; }
 }
 
 .hero-figure { max-width: var(--wide); margin: 2.5rem auto 0; }
-.hero-figure img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; background: var(--paper-deep); }
+.hero-figure img {
+  width: 100%;
+  background: var(--paper-deep);
+  border: 1px solid rgba(51, 32, 58, 0.10);
+}
 
 figcaption {
   font-size: 0.88rem;
@@ -370,7 +375,12 @@ figcaption {
 }
 
 .story figure { margin: 2.5rem 0; }
-.story figure img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; background: var(--paper-deep); }
+.story figure + figure { margin-top: 1rem; }
+.story figure img {
+  width: 100%;
+  background: var(--paper-deep);
+  border: 1px solid rgba(51, 32, 58, 0.10);
+}
 
 @media (min-width: 60rem) {
   .story figure.wide { width: var(--wide); margin-left: calc((var(--measure) - var(--wide)) / 2); }

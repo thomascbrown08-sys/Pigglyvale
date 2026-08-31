@@ -12,7 +12,7 @@
 <header class="site-header">
   <a class="kingdom-mark" href="index.html">The Chronicles of Pigglyvale</a>
   <nav>
-    <a href="#episodes">Episodes</a>
+    <a href="index.html">Episodes</a>
     <a href="#about">About</a>
   </nav>
 </header>
@@ -27,44 +27,51 @@
      Storykeeper and Master of Lessons.</p>
 </section>
 
-<div class="layout">
+<main>
 
-  <aside class="epnav">
-    <h2 class="epnav-title">Jump to an episode</h2>
-    <ul class="epnav-list" id="epnav-list"></ul>
-    <a class="epnav-home" href="#about">About this place</a>
-  </aside>
+  <div class="shelf">
+    <h2>The Episodes</h2>
+    <p class="shelf-note">Newest at the top. Every episode ends with the Advisor's Notes, in which Thomas
+       explains what he thinks happened — and, on occasion, admits he had it backwards.</p>
 
-  <main>
+    <div class="plates">
 
-    <div class="shelf" id="episodes">
-      <h2>The Episodes</h2>
-      <p class="shelf-note">Newest at the top. Every episode ends with the Advisor's Notes, in which Thomas
-         explains what he thinks happened &mdash; and, on occasion, admits he had it backwards.</p>
-      <div class="plates" id="plates"></div>
-      <noscript><p class="shelf-note">The episode list needs JavaScript to build itself. The stories
-         themselves are in the <code>episodes</code> folder and read perfectly well without it.</p></noscript>
+      <!-- ================= EPISODE TEMPLATE =================
+           Copy this block for each new episode. Newest goes first.
+
+      <a class="plate" href="episodes/ep-001-the-small-yeses.html">
+        <img src="images/ep-001/01-hero.png" alt="">
+        <span class="plate-number">Episode One</span>
+        <h3 class="plate-title">The Small Yeses</h3>
+        <p class="plate-blurb">One-sentence hook that doesn't give away the hinge.</p>
+        <p class="plate-lesson">On saying no early, and saying it kindly.</p>
+      </a>
+
+      ==================================================== -->
+
+      <div class="plate is-empty">
+        <span class="plate-number">Episode One</span>
+        <h3 class="plate-title">Coming shortly</h3>
+        <p class="plate-blurb">The kingdom is being swept. The peppers are being counted. Thomas has
+           misplaced his spectacles, which are on his head.</p>
+      </div>
+
     </div>
+  </div>
 
-    <div class="shelf" id="about">
-      <h2>About this place</h2>
-      <p class="shelf-note">Pigglyvale is small on purpose. Nobody here is a villain, everybody here is wrong
-         sometimes, and the apologies are real ones &mdash; said out loud, with the parts named. That is most
-         of what the kingdom is for.</p>
-      <p class="shelf-note">You will notice the butterflies. Everyone does. Nobody explains them.</p>
-    </div>
+  <div class="shelf" id="about">
+    <h2>About this place</h2>
+    <p class="shelf-note">Pigglyvale is small on purpose. Nobody here is a villain, everybody here is wrong
+       sometimes, and the apologies are real ones — said out loud, with the parts named. That is most of what
+       the kingdom is for.</p>
+  </div>
 
-  </main>
-
-</div>
+</main>
 
 <footer class="site-footer">
   <p>Made for Carolyn.</p>
   <p><em>The line dividing good and evil cuts through the heart of every human being.</em></p>
 </footer>
-
-<script>window.PV_BASE = ""; window.PV_CURRENT = "";</script>
-<script src="assets/episodes.js"></script>
 
 </body>
 </html>

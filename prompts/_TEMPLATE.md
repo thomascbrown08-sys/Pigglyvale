@@ -2,8 +2,8 @@
 
 Save generated files into `images/ep-NNN/` with exactly the filenames below. The HTML already points at them.
 
-**Before the first episode:** generate a reference sheet for Carolyn and one for Thomas, keep the files, and
-attach them as reference images on every later prompt if the tool allows it. Tokens alone will drift.
+**Before the first episode:** work through `prompts/00-reference-sheets.md` and approve the character sheets
+into `images/_reference/`. Attach them to every prompt, always.
 
 ---
 

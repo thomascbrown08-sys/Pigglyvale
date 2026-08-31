@@ -18,9 +18,14 @@ the apologies are real.
 *"The Beautiful Princess Carolyn."* Reigning monarch. Anthropomorphic pig.
 
 **Locked appearance tokens** (never paraphrase these in an image prompt — paste verbatim):
-> an anthropomorphic pig woman, warm caramel-brown skin, large dark expressive eyes, long dark locs gathered
-> back with small gold cuffs, a slender gold tiara set with a single amber stone, a mango-gold dress under a
-> deep-plum apron embroidered with butterflies
+> an anthropomorphic pig woman, warm caramel-brown skin, soft pink snout, large dark expressive eyes with
+> full lashes, floppy ears set high on her head, long dark locs falling past her shoulders with small gold
+> cuffs banded along them, a slender gold tiara set with a single amber stone, a mango-gold dress with
+> three-quarter sleeves under a deep-plum apron embroidered with butterflies
+> and green vines; short, round, and warm
+
+*Canonical files:* `images/_reference/carolyn-portrait.png` (identity anchor — use this one first),
+`carolyn-sheet.png` (turnaround).
 
 **Character:** Genuinely excellent cook. Genuinely good at ruling. Warm, funny, quick, well-liked.
 Her kingdom is small enough that she knows everyone's name and most of their business.
@@ -39,9 +44,28 @@ three weeks of unspoken yeses.
 Royal advisor. An enormous mallard drake, a full head and shoulders above everyone else in any room.
 
 **Locked appearance tokens:**
-> an enormous anthropomorphic mallard drake, iridescent green head, crisp white neck ring, chestnut breast,
-> comically oversized compared to everyone around him, wearing a plum advisor's sash and small round
-> spectacles, a worn leather-bound book tucked under one wing
+> an enormous mallard drake standing upright on orange webbed feet, a true duck body rather than a
+> humanoid one — no arms, wings folded at his sides — iridescent green head, crisp white neck ring, chestnut
+> breast, dappled grey flanks, small round gold spectacles, a deep-plum advisor's sash worn across the chest
+> with a gold compass-rose emblem; enormously bigger than everyone around him
+
+*Canonical files:* `images/_reference/thomas-portrait.png` (identity anchor),
+`thomas-sheet.png` (turnaround).
+
+> **Thomas has no hands.** This is now settled by the art, and it is better than the alternative. He cannot
+> hold a spoon, carry a tray, point, or fold his arms. He tucks his book under a wing, gestures with a raised
+> wing, nudges things with his bill, and has objects handed to him and then set down again immediately.
+> Carolyn takes hold of the *edge of his wing* when she wants to reach him. Write him inside this constraint
+> — it is funnier than working around it.
+
+> **His two physical tells**, both discovered in the art and both usable in prose:
+> 1. **The crest feathers are his eyebrows.** Smooth and flat when he is composed; standing straight up when
+>    he is alarmed or caught out. *"The feathers on the back of his head went up"* is now a legitimate line.
+> 2. **His wing tip splays into a rough point** when he is lecturing. It is the closest thing he has to a
+>    raised finger, and it is one of the funnier things about him.
+> 3. **His spectacles slide down his bill when he is undefended** — apologizing, caught out, or moved. He
+>    does not push them back up until the moment has passed. This is his best single tell and it came from
+>    the art, not from me.
 
 **Character:** Warm, verbose, deeply loyal, delighted by his own vocabulary. Voices the Advisor's Notes at
 the end of every episode.
@@ -71,6 +95,31 @@ Each carries one **harm engine** (see the skill file). Rotate them; don't let on
 | **Pim** | harvest mouse | *The mirror* | Kitchen apprentice. Small, anxious, says yes to absolutely everything — which is how Carolyn keeps meeting her own flaw from the outside. |
 | **Old Ambrose** | tortoise | *Wise, and sometimes wrong* | Retired, keeps bees. The one who corrects Thomas. Models an elder apologizing to someone younger. |
 
+
+### The Pigs of Pigglyvale
+
+Pigglyvale was founded by pigs and most of it is still pigs. Any crowd scene, any market, any Long Table is
+**majority pig** — in the prose and in every image prompt. New walk-on characters default to pig unless there
+is a reason otherwise.
+
+| Name | Engine | Note |
+|---|---|---|
+| **Beatrix Hollyhock** | *varies* | The kingdom's baker. Flour to the elbows, two apprentices, dry as a cracker. Her big oven cracked in Episode One and Gus says three weeks. Load-bearing for the economics track — she is the one a free-bread decree would ruin. |
+| **Gus Thornapple** | *Rule over person* | An old boar. Tends the Pepper Patch and the one good road, grumbles about both. Judged a tomato the winner of the pepper contest once and has never lived it down. Notices things before anyone else and mentions them too late. |
+| **The Bramblewick litter** | *the puncture* | Four piglets — **Fig**, **Dot**, **Sorrel**, and **Bean**, roughly four to nine. Deliver eggs. Chaos. Their job is to ask the plain question that collapses an adult's rationalization, then wander off unaware. Use sparingly or the trick wears out. |
+
+### Supporting appearance tokens *(settled by the Episode One art)*
+
+- **Pim:** a very small anthropomorphic harvest mouse, tawny gold fur, pale cream belly, large round ears,
+  enormous dark eyes, long pink tail, a child-sized white apron with a front pocket, far too big for her
+- **Auntie Yolanda Plum:** a large anthropomorphic goose, white with grey wing edges and a grey cap, orange
+  bill, a scarlet headwrap and a pale work apron heavily stained with spice
+- **Fig Bramblewick:** a very young anthropomorphic piglet, pink, a dark grey patch over one eye, patched
+  blue denim pinafore, usually carrying a basket of eggs
+
+Rough crops for all three are in `images/_reference/` (`pim-crop.png`, `yolanda-crop.png`, `fig-crop.png`).
+Attach them until each gets a proper sheet.
+
 **Reserved:** structural episodes (nobody did wrong; the arrangement was bad) need no antagonist at all.
 Do not assign one out of habit.
 
@@ -91,9 +140,25 @@ Do not assign one out of habit.
 sofrito, adobo, greens and pot likker, pepper sauce, rice and pigeon peas, cornbread, tostones, cocido.
 Food is never generic "stew." Name the dish. Get it right.
 
-**The butterflies of Pigglyvale.** They gather when somebody tells the truth about themselves. Nobody
-remarks on it. It simply happens, the way weather happens. *(Optional motif — easy to drop if it reads too
-twee. It also gives the site its structural mark: a butterfly heads every Advisor's Notes.)*
+### The Butterflies of Pigglyvale — handle as a rule, not a motif
+
+Butterflies gather when somebody tells a **deep truth about themselves** — the hard admission, the moment a
+person stops defending and says the real thing out loud. Not for any true statement. Not for a clever line.
+For the costly ones.
+
+**In the world:** nobody remarks on them. Nobody explains them. They are simply noticed, the way weather is
+noticed. The narration never interprets them and no character ever says what they mean.
+
+**Underneath:** the reader associates butterflies with God speaking to her. Truth about oneself points toward
+the One who already knows it, so the blur is the point. Treat the butterflies as a *pay attention* mark on
+the page — the story going quiet for a second and pointing.
+
+**Hard rules:**
+- Never a reward, never a punishment, never a scoreboard.
+- Never ironic, never a joke, never in a comic beat.
+- Never explained, in the story or in Advisor's Notes.
+- Rare. Once an episode at most, often not at all. Spending them cheaply is the only way to ruin them.
+- One yellow butterfly heading every Advisor's Notes is the site's structural mark, and is separate from this.
 
 ---
 
@@ -110,9 +175,45 @@ way to make the site look amateur.
 > **[NEGATIVE]** photorealism, 3D render, CGI, anime or manga styling, harsh shadows, dark or grim
 > atmosphere, horror, text or lettering in the image, watermarks, extra limbs, uncanny human faces.
 
-**Before episode one:** generate a standing reference sheet for Carolyn and for Thomas (front, three-quarter,
-expression row) and keep those files. Feed them back as reference images whenever the tool allows it.
-Tokens alone will drift; tokens plus a reference sheet will not.
+**Approved sheets live in `images/_reference/`** and are attached to every prompt from here on. Text tokens
+hold costume and color; the sheets hold face and proportion.
+
+**The size rule, as the approved `scale-pair.png` actually settles it:** Thomas is roughly **1.4× Carolyn's
+height and about twice her width** — her head comes up to his white neck ring. The width is what sells it
+more than the height. Every prompt that puts them in one frame states this in the composition block, because
+the model quietly drifts them toward parity if you let it.
+
+---
+
+## 5b. Pipeline Notes
+
+Accumulated findings about what the image model actually does, so future prompts pre-empt it instead of
+rediscovering it. Add to this every time something surprises you.
+
+1. **It drifts characters toward equal size.** Any shared frame must state the ratio explicitly. Left alone,
+   Thomas shrinks toward Carolyn's height within a roll or two.
+2. **It reads "sorry" as "crying."** Ask for an apologetic expression and you get tears, a trembling mouth,
+   and a downcast gaze. Apology is not grief. For every repair beat, specify: *no tears, mouth closed, chin
+   level, eyes lifted and looking directly at the other person.* This one matters more than any other note
+   here, because the repair beat is the point of the series.
+3. **Ask for three faces and you will get eight.** Not worth fighting. Ask for the ones you need, accept the
+   extras, keep whatever is useful.
+4. **Small props slip past the negative prompt** (a spoon appeared in Carolyn's first expression strip).
+   Usually harmless, occasionally a gift.
+5. **Costume details that appear once will not reliably return.** Carolyn's forearm cuffs showed up in one
+   roll out of eight and were cut from canon for that reason. If the pipeline won't reproduce a detail,
+   it isn't canon — it's a future continuity error.
+6. **Glasses sliding down the bill** turned out to be the single best visual cue for Thomas being undefended.
+   Worth asking for by name whenever he is apologizing or caught out.
+7. **A strong negative block works, and it flattens variance.** The apology strip came back with zero tears —
+   and with all eight faces clustered close together, because suppressing the extremes suppresses the range.
+   Expect that trade. Roll the calm register and the raw register as separate images rather than hoping one
+   strip covers both.
+8. **Scale drift is not a one-time fix — it recurs per image.** Episode One's hero shot has Thomas
+   correctly enormous; the hinge shot four images later has him back near parity. Stating the ratio once at
+   the top of a prompt file is not enough. It goes in the composition block of *every* shared frame.
+9. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
+   missing from the first draft of the Episode One prompts. Six image slots, not five.
 
 ---
 
@@ -122,7 +223,42 @@ Update after every episode. This is what keeps the teaching balanced and the cal
 
 | # | Title | Primary lesson | Background lesson | Harm engine | Who apologized | New canon facts |
 |---|---|---|---|---|---|---|
-| 001 | *(pending)* | | | | | |
+| 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared |
+
+---
+
+## 6b. The Map of the Keep
+
+Published as `pages/the-map-of-the-keep.html`. This is now canon and episodes may reference it by name.
+
+**Six rings, outermost first:** the Road · Marketrow · the Great Hall · the Inner Court · the Long Table ·
+the Hearth. Four of the six are existing places in the kingdom, which is the point — the chart is the
+kingdom's own geography, not a new invention.
+
+**The Watch is not a ring.** It is a mark set on one named person at whatever ring they already stand in.
+They keep their standing and lose specific keys. This is the mechanic that carries forgiveness-versus-
+reconciliation, and it exists because a purely concentric model would teach that harm lives out among
+strangers. It does not. It usually lives at the Long Table.
+
+**The six keys**, granted one at a time: time · knowing · say · the door · purse and hands · the benefit
+of the doubt. The last one scales with evidence, never with fondness, and giving it away early is the
+engine behind every cut-off.
+
+**The ladder out**, five rungs: notice · name it small and early · adjust one key · step them out a ring
+and say so · set the Watch. Nobody in Pigglyvale is exiled. The door is shut and never welded.
+
+**Where the cast stands, relative to Carolyn** — *proposed; confirm before an episode leans on it.*
+
+| Ring | Who |
+|---|---|
+| Hearth | Unassigned. Do not fill it without the author's say-so. |
+| Long Table | Thomas. Pim by proximity — she is in the kitchen daily but has not been handed the keys, and that gap is a story. |
+| Inner Court | Auntie Yolanda Plum (thirty years). Old Ambrose. |
+| Great Hall | Miss Delphine Quill. Beatrix Hollyhock. Gus Thornapple. |
+| Marketrow | Bruno "Buckets" Marrow. |
+
+Miss Quill sitting in the Great Hall after twenty years of service, while a newcomer gets promoted past
+her on charm, is the episode this chart is asking for.
 
 ---
 
@@ -133,6 +269,29 @@ color the kitchen door is. Future-you will need every one of these.)*
 
 - Pigglyvale is a monarchy, but a very small and very informal one.
 - Thomas is a duck from a town named for snouts. Unexplained.
+- Pigglyvale holds about two hundred souls and has one good road.
+- **Fair Week** runs eleven days and is the kingdom's biggest fixture.
+- Beatrix Hollyhock's big oven cracked up the back wall during Fair Week; Gus said three weeks.
+- The Kitchen Royal has the only other oven in the kingdom large enough for the fair-bread order.
+- Carolyn ties her locs back with a **green cloth** for serious work, and re-ties it instead of sighing.
+- Carolyn's sofrito is her grandmother's: peppers, onion, culantro, garlic last so it does not scorch.
+- Auntie Yolanda and Carolyn have been friends thirty years.
+- Gus Thornapple once gave the pepper-contest ribbon to a tomato.
+- Pim hangs the wooden spoon on its hook **handle outward**, the way she was taught.
+- Thomas appears as a participant in the story, not only as narrator — established Episode One.
+- **The Keep** is the kingdom's name for its rings of access. Carolyn keeps the chart; Thomas voiced it.
+- Thomas's confessed flaw, on the record: he decides someone is *his* person within four minutes and hands
+  over the whole ring of keys at once. "Impatience wearing warmth's apron" is his own phrase.
+- Carolyn serves arroz con gandules to Marketrow-level guests at the kitchen door without letting them in.
+  Warmth and access are separate acts in Pigglyvale and the kingdom is unbothered by this.
+- **The Kitchen Royal:** whitewashed walls, a long scrubbed worktable, copper pots on a rail, garlic and
+  herbs hung to dry, a rack of wooden spoons on the wall, a stone hearth, shuttered windows onto green.
+- **Marketrow:** striped awnings, open baskets of dried chiles and spices, bright and crowded.
+- **The Long Table:** a stone courtyard, benches both sides, paper lanterns strung overhead in warm gold
+  and plum.
+- **Thomas has his own small table at the Long Table**, set at the end — because he takes up the space of
+  three. Established by the art, and it is a running gag rather than an exclusion. He is not sitting apart;
+  he simply does not fit on a bench.
 
 ---
 
@@ -143,6 +302,9 @@ color the kitchen door is. Future-you will need every one of these.)*
 - Thomas cannot fit through the kitchen's side door and refuses to acknowledge it.
 - Bruno's cart has a new painted name every episode.
 - Miss Quill's ledger has a column nobody else understands.
+- Pim asking "Now? Now?" about the stirring.
+- Carolyn re-tying the green cloth instead of sighing.
+- Gus retreating behind a wall when he is pleased.
 
 ---
 

@@ -1,12 +1,15 @@
-# images/ep-002/ — six files needed
+# images/ep-002/ — complete
 
-Roll from `prompts/ep-002-prompts.md`. Do the Round Five reference sheets first.
+All six slots filled and approved. Episode Two is finished art.
 
-| File | Ratio | Subject |
+| File | Ratio | Note |
 |---|---|---|
-| `01-hero.png` | 16:9 | Marisol setting down the handcart with the clay oven at the top of Marketrow, crowd gathering |
-| `02-beat.png` | 4:3 | Miss Quill with the open ledger at the Kitchen Royal worktable, Carolyn signing, Marisol working dough behind |
-| `03-beat.png` | 4:3 | Marketrow at midday, Marisol mid-story with a laughing ring around her, Quill stopped still beyond the barrels |
-| `04-beat.png` | 4:3 | The records room, Quill behind the squared pencil, Carolyn having just stopped talking |
-| `05-repair.png` | 4:3 | **The repair.** Both seated, level and steady, three butterflies on the shelf behind |
-| `06-close.png` | 4:3 | The Long Table at dusk, Thomas at his own small table, two small figures walking off up the lane |
+| `01-hero.png` | 16:9 | Marisol on-model, no Carolyn in frame, Thomas correctly enormous. |
+| `02-beat.png` | 4:3 | The Kitchen Royal in full — worktable, copper rail, garlic, spoons, shutters. Quill correct in species, sex, costume and adult proportion. |
+| `03-beat.png` | 4:3 | Strongest composition in the set. Source of `quill-crop.png`. |
+| `04-beat.png` | 4:3 | The records room. |
+| `05-repair.png` | 4:3 | **The best image on the site.** Source of `quill-face-crop.png`. |
+| `06-close.png` | 4:3 | The Long Table at dusk. |
+
+Two superseded rolls of slot 02 were deleted once the final landed. Prompts for all six are in
+`prompts/ep-002-prompts.md`.

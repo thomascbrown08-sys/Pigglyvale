@@ -118,25 +118,36 @@ is a reason otherwise.
 - **Fig Bramblewick:** a very young anthropomorphic piglet, pink, a dark grey patch over one eye, patched
   blue denim pinafore, usually carrying a basket of eggs
 
-**Added Episode Two — PROVISIONAL until the sheets are rolled and approved (Round Five):**
+**Added Episode Two — approved 2026-09-01. Canon. Sheets still to be rolled (Round Five).**
 
-- **Miss Delphine Quill:** a small anthropomorphic hedgehog woman, middle-aged, dark-tipped brown-grey
-  spines swept neatly back from her face, pale cream muzzle, small round black eyes behind wire-rimmed
-  half-moon spectacles pushed high on the bridge, a slate-grey high-collared jacket buttoned all the way to
-  the throat over a starched cream blouse, ink-stained fingertips, a pencil tucked behind one ear; very
-  small, very upright, everything about her squared to the edge of something
-- **Marisol Vega:** a tall lean anthropomorphic pig woman of about fifty, dusty rose-grey skin, broad flat
-  snout, small dark eyes with deep laugh lines, close-cropped silver hair under a faded indigo headwrap, one
-  small gold hoop earring, a sleeveless oatmeal canvas smock with a scorch mark on the hip worn over a narrow
-  blue-striped shirt, bare floury forearms; rangy, weathered, and entirely at ease
+- **Miss Delphine Quill:** a small anthropomorphic hedgehog woman in her fifties, short soft dense spines
+  sweeping back close against her head and shoulders in a smooth rounded shape, warm brown fur, pale cream
+  muzzle, small dark nose, warm brown eyes behind wire-rimmed half-moon spectacles, round cheeks, a
+  plum-grey bodice buttoned all the way to the throat with a crisp white collar and white cuffs, a small
+  green ribbon tied at the collar, an olive-green skirt, a pencil in hand or behind one ear; small, round,
+  and very upright — everything about her squared to the edge of something
+- **Marisol Vega:** an anthropomorphic pig woman of about fifty, sturdy and broad through the shoulders,
+  dusty rose-grey skin, broad flat snout, small dark eyes with deep laugh lines, close-cropped silver hair
+  under a faded indigo headwrap, one small gold hoop earring, a sleeveless oatmeal canvas smock stained with
+  flour worn over a narrow blue-striped shirt, bare floury forearms; weathered and entirely at ease
 
-> **Marisol is deliberately the anti-Carolyn.** Tall where Carolyn is short, lean where she is round, indigo
-> and oatmeal where she is plum and mango, silver-cropped where she is loc'd and gold-banded, twenty years
-> older. If the two of them could be sisters in a frame, the roll is wrong. Quill is the only character on
-> the site whose silhouette is vertical and closed, which is the point of her.
+> **Both blocks amended 2026-09-01 to match what the art actually reproduces**, per the pipeline rule that a
+> detail the tool will not return is not canon. Quill's slate-grey jacket and cream blouse never appeared;
+> the plum-grey bodice with the white collar and the green ribbon appeared four times running, and it is
+> better. Marisol came back sturdy rather than tall and lean, twice.
+>
+> **Marisol is still the anti-Carolyn**, but the contrast is now carried by palette, hair and age rather
+> than by silhouette: indigo and oatmeal against plum and mango, cropped silver against locs and gold cuffs,
+> twenty years older, weathered against warm. If the two of them could be sisters in a frame, the roll is
+> wrong. Quill remains the one character whose whole shape is small, closed and vertical.
+
+**Reference crops** (`images/_reference/`): `marisol-crop.png` · `quill-crop.png` (full figure, standing) ·
+`quill-face-crop.png` (seated, close). Attach these until proper sheets exist.
 
 Rough crops for all three are in `images/_reference/` (`pim-crop.png`, `yolanda-crop.png`, `fig-crop.png`).
-Attach them until each gets a proper sheet.
+Attach them until each gets a proper sheet. **`marisol-crop.png`** joins them as of Episode Two — cut out of
+a hero attempt that was unusable as a whole but got her exactly right. It is the reference to attach for
+Marisol until a proper sheet exists.
 
 **Reserved:** structural episodes (nobody did wrong; the arrangement was bad) need no antagonist at all.
 Do not assign one out of habit.
@@ -193,6 +204,15 @@ way to make the site look amateur.
 > **[NEGATIVE]** photorealism, 3D render, CGI, anime or manga styling, harsh shadows, dark or grim
 > atmosphere, horror, text or lettering in the image, watermarks, extra limbs, uncanny human faces.
 
+> **The `[NEGATIVE]` block above only works on a tool that has a negative field.** The tool used from
+> Episode Two onward does not: there is one text box, and **everything named in it gets drawn.** Pasting the
+> negative block there is a shopping list, not an exclusion list — it is how an "uncanny human face" and a
+> full set of Carolyn's costume tokens arrived in a frame that had asked for neither. On that tool, use the
+> positive-form style paragraph at the head of `prompts/ep-002-prompts.md` instead, and state every
+> exclusion as a positive fact: *her eyes are dry and her mouth is closed*, not *no tears*; *the pages are
+> ruled and blank*, not *no text*; *every face is animal, with a snout or a bill*, not *no human faces*. To
+> keep a character out of a frame, do not name them and do not attach their sheet.
+
 **Approved sheets live in `images/_reference/`** and are attached to every prompt from here on. Text tokens
 hold costume and color; the sheets hold face and proportion.
 
@@ -230,7 +250,46 @@ rediscovering it. Add to this every time something surprises you.
 8. **Scale drift is not a one-time fix — it recurs per image.** Episode One's hero shot has Thomas
    correctly enormous; the hinge shot four images later has him back near parity. Stating the ratio once at
    the top of a prompt file is not enough. It goes in the composition block of *every* shared frame.
-9. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
+9. **Roll the character sheet before the episode art, or the character drifts inside a single episode.**
+   Episode Two's art went first and Marisol came back with a dark braid in one frame and cropped silver hair
+   in the next. Text tokens hold costume and colour only when a sheet is holding the face. Without a sheet
+   they hold nothing, and the model quietly substitutes the nearest character it does have a sheet for —
+   which is how Marisol arrived looking like Carolyn's sister.
+10. **The model reads a small character as a child.** Miss Quill came back looking about six. Stating that
+   she is small is not enough; state the fraction against a named character in the frame — *her head reaches
+   the princess's shoulder, roughly two-thirds her height* — and add *child, little girl, doll, tiny figure,
+   oversized furniture* to the negative block. Say *adult proportion, short limbs and a broad body*.
+11. **Fixing scale in a re-roll costs you the room.** The corrected Episode Two kitchen came back with the
+   right-sized hedgehog and a bare modern counter where the scrubbed worktable had been. When a re-roll
+   targets one fault, restate the set dressing that worked or it will be traded away.
+12. **Lettering leaks past the negative block onto anything book-shaped.** Book spines and open ledger pages
+   pick up scribble or half-words even with *text or lettering* in the negatives. Add *text, writing,
+   lettering, handwriting on the page* explicitly whenever a book is in frame.
+13. **Naming a thing to forbid it draws it.** On a single-text-box tool there is no such thing as a
+   negative prompt. The Episode Two hero was given a block listing Carolyn's tiara, locs, gold cuffs and
+   butterfly apron in order to exclude her, and she arrived wearing all four. Never write what you do not
+   want. Rewrite it as what you do.
+14. **Paste one slot, never the whole prompt file.** A file with every character's token block at the top
+   will put every character in the frame if it is pasted whole. Each slot has to be self-contained, with the
+   descriptions inlined, even at the cost of repetition.
+15. **A crop off a bad image is still a good reference.** The second hero attempt was unusable as a picture
+   and got Marisol perfectly right. `marisol-crop.png` came out of it. Judge a failed roll for parts before
+   discarding it.
+16. **Every character named in a slot needs a picture attached to that slot. No exceptions.** Episode
+   Two's second kitchen roll named Miss Quill with no reference attached, because none had been rolled yet —
+   and she came back as a male porcupine in a grey cardigan. Species, sex and costume all went at once. A
+   character who "has already come out fine" four times is not thereby safe; she was fine those four times
+   because something was holding her.
+17. **Species drift needs naming in positive shape terms.** *Hedgehog* alone is not enough. Write *short,
+   soft, dense spines sweeping back close against her head and shoulders in a smooth rounded shape* — the
+   tool will otherwise reach for long splayed quills. Likewise write *plainly a woman, a soft rounded face*
+   rather than trusting a name or a pronoun to carry it. **Confirmed: crop attached plus positive shape
+   language fixed species, sex, costume and scale in a single roll.** The combination is the reliable one —
+   neither the crop nor the wording did it alone.
+18. **Thomas's sash drifts into a double crossed sash** on frames where he is gesturing or seated. The
+   canon is one sash, worn across the chest, with the gold compass rose on it. Worth stating as *a single
+   plum sash over one shoulder* whenever he is in a busy frame.
+19. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
    missing from the first draft of the Episode One prompts. Six image slots, not five.
 
 ---
@@ -241,7 +300,7 @@ Update after every episode. This is what keeps the teaching balanced and the cal
 
 | # | Title | Primary lesson | Background lesson | Harm engine | Who apologized | New canon facts |
 |---|---|---|---|---|---|---|
-| 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared |
+| 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared. *Art completed in a separate session. Five slots, no repair illustration in the markup; a sixth image exists in the folder, unused.* |
 | 002 | *The Column Nobody Read* | Boundaries: trust is earned by evidence | Biblical principle, reasoned out (Luke 16:10) | Good intention, bad execution (Carolyn) **chained into** rule over person (Quill) | **Carolyn** to Quill, three parts; **Quill** to Carolyn, badly and meaning it | Marisol Vega; the seventh column; the Keep enters the Notes via the Movement card; Thomas corrected by Ambrose *inside the Notes* and does not yet own it |
 
 ---
@@ -268,6 +327,9 @@ color the kitchen door is. Future-you will need every one of these.)*
 - **Marketrow:** striped awnings, open baskets of dried chiles and spices, bright and crowded.
 - **The Long Table:** a stone courtyard, benches both sides, paper lanterns strung overhead in warm gold
   and plum.
+- **The Keep, outermost to innermost:** 6 the Road · 5 Marketrow · 4 the Great Hall · 3 the Inner Court ·
+  2 the Long Table · 1 the Hearth. Plus **the Watch**, one mark that can be set on any room. *Blood gets you
+  the seat, conduct keeps the keys.* Movements are described in words; there is no rung numbering.
 - **The seventh column** in Miss Quill's ledger has no heading and records who was last at the Long Table
   and when, with a second date beside the ones who came back. Twenty years of it. It is not an official
   column and she has never billed anyone for it. Carolyn had been initialling it since she was nineteen
@@ -349,5 +411,11 @@ so nothing gets lost between sessions.)*
   *The Threshold* were the alternatives. A find-and-replace if it lands wrong.
 - **Contingent worth** needs its own My Toolbox page. Episode 002's case study motivates it; write the story
   first and the page second.
-- **Ring 1 of the Keep** is provisionally called *the Kitchen* in the reconstructed Keep page. Confirm
-  against the original chart.
+- ~~Ring 1 of the Keep~~ **Settled: ring 1 is *the Hearth*.** Confirmed against the original chart.
+- **Rungs: the earlier ruling was wrong and is withdrawn.** The original Keep page *does* carry a ladder —
+  five numbered rungs for **moving outward** (notice it · name it small and early · adjust one key · step
+  them out one ring and say so · set the Watch) and four things worth counting for **moving inward** (time
+  under weather · small things repeatedly · how they take a no · what repair looks like when they fail).
+  **Open question:** the Movement card labels a clean move "with the rung that was used" — but Quill's move
+  in Episode 002 is *inward*, and the numbered ladder is the *outward* one. Decide whether inward moves cite
+  the four countables by number, or stay in words. The Episode 002 card currently carries no rung label.

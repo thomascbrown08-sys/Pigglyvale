@@ -3,191 +3,564 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Map of the Keep &mdash; The Chronicles of Pigglyvale</title>
-<meta name="description" content="Six rooms, working inward, and one mark that can be set anywhere. Who gets which key, and how anybody moves.">
+<title>The Map of the Keep — Pigglyvale</title>
+<meta name="description" content="Who gets which key in the kingdom of Pigglyvale, and how anybody moves.">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 
-<!-- ============================================================
-     RECONSTRUCTED PAGE.
-
-     The handoff listed pages/the-map-of-the-keep.html as a file
-     to be pasted in from a previous session. That file was not in
-     the project, so this page was rebuilt from what the arc room
-     and the handoff state explicitly:
-
-       - six rooms, working inward, plus one mark set anywhere
-       - "blood gets you the seat, conduct keeps the keys"
-       - the ring names used by the Episode Two Movement card:
-         6 Road, 5 Marketrow, 4 Great Hall, 3 Inner Court,
-         2 Long Table
-       - the skip-versus-step contrast
-       - the Watch, named but flagged as unsettled
-
-     TWO THINGS ARE GUESSES, marked GUESS in the source below:
-     the name of ring 1, and the absence of a numbered rung system.
-     If you have the original page, paste it over this one.
-     ============================================================ -->
-
 <header class="site-header">
-  <a class="kingdom-mark" href="../index.html">The Chronicles of Pigglyvale</a>
+  <a class="kingdom-mark" href="../index.html">Pigglyvale</a>
   <nav>
-    <a href="../index.html">All episodes</a>
+    <a href="../index.html">Episodes</a>
     <a href="the-map-of-the-keep.html">The Keep</a>
   </nav>
 </header>
 
-<div class="layout">
+<main>
 
-  <aside class="epnav">
-    <h2 class="epnav-title">Jump to an episode</h2>
-    <ul class="epnav-list" id="epnav-list"></ul>
-    <a class="epnav-home" href="../index.html">Front page</a>
-  </aside>
+  <header class="episode-header">
+    <p class="episode-number">A Chart from the Kingdom</p>
+    <h1>The Map of the Keep</h1>
+    <p class="standfirst">Who gets which key, and how anybody moves. Carolyn drew it on the back of a
+    bread list, the Friday after Fair Week.</p>
+  </header>
 
-  <main>
+  <figure class="hero-figure">
+    <img src="../images/keep/02-carolyn-gate.png"
+         alt="Princess Carolyn stands in her lit kitchen doorway at dusk, one hand resting on the frame,
+              holding out a covered dish to someone beyond the threshold. Her expression is warm and
+              completely level. She is not stepping aside.">
+    <figcaption>She is glad to see them. She is not moving.</figcaption>
+  </figure>
 
-    <div class="episode-header">
-      <p class="episode-number">A Chart from the Kingdom</p>
-      <h1>The Map of the Keep</h1>
-      <p class="standfirst">Six rooms, working inward, and one mark that can be set anywhere. Carolyn drew
-        it on the back of a bread list, the Friday after Fair Week.</p>
-    </div>
+  <div class="story">
 
-    <figure class="hero-figure">
-      <img src="../images/keep/01-keep-aerial.png" alt="An aerial view of Pigglyvale drawn as rings: market stalls around the outside, orchards and gardens within, and a courtyard with a long table and a hearth at the centre.">
+    <p>The Son of God had rings. He taught crowds of thousands and sent out seventy-two and travelled with
+    twelve and took three of them up the mountain, and there was one He called the disciple whom He loved.
+    Nobody has ever accused Him of being stingy with His heart.</p>
+
+    <p>So the thing most of us are quietly afraid of turns out not to be true. Letting some people closer
+    than others is not a failure of love. It is what love looks like once it has any shape at all. A house
+    with no walls inside it is not a generous house. It is a barn.</p>
+
+    <p>So here is a map of the Keep. Six rooms, working inward, and one mark that can be set anywhere.</p>
+
+    <figure class="wide keep-map">
+      <svg viewBox="0 0 700 700" role="img" aria-labelledby="mapttl mapdsc">
+        <title id="mapttl">The Keep of Pigglyvale, drawn as six concentric rings</title>
+        <desc id="mapdsc">Six rings from the outside in: the Road, Marketrow, the Great Hall, the Inner
+        Court, the Long Table, and at the centre the Hearth. A hatched band labelled the Watch cuts across
+        every ring from the outer edge to the centre, showing that it can be set at any depth.</desc>
+
+        <defs>
+          <pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse"
+                   patternTransform="rotate(45)">
+            <rect width="10" height="10" fill="#faf0e8"/>
+            <line x1="0" y1="0" x2="0" y2="10" stroke="#c2456e" stroke-width="3.4"/>
+          </pattern>
+        </defs>
+
+        <g>
+          <circle class="ring-band" data-ring="road"   cx="350" cy="350" r="340" fill="#fbf3ea" stroke="#4b2a50" stroke-width="1.4"/>
+          <circle class="ring-band" data-ring="market" cx="350" cy="350" r="286" fill="#f7e9dc" stroke="#4b2a50" stroke-width="1.4"/>
+          <circle class="ring-band" data-ring="hall"   cx="350" cy="350" r="232" fill="#f2ddca" stroke="#4b2a50" stroke-width="1.4"/>
+          <circle class="ring-band" data-ring="court"  cx="350" cy="350" r="178" fill="#eccfb6" stroke="#4b2a50" stroke-width="1.4"/>
+          <circle class="ring-band" data-ring="table"  cx="350" cy="350" r="122" fill="#e4bf9e" stroke="#4b2a50" stroke-width="1.4"/>
+          <circle class="ring-band" data-ring="hearth" cx="350" cy="350" r="64"  fill="#4b2a50" stroke="#4b2a50" stroke-width="1.4"/>
+        </g>
+
+        <g transform="rotate(-38 350 350)">
+          <rect x="350" y="335" width="342" height="30" fill="url(#hatch)" stroke="#c2456e" stroke-width="1.6"/>
+        </g>
+
+        <g id="sel"></g>
+
+        <text class="ring-label" x="350" y="46">the Road</text>
+        <text class="ring-label" x="350" y="100">Marketrow</text>
+        <text class="ring-label" x="350" y="154">Great Hall</text>
+        <text class="ring-label" x="350" y="209">Inner Court</text>
+        <text class="ring-label" x="350" y="266">Long Table</text>
+        <text class="ring-label on-plum" x="350" y="372">Hearth</text>
+      </svg>
+      <figcaption>The hatched band is the Watch. Notice that it is not a ring. It crosses all of them,
+      because the person who has hurt you is very often already standing near the middle.</figcaption>
     </figure>
 
-    <article class="story">
+    <ul class="keep-pick">
+      <li><button data-pick="hearth">Hearth</button></li>
+      <li><button data-pick="table">Long Table</button></li>
+      <li><button data-pick="court">Inner Court</button></li>
+      <li><button data-pick="hall">Great Hall</button></li>
+      <li><button data-pick="market">Marketrow</button></li>
+      <li><button data-pick="road">the Road</button></li>
+      <li class="is-watch"><button data-pick="watch">the Watch</button></li>
+    </ul>
 
-      <p>Every kingdom is a set of rooms, and every room has a door, and the doors are not all the same
-        door. This is obvious the moment somebody says it out loud and almost nobody says it out loud, which
-        is how people end up handing a stranger the key to the innermost room on a Tuesday and then
-        wondering, later, what happened.</p>
-
-      <p>So: the Keep. Six rooms, working inward.</p>
-
-      <h2>The six rooms</h2>
-
-      <p><strong>6 &middot; The Road.</strong> Where everyone is. You are civil to people on the Road. You
-        do not owe them anything else. Most of the world lives here and that is not an insult &mdash; it is
-        the correct place for most of the world.</p>
-
-      <p><strong>5 &middot; Marketrow.</strong> People you deal with. There is an exchange going on: goods,
-        work, a service, a favour that gets returned. Marketrow is warm and busy and it is not intimate.
-        You can like somebody enormously and keep them here for years.</p>
-
-      <p><strong>4 &middot; The Great Hall.</strong> People who are part of the life of the place. They come
-        to things. They know your business roughly. You would notice if they stopped coming &mdash; and,
-        importantly, they would notice if <em>you</em> did.</p>
-
-      <p><strong>3 &middot; The Inner Court.</strong> People who are asked. Their judgement is wanted, their
-        opinion changes decisions, and they hear a thing before it is announced. This is the ring most
-        people never think to draw, and it is the one that does the most work.</p>
-
-      <p><strong>2 &middot; The Long Table.</strong> The few. They get the unfinished version of you: the
-        tired sentence, the thing you have not worked out yet, the part that is still being built. This is
-        a very small number of people and it is meant to be.</p>
-
-      <p><strong>1 &middot; The Kitchen.</strong> <!-- GUESS: name of ring 1 not recovered from the handoff -->
-        One or two, if that. Some people have nobody here and are not thereby broken.</p>
-
-      <h2>The rule the whole chart hangs on</h2>
-
-      <blockquote>Blood gets you the seat. Conduct keeps the keys.</blockquote>
-
-      <p>Standing and access are two different things, and confusing them is where nearly all the damage
-        gets done. <em>Standing</em> is whether you belong here at all &mdash; whether there is a place at
-        the table with your name on it. That is given, and it is not withdrawn as a punishment, and if it
-        can be taken away from you when somebody is cross then it was never standing in the first place.
-        <em>Access</em> is which rooms you are in. That moves. It moves on evidence, and it moves both ways,
-        and it is supposed to.</p>
-
-      <p>So the sentence to hold onto is: <em>you don&rsquo;t lose your seat here. You might lose the spoon
-        for a week.</em></p>
-
-      <h2>How anybody moves</h2>
-
-      <p>Inward, one room at a time, on evidence. That is the whole method and it is very boring, which is
-        why people skip it.</p>
-
-      <p>Every step inward is a small thing done and seen: a promise kept when it was inconvenient, a
-        confidence held, a hard sentence said kindly to your face instead of pleasantly behind your back.
-        Small things arrive one at a time. There is no way to have a great many of them all at once. Which
-        means a person&rsquo;s standing with you cannot honestly be built faster than the small things
-        arrive, however much you like them.</p>
-
-      <p>And a step outward is the same evidence running the other way. Not a punishment. Not a verdict on
-        their soul. Just: this is what has actually been shown, and here is where that puts us for now.</p>
-
-      <h2>The skip</h2>
-
-      <figure>
-        <img src="../images/keep/02-carolyn-gate.png" alt="Carolyn in her kitchen doorway at dusk, holding out a covered dish, warm and completely level.">
-        <figcaption>A door held open is not the same thing as a key handed over. Knowing the difference is
-          most of it.</figcaption>
-      </figure>
-
-      <p>Here is what actually goes wrong, and it is almost never a villain.</p>
-
-      <p>Somebody arrives who is delightful. They are funny and capable and easy to be around and they turn
-        up in a week you badly needed them. And because the pull of that is real, they get moved four rings
-        inward in a fortnight &mdash; not by a decision anybody would defend out loud, but by a series of
-        small warm moments that never got counted.</p>
-
-      <p>Nothing is underneath the move. No small things were done and seen, because there was no time for
-        any to happen. So the first real weight that comes on &mdash; the first disagreement, the first
-        awkward Tuesday, the first thing that needs somebody to be careful with what they were told &mdash;
-        goes straight through the floor, and they end up back at the outer edge, usually with the whole
-        thing looking like their fault.</p>
-
-      <p>It was not their fault. Nobody built the stairs.</p>
-
-      <p>The other half of the same arithmetic is quieter and worse. While the four-ring leap is happening,
-        somebody who has been doing the small things reliably for twenty years is still exactly where they
-        were &mdash; because reliability makes no noise, and nothing that makes no noise ever gets added
-        up.</p>
-
-      <h2>The Watch</h2>
-
-      <p>One mark, and it can be set on any room.</p>
-
-      <p>It means: <em>this person is welcome here, and I am not lending them anything.</em> It is what you
-        do when somebody has shown you something real and you have forgiven them completely and you are
-        still not going to hand them the cart. Forgiveness is immediate and it is yours alone to give.
-        Trust is evidence and it takes two. Those are not in a fight with each other, whatever it feels
-        like at three in the morning.</p>
-
-      <p>The Watch is not a sentence with an end date. It comes off the same way anything moves: on small
-        things, done and seen.</p>
-
-      <!-- The handoff flags "the Watch" as canon-by-default and never ruled on:
-           protective or punitive? The alternatives were "the Gate" and "the
-           Threshold". If it lands wrong, it is a find-and-replace. -->
-
-      <hr class="divider">
-
-      <p>That is the whole chart. It is not a system for keeping people out. It is a way of being able to
-        say yes properly, because a yes only means something if a no was available.</p>
-
+    <article class="keep-card" id="card-hearth">
+      <h3>The Hearth</h3>
+      <p class="who">One person, or very nearly. A husband or a wife. The one who has seen you unfinished
+      and did not go anywhere.</p>
+      <p class="f"><b>Keys granted</b>All six, freely. Time without an appointment. The thoughts that aren't
+      done yet. A say that can actually change your mind. The door, the purse, and the longest patience you
+      have.</p>
+      <p class="f"><b>What you owe here</b>Honesty before it is tidy. Hard news first, not last. Your own
+      repair, fast, when you are the one who was wrong.</p>
+      <p class="f"><b>How someone arrives</b>Years, hard weather, and a promise made out loud. Never a
+      feeling on its own. A feeling is how you notice somebody. It is not how you move them in.</p>
+      <p class="f"><b>How someone leaves</b>Almost never over one failure. Over harm that goes on and on
+      and never gets put right — and even then with somebody sitting beside you, not alone at midnight.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>I want you to know this before anybody else
+      does.</q></p>
+      <p>If this room is empty right now, it is empty. That is a grief and it is not a verdict. An empty
+      Hearth is not the same as a failed one, and it is not filled by promoting somebody early.</p>
     </article>
 
-    <nav class="pager">
-      <a href="../index.html">&#8592; Front page</a>
-      <a href="../episodes/ep-002-the-column-nobody-read.html">The Column Nobody Read &#8594;</a>
-    </nav>
+    <article class="keep-card" id="card-table">
+      <h3>The Long Table</h3>
+      <p class="who">Household and immediate family. Parents, siblings, children — and the two or three
+      friends who have functioned as family for years.</p>
+      <p class="f"><b>Keys granted</b>Most of your time. Most of what you know about yourself. A real say.
+      The door with a message first. Help that costs you something.</p>
+      <p class="f"><b>What you owe here</b>Presence at the hard things. The truth about yourself within a
+      reasonable time — not immediately, but not never.</p>
+      <p class="f"><b>How someone arrives</b>Birth, marriage, or a decade of Tuesdays. But here is the part
+      people miss: blood gets you the seat, conduct keeps the keys. Being family is a seat nobody can take
+      from you. It is not a set of keys nobody can take from you.</p>
+      <p class="f"><b>How someone leaves</b>Usually they don't. Usually the seat stays and specific keys
+      come back to you. That is the Watch, and it is the most useful thing on this page.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>Can I tell you something I haven't figured out
+      yet?</q></p>
+    </article>
 
-  </main>
+    <article class="keep-card" id="card-court">
+      <h3>The Inner Court</h3>
+      <p class="who">Tested friends. Three to five, if you are doing well. Each of them has kept a hard
+      thing you told them, and told you a true thing you didn't want.</p>
+      <p class="f"><b>Keys granted</b>Time, generously, with some notice. Most of the inside story. Advice
+      you genuinely weigh. Your home by invitation. Help within reason.</p>
+      <p class="f"><b>What you owe here</b>Follow-through. Starting the conversation sometimes instead of
+      always being started. Saying the kind true thing when they need it and won't like it.</p>
+      <p class="f"><b>How someone arrives</b>Two or three years, and one hard conversation that both of you
+      survived. The survived conversation matters more than the years.</p>
+      <p class="f"><b>How someone leaves</b>A confidence broken. A long pattern of taking. They usually go
+      back out to the Great Hall — not off the map.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>I have room for that this week, but not on short
+      notice.</q></p>
+    </article>
 
-</div>
+    <article class="keep-card" id="card-hall">
+      <h3>The Great Hall</h3>
+      <p class="who">Good company. Church, the team, the small group, the neighbours you actually like.
+      Twenty people, or fifty. You are glad to see all of them.</p>
+      <p class="f"><b>Keys granted</b>Planned time. The public version of your life and a little more.
+      Opinions heard, not obeyed. Your home for gatherings. Help that costs you an afternoon.</p>
+      <p class="f"><b>What you owe here</b>Warmth. Doing the thing you said you would do. Not repeating what
+      you heard.</p>
+      <p class="f"><b>How someone arrives</b>Repeated pleasant contact and one kept promise. This ring is
+      easy to enter, which is the point of it.</p>
+      <p class="f"><b>How someone leaves</b>Mostly by drifting, and drifting is not a rupture. People move
+      away, change churches, get busy. Nobody has to be at fault.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>That doesn't work for me, but I'd love to come to the
+      next one.</q></p>
+    </article>
+
+    <article class="keep-card" id="card-market">
+      <h3>Marketrow</h3>
+      <p class="who">Acquaintances. Coworkers, the neighbour two doors down, the man at the fish counter who
+      always saves you the good one. Real, pleasant, and bounded.</p>
+      <p class="f"><b>Keys granted</b>Time inside its own setting — the shop, the office, the school run.
+      The public version. No say. No door. Small favours, cheerfully.</p>
+      <p class="f"><b>What you owe here</b>Courtesy, honesty, fair dealing, and a decent word about them
+      when they are not there. Nothing more. Nothing less, either.</p>
+      <p class="f"><b>How someone arrives</b>Nothing is required. This is simply the default for people you
+      see regularly, and there is no shame in a great many people living here for thirty years.</p>
+      <p class="f"><b>How someone leaves</b>The same way they came. Quietly, and without an announcement
+      being owed to anyone.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>I keep my weekends for family — but I hope it's a
+      good one.</q></p>
+    </article>
+
+    <article class="keep-card" id="card-road">
+      <h3>The Road</h3>
+      <p class="who">Strangers. The public. Comment sections. And — this is the one that costs people
+      dearly — anybody you have known for three delightful weeks.</p>
+      <p class="f"><b>Keys granted</b>The public version and nothing else. No say, no door, no purse.
+      Kindness on demand. Trust on none.</p>
+      <p class="f"><b>What you owe here</b>Dignity. Every one of them is made in the image of God, and
+      courtesy costs you nothing and is owed to all of them.</p>
+      <p class="f"><b>The trap that lives here</b>Charm is cheap and it comes early. That is the whole
+      trouble with it. Three weeks of delight tells you somebody is delightful. It tells you nothing about
+      what they do when keeping their word starts to cost them, and that is the only thing you actually
+      need to know.</p>
+      <p class="keep-say"><b>A sentence for here</b><q>It was so nice to meet you.</q> And that is a
+      complete sentence. It does not need a phone number attached to it.</p>
+    </article>
+
+    <article class="keep-card on-watch" id="card-watch">
+      <h3>The Watch</h3>
+      <p class="who">Not a ring. A mark you set on one named person, at whatever ring they are already
+      standing in.</p>
+      <p class="f"><b>Who it is for</b>Anyone who has done real harm and has not repaired it. Your uncle.
+      Your closest friend. Someone at the Long Table, most likely, because the people who can hurt you are
+      the people who were let close enough to.</p>
+      <p class="f"><b>What it does</b>They keep their standing. A brother is still a brother. Specific keys
+      come back to you — the door, the purse, the unfinished thoughts, the benefit of the doubt — and stay
+      with you until behaviour has changed, over time, where you can see it.</p>
+      <p class="f"><b>The three jobs it keeps apart</b>Forgiving is something you do on your own, tonight:
+      I am letting go of what you owe me. Making peace takes two of you, and it needs them to be sorry.
+      Handing back a key takes time and proof, and it is the slowest of the three. Three different jobs —
+      and most of the trouble people get into comes from trying to do all three with one hand.</p>
+      <p class="keep-say"><b>The hardest and most useful sentence on this page</b><q>I've forgiven you. I'm
+      not ready to give you access yet. Both of those are true, and neither one is a punishment.</q></p>
+    </article>
+
+    <hr class="divider">
+
+    <h2>What you are actually handing out</h2>
+
+    <p>People talk about closeness as though it were one dial. It isn't. It is six keys, and they are handed
+    over one at a time — which is a mercy, because it means you can give somebody a great deal of warmth
+    without giving them the house.</p>
+
+    <ul class="keep-keys">
+      <li><b>Time.</b><span>From <i>in its own setting</i> at Marketrow, to <i>scheduled and generous</i> in
+      the Court, to <i>unannounced</i> at the Hearth.</span></li>
+      <li><b>Knowing.</b><span>From the public version, to the honest version, to the unfinished version.
+      The unfinished version is the valuable one. Spend it slowly.</span></li>
+      <li><b>Say.</b><span>From <i>heard</i>, to <i>weighed</i>, to <i>able to change your mind</i>. Most
+      people should be heard. Very few should be able to change your mind.</span></li>
+      <li><b>The door.</b><span>From never, to by invitation, to with a message first, to freely. Being let
+      into your house is its own key. None of the others come with it.</span></li>
+      <li><b>Purse and hands.</b><span>From nothing, to a small favour, to an afternoon, to something that
+      really costs you. Vouching for somebody belongs on this key too, and it costs more than money.</span></li>
+      <li><b>The benefit of the doubt.</b><span>This is the one that costs people everything, so read it
+      twice. Nobody gets the good knife on their first day in the kitchen — not because you think badly of
+      them, but because you have not watched them use one yet. This key does not go up with how fond you are
+      of somebody. It goes up with how much you have actually seen. Handing it over early is not generosity.
+      It is a guess, and you are the one who pays if the guess is wrong.</span></li>
+    </ul>
+
+    <p>And notice what that last key is <i>not</i>. It is not forgiveness. Forgiving is never rationed and
+    never earned, and you will be asked for it seventy times seven. The benefit of the doubt is a different
+    thing altogether — your best guess about what somebody will do next. A guess is supposed to change when
+    you learn something new. That is what a guess is for.</p>
+
+    <hr class="divider">
+
+    <h2>Saying it before it goes wrong</h2>
+
+    <p>Most of the hurt in a friendship does not come from a broken agreement. It comes from a hope that
+    was never said out loud, and then held against somebody afterwards as though it had been.</p>
+
+    <p>Four different things get called an expectation. They behave completely differently:</p>
+
+    <ul class="keep-four">
+      <li><b>A hope.</b> It stays in your head. They cannot break it, because nobody ever told them it was
+      there. This is a letter you never sent, and then got angry about the reply. Almost all the quiet
+      resentment in the world starts here.</li>
+      <li><b>A request.</b> Said out loud — and a real one is a request they are allowed to turn down. If
+      they aren't allowed to turn it down, it was never a request, and you should use the truer word.</li>
+      <li><b>An agreement.</b> Both of you said yes. Now it can genuinely be broken, and now you have
+      something fair to raise.</li>
+      <li><b>A boundary.</b> Not about them at all. It is what <i>you</i> will do. It requires nobody's
+      permission, and it does not need them to agree with it.</li>
+    </ul>
+
+    <p class="keep-turn">An expectation is a sentence about them.<br>A boundary is a sentence about you.</p>
+
+    <p>So <i>“you need to stop calling so late”</i> is a request, and they can say no. <i>“After nine I put
+    my phone in the kitchen”</i> is a boundary, and they can't. Notice which one you actually have the power
+    to keep.</p>
+
+    <h2>Pitch it at the right ring</h2>
+
+    <p>The same words go wrong at the wrong depth. You do not get the big pot out for one egg, and you do
+    not try to feed nine people from a teacup. Sit a market acquaintance down for a serious talk about a
+    small thing and you will frighten her. Handle a Long Table matter with a light remark in passing and it
+    does not get handled at all.</p>
+
+    <p><b>Road and Marketrow.</b> One light sentence, in the moment, no reason attached. <i>“I don't do
+    weekends.”</i> A reason invites negotiation, and there is nothing here worth negotiating.</p>
+
+    <p><b>Great Hall.</b> One sentence and one warm alternative. <i>“I can't host, but I'll bring the
+    pernil.”</i></p>
+
+    <p><b>Inner Court and Long Table.</b> Ask for the conversation before you have it, say the specific
+    thing, and say what you want to be different. <i>“Do you have ten minutes this week? There's something
+    small I want to say before it turns into something large.”</i></p>
+
+    <p><b>Hearth.</b> The same, only sooner, and with your own part named first.</p>
+
+    <hr class="divider">
+
+    <figure>
+      <img src="../images/keep/01-keep-aerial.png"
+           alt="A painted view over Pigglyvale in late afternoon: a market street of striped awnings,
+                orchard gardens, the Long Table set with plates, and a stone hearth at the centre with smoke
+                rising. Pigs everywhere.">
+      <figcaption>Pigglyvale, late afternoon. Not the chart — the place the chart is about.</figcaption>
+    </figure>
+
+    <h2>Moving inward</h2>
+
+    <p>A ring is earned, and there are only four things worth counting.</p>
+
+    <p><b>Time under weather.</b> Not how long you have known them. How long you have known them through
+    something inconvenient.</p>
+
+    <p><b>Small things, repeatedly.</b> Being on time. Remembering. Doing the dull thing they said they
+    would do when nobody would have noticed if they hadn't.</p>
+
+    <p><b>How they take a no.</b> This is the single most useful test there is, and it is nearly free. Give
+    a small, early, unimportant no and watch what happens. Somebody who sulks over a Tuesday will not be
+    safe with a Hearth. You want to find this out over a Tuesday. That is precisely why the early no is not
+    unkind. It is the cheapest way there is to learn something you would otherwise learn at a much worse
+    price.</p>
+
+    <p><b>What repair looks like when they fail.</b> Everyone fails. What you are watching for is whether
+    the apology has its three parts — what I did, no excuse attached, what I will do differently — and
+    whether the behaviour actually moves afterward. A person who repairs well can be trusted further than a
+    person who rarely fails.</p>
+
+    <p>And one rule of movement: <b>one ring at a time.</b> Nobody goes from the Road to the Long Table,
+    however well it is going. That is not a rule against them. It is a rule about how knowing anybody
+    works.</p>
+
+    <h2>Moving outward</h2>
+
+    <p>There are five rungs here. Almost all the damage in the world is done by people who used none of them
+    and then used the last one.</p>
+
+    <ol class="keep-ladder">
+      <li><b>Notice it.</b> One sentence to yourself, facts only, no story attached. <i>“That's the third
+      time she has cancelled the same week she asked.”</i> Not <i>“she doesn't respect me.”</i> You don't
+      know that yet, and the story is what makes the next four rungs feel impossible.</li>
+      <li><b>Name it, small and early.</b> Lightly, in the moment, without a speech. <i>“Hey — third time.
+      What's going on?”</i> This rung is the whole page. Everything below it exists because this one gets
+      skipped.</li>
+      <li><b>Adjust one key.</b> Quietly. Stop offering the unfinished version. Stop being available on
+      short notice. You do not owe anyone an announcement that you have stopped volunteering something.</li>
+      <li><b>Step them out one ring — and say so.</b> Out loud, kindly, without a case being prosecuted.
+      <i>“I care about you and I'm pulling back on how much I'm sharing for a while. It isn't a punishment.
+      It's me being honest about where I am.”</i></li>
+      <li><b>Set the Watch.</b> Access closed. Love intact. The door is shut and it is not welded, because
+      nothing here is final and you may be wrong.</li>
+    </ol>
+
+    <p class="keep-turn">Cutting someone off is not a boundary.<br>It is what is left when there weren't
+    any.</p>
+
+    <p>And it is worth being plain about why that last rung feels like the only one when it comes. It isn't
+    cruelty and it isn't weakness. It is what happens when you put somebody in the closest room on three
+    weeks of knowing them. After that, every ordinary letdown lands in the closest room, where things
+    bruise. Twenty of them pile up with nowhere to go, because the second rung never got used, and by now
+    saying anything would look mad — <i>all this, over a missed Tuesday?</i> So you say nothing. And you say
+    nothing. And the pot sits on the heat with the lid clamped down, and there is only one way a pot like
+    that ever comes off the stove.</p>
+
+    <p>Not because you are harsh. Because the small tools were never picked up, and what was owed got very
+    big in the dark.</p>
+
+    <p>The early no is the kind one. It is what lets you keep people.</p>
+
+  </div>
+
+  <section class="notes">
+    <div class="notes-wing"></div>
+    <h2>A Note from the Storykeeper</h2>
+    <p class="notes-byline">Thomas, Drake of Snouton, Master of Lessons, and a duck who has done every
+    single thing on this page wrong at least twice</p>
+
+    <p>I should confess before I teach. My own failure is not caution — it is that I decide within about
+    four minutes that someone is <i>my</i> person, and then I hand over the whole ring of keys at once, and
+    then I am injured by a stranger and cannot understand how it happened. I have called this warmth.
+    Sometimes it was. Often it was impatience wearing warmth's apron.</p>
+
+    <h3>The passage I keep returning to</h3>
+
+    <p>In John's second chapter a great crowd in Jerusalem sees the signs and believes in His name — and
+    then comes one of the strangest verses in the Gospels. <span class="verse">“But Jesus on his part did
+    not entrust himself to them, because he knew all people.”</span></p>
+
+    <p>Stay with that a moment, because everything hangs on it. This is the same Man who tells us to love
+    our enemies. The same Man who washed the feet of the one already arranging to sell Him. And here He is
+    holding Himself back from a crowd that had done nothing wrong at all — a crowd that had just believed in
+    Him. So <b>loving somebody</b> and <b>handing yourself over to them</b> cannot be the same act. If they
+    were the same, this verse would put Christ at odds with His own command, and He is not.</p>
+
+    <p>Which gives us this. Love is owed to everybody. Trust is worked out from what you have seen. Holding
+    back the second is not a shortage of the first — it is knowing people, which is exactly what the verse
+    says He was doing.</p>
+
+    <p>And it reaches all the way into a kitchen in Pigglyvale. It is why you can hand somebody a plate of
+    arroz con gandules and a warm afternoon and mean every bit of it, and still not hand them the thoughts
+    you haven't finished having. Both at once. Nothing in that is at odds with itself.</p>
+
+    <p>Joseph does the same thing in Genesis and nobody calls him cold for it. He weeps — he has plainly
+    forgiven them already — and he still puts his brothers through three chapters of testing before he tells
+    them who he is. He needed to know whether these were the same men who sold him. They weren't, and there
+    was no way to find that out except slowly. The forgiving happened in a moment. Getting back to each
+    other took the long way round.</p>
+
+    <h3>Try it this week</h3>
+
+    <p class="script">One small, early, unimportant no. Just one, to somebody who is presently between
+    rings. Say: “That doesn't work for me this week.” No reason after it — the reason is what turns a
+    boundary into a negotiation. Then watch what they do with it, and write down what you saw.</p>
+
+    <p>You will have learned something on a Tuesday that most people pay for on a much worse day.</p>
+  </section>
+
+  <section class="washing-up">
+    <h2>After the Washing-Up</h2>
+    <p class="setting">Carolyn and Thomas, the Kitchen Royal, the Friday after Fair Week</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> <em>(pushing a sheet of paper across the table)</em>
+    Don't laugh at it.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> <em>(reading for a long time)</em> This is a bread
+    list.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> It's the back of a bread list.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> You have drawn a map of yourself on the back of a bread
+    list.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> I drew the kitchen door and kept going outwards. It
+    turned into that on its own.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> Why tonight?</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> Thursday. I was sharp with Pim, and Pim had not done
+    one single thing. I have been saying yes since the Monday before last and not one bit of it landed on
+    the people I said yes to. All of it landed on a mouse.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> <em>(his wing tip splayed into its rough point)</em>
+    Then let me ask you something. What would have happened if you had told Yolanda no, on the Monday?</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> <em>(at once)</em> She'd have been put out with me for
+    an afternoon.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> And then?</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> &hellip;And then she'd have got over it, because she
+    always does. And I'd have had my Tuesday. And with the Tuesday I'd have got the bread order in on time,
+    so I wouldn't have needed Pim on the Thursday, so I wouldn't have &mdash; <em>(she stops)</em></p>
+
+    <p class="line"><span class="who">THOMAS.</span> Go on.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> That is four things.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> It is four things.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> I can do four things with a pot. I do it every day of
+    my life with a pot. Garlic goes in last or it scorches, and I have never once had to stand there and
+    work that out.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> <em>(the feathers on the back of his head settling
+    flat; quietly, quietly pleased)</em> No. You haven't.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> So why can't I do it with a person?</p>
+
+    <p class="line"><span class="who">THOMAS.</span> Because when it is a pot, nobody is disappointed in you
+    at the moment you decide.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> <em>(a long pause. She turns the bread list round and
+    looks at it the other way up.)</em> Where does God go on it?</p>
+
+    <p class="line"><span class="who">THOMAS.</span> Nowhere. He isn't a ring.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> That sounds like you dodging.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> It does sound like it. It isn't. Every ring on that
+    paper is a room in a house. Put Him in one of them and you have made Him a lodger in a house that can
+    burn down. He is not in the house. He is what the house is standing on.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> The floor.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> The floor. Which is why the rule at the Long Table is
+    the rule it is. Nobody here loses a seat. We did not invent that, you know. We copied it.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> Some people were taught the other way.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> <em>(his spectacles slid down his bill and stayed
+    there)</em> Yes.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> That the seat is the thing that gets taken.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> &hellip;Then they were never taught how it works. They
+    were shown what it looks like when it breaks. Those are not the same lesson, though I grant you they are
+    very hard to tell apart from underneath.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> You should write that one down.</p>
+
+    <p class="line"><span class="who">THOMAS.</span> I have been writing it down for an hour.</p>
+
+    <p class="line"><span class="who">CAROLYN.</span> <em>(after a moment)</em> Have some bread.</p>
+  </section>
+
+  <section class="talk">
+    <h2>Talk It Over</h2>
+    <ol>
+      <li>Name one person who currently has a key they haven't earned. Not to take it back today — only to
+      say which key it is, and out loud.</li>
+      <li>What is the difference between guarding your heart and hardening it? Where is that line for you,
+      and how would you know if you had crossed it?</li>
+      <li>Is there someone you have genuinely forgiven and are still not ready to trust — and have you been
+      carrying that as though it were a failure? <i>(I have no clean answer for this one. I am not certain
+      there is one.)</i></li>
+    </ol>
+  </section>
+
+  <nav class="pager">
+    <a href="../episodes/ep-001-the-small-yeses.html">&#8592; Episode One: The Small Yeses</a>
+    <a href="../episodes/ep-002-the-column-nobody-read.html">Episode Two: The Column Nobody Read &#8594;</a>
+  </nav>
+
+</main>
 
 <footer class="site-footer">
-  <p>Made for Carolyn.</p>
+  <p>Pigglyvale — a small kingdom run mostly out of its kitchen.</p>
 </footer>
 
-<script>window.PV_BASE = "../"; window.PV_CURRENT = "the-map-of-the-keep";</script>
-<script src="../assets/episodes.js"></script>
+<script>
+(function () {
+  var ids = ['hearth', 'table', 'court', 'hall', 'market', 'road', 'watch'];
+  var geom = { road: 340, market: 286, hall: 232, court: 178, table: 122, hearth: 64 };
+  var cards = {}, buttons = {};
+  var sel = document.getElementById('sel');
+
+  ids.forEach(function (id) { cards[id] = document.getElementById('card-' + id); });
+
+  function select(id) {
+    ids.forEach(function (k) {
+      if (cards[k]) cards[k].style.display = (k === id) ? 'block' : 'none';
+      if (buttons[k]) buttons[k].setAttribute('aria-pressed', k === id ? 'true' : 'false');
+    });
+    sel.innerHTML = '';
+    if (geom[id]) {
+      var c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', 350);
+      c.setAttribute('cy', 350);
+      c.setAttribute('r', geom[id]);
+      c.setAttribute('class', 'ring-sel');
+      sel.appendChild(c);
+    }
+  }
+
+  Array.prototype.forEach.call(document.querySelectorAll('[data-pick]'), function (b) {
+    buttons[b.getAttribute('data-pick')] = b;
+    b.addEventListener('click', function () { select(b.getAttribute('data-pick')); });
+  });
+  Array.prototype.forEach.call(document.querySelectorAll('.ring-band'), function (c) {
+    c.addEventListener('click', function () { select(c.getAttribute('data-ring')); });
+  });
+
+  // JS only ever hides. With it switched off, every card simply stays on the page.
+  select('hearth');
+})();
+</script>
 
 </body>
 </html>

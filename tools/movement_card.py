@@ -33,8 +33,8 @@ import math
 import sys
 
 # --- the Keep, outermost first --------------------------------------------
-# Ring 1 is innermost. The name of ring 1 is a reconstruction; see
-# pages/the-map-of-the-keep.html.
+# Ring 1 is innermost. There is deliberately no numbered rung system: a clean
+# move is described in plain words in the legend, never labelled with a number.
 
 RINGS = {
     6: "the Road",
@@ -42,7 +42,7 @@ RINGS = {
     4: "the Great Hall",
     3: "the Inner Court",
     2: "the Long Table",
-    1: "the Kitchen",
+    1: "the Hearth",
 }
 
 # --- this episode ---------------------------------------------------------
@@ -53,7 +53,7 @@ MOVES = [
     {
         "who": "Marisol Vega",
         "note": ["Road to Long Table, four rings,",
-                 "no rungs used. Then out to Marketrow."],
+                 "none of them earned. Then out to Marketrow."],
         "angle": 200,          # degrees, where on the chart this move sits
         "legs": [
             # (from_ring, to_ring, style, colour-var[, end_angle])

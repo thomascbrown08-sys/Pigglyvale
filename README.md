@@ -18,18 +18,28 @@ images/          _reference/ · keep/ · ep-001/ · ep-002/
 
 ## Before it goes live — three things
 
-**1. Two image folders are empty.** `images/ep-001/` and `images/ep-002/` each need six files. Roll them
-from `prompts/ep-002-prompts.md` (Episode One's prompts were not in the project) and drop them in under the
-exact names listed in the placeholder file inside each folder. The pages already point at those names, so
-nothing needs editing.
+**1. Both episodes have their art.** Episode Two has all six slots filled and approved. Episode One is
+unchanged from the project version — five slots, original markup — with a sixth image (`05-repair.png`)
+sitting in the folder unreferenced, because adding it would mean editing an episode the handoff said to
+leave alone. See `images/ep-001/PLACEHOLDER.md`.
 
-**2. Two link placeholders.** Search the whole folder for `{{TOOLBOX_URL}}` — three hits, all in
-`episodes/ep-002-the-column-nobody-read.html` and `episodes/_TEMPLATE.html`. Replace with the My Toolbox
-base URL. Pigglyvale points at the Toolbox; the Toolbox never points back.
+Before writing any new prompt, read the opening section of `prompts/ep-002-prompts.md`. **This image tool
+has no negative-prompt field** — one text box, everything named gets drawn — so the old `[NEGATIVE]` blocks
+were summoning the very things they were meant to exclude. That file is written in the corrected style: one
+self-contained box per slot, no negative blocks, every exclusion stated as a positive fact, and a reference
+attached for every character named in the frame. `images/ep-001/` still
+needs its five files; Episode One's prompts were never in the project, so its placeholder file lists the
+subjects rather than the prompts.
 
-**3. The reference sheets for Quill and Marisol have not been rolled.** Round Five prompts are at the foot
-of `prompts/ep-002-prompts.md`. Roll and approve those *before* the six episode illustrations, or the two
-new characters will drift between images.
+**2. The Toolbox links point at the index, not at a pattern page.** `patterns/contingent-worth.html` does
+not exist on My Toolbox yet. Both links in Episode Two go to the index for now, with the future URL sitting
+in an HTML comment right beside them — when you write that page, swap the two `href`s and delete the
+comment. Pigglyvale points at the Toolbox; the Toolbox never points back.
+
+**3. Quill and Marisol still have no proper reference sheets** — only crops cut from their own good
+episode images (`marisol-crop.png`, `quill-crop.png`, `quill-face-crop.png`). Those crops carried all six
+Episode Two illustrations and are fine to keep using, but roll the sheets before Episode Three. The prompts
+are at the foot of `prompts/ep-002-prompts.md`.
 
 ---
 
@@ -42,8 +52,8 @@ involved:
 
 | File | What happened |
 |---|---|
-| `pages/the-map-of-the-keep.html` | **Most reconstructed.** Built from the ring names the arc room states outright (Road, Marketrow, Great Hall, Inner Court, Long Table), the seat/keys rule, the skip-versus-step contrast, and the Watch. **Two guesses, both marked `GUESS` in the source:** the name of ring 1 (*the Kitchen*), and the absence of a numbered rung system. |
-| `assets/style.css` | The original, plus three new components at the foot — the Washing-Up, the Movement card, the Toolbox citation — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
+| `pages/the-map-of-the-keep.html` | **No longer reconstructed — the original was supplied and now stands.** An earlier version in this folder was a summary written from `docs/the-arc-room.md`; it has been discarded entirely. The live page is the author's `v3`, unaltered except for four file paths and two pager links repointed to this folder structure. Its CSS is in `assets/style.css` under *THE KEEP*. |
+| `assets/style.css` | The original, plus four component blocks at the foot — the Washing-Up, the Movement card, the Toolbox citation, and the Keep — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
 | `assets/episodes.js` | Both episode pages load it and it was not in the project. Adding an episode is one line in the `EPISODES` array. |
 | `tools/movement_card.py` | Rebuilt from the arc room's three-elements spec. Run it, paste the block into the Notes. The Episode Two card on the page is this script's own output, so the two cannot drift. |
 | `series-bible.md` | The project copy was the pre-Keep version, missing §6b–§6e. Episode Two's material was added to it in place. `docs/002-bible-delta.md` lists exactly what was added, so if you paste in the newer bible you can re-apply it in five minutes. |

@@ -425,3 +425,259 @@ blockquote {
   body { background: #fff; }
   .notes { background: #fff; border: 1px solid #999; }
 }
+/* ============================================================
+   PIGGLYVALE — components added for Episode Two
+   Append to assets/style.css. Uses existing custom properties
+   only; adds no new :root variables.
+
+   NOTE: the Episode Two handoff says a previous session already
+   built "the Keep chart, the Movement card, the Washing-Up"
+   into style.css. If that version was pasted in, check for
+   duplicate class names before appending this block.
+   ============================================================ */
+
+/* ---------- After the Washing-Up ---------- */
+
+.washing-up {
+  max-width: var(--measure);
+  margin: 3.25rem auto 0;
+  padding: 2rem 1.75rem 1.75rem;
+  background: var(--paper-deep);
+  border-left: 4px solid var(--sofrito);
+}
+
+.washing-up h2 {
+  font-size: 1.35rem;
+  color: var(--plum);
+  margin: 0 0 0.5rem;
+}
+
+.washing-up .washing-up-note {
+  font-family: var(--display);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  margin: 0 0 1.5rem;
+}
+
+.washing-up p.wu {
+  margin: 0 0 0.7rem;
+  padding-left: 1.4rem;
+  text-indent: -1.4rem;
+  font-size: 1rem;
+}
+
+.washing-up .wu-who {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--plum);
+}
+
+.washing-up .wu-do {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.washing-up .washing-up-foot {
+  margin: 1.75rem 0 0;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(92, 69, 96, 0.22);
+  font-size: 0.92rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+
+/* ---------- the Movement card ---------- */
+
+.movement {
+  margin: 2.5rem 0 0;
+  padding: 1.5rem 1.25rem 1.25rem;
+  background: var(--paper);
+  border: 1px solid rgba(92, 69, 96, 0.2);
+}
+
+.movement .movement-title {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-size: 0.95rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+  text-align: center;
+  margin: 0 0 1rem;
+}
+
+.movement .movement-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 34rem;
+  margin: 0 auto;
+}
+
+.movement .movement-caption {
+  margin: 1rem auto 0;
+  max-width: 32rem;
+  font-size: 0.94rem;
+  color: var(--ink-soft);
+}
+
+@media (max-width: 34rem) {
+  .movement { padding: 1.25rem 0.75rem 1rem; }
+}
+
+/* ---------- the Toolbox citation ---------- */
+/* A deliberate change of room: cream, soft blue, gold, against
+   Pigglyvale's plum and mango. Scoped variables, not global. */
+
+.toolbox {
+  --tb-paper: #fbf7ee;
+  --tb-ink:   #2c3a4a;
+  --tb-soft:  #55697e;
+  --tb-blue:  #4a6f92;
+  --tb-gold:  #b08637;
+
+  display: block;
+  max-width: var(--measure);
+  margin: 3rem auto 0;
+  padding: 2rem 1.75rem 1.75rem;
+  background: var(--tb-paper);
+  color: var(--tb-ink);
+  border: 1px solid rgba(74, 111, 146, 0.28);
+  border-top: 5px solid var(--tb-blue);
+}
+
+.toolbox .toolbox-mark {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--tb-gold);
+  margin: 0 0 0.4rem;
+}
+
+.toolbox h2 {
+  font-size: 1.3rem;
+  color: var(--tb-blue);
+  margin: 0 0 1.1rem;
+}
+
+.toolbox p {
+  margin: 0 0 0.9rem;
+  font-size: 1rem;
+}
+
+.toolbox em { color: var(--tb-soft); }
+
+.toolbox .toolbox-limit {
+  margin-top: 1.35rem;
+  padding: 0.85rem 1rem;
+  background: rgba(74, 111, 146, 0.07);
+  border-left: 3px solid var(--tb-gold);
+  font-size: 0.94rem;
+  font-style: italic;
+  color: var(--tb-soft);
+}
+
+.toolbox .toolbox-link {
+  margin: 1.25rem 0 0;
+  font-family: var(--display);
+  font-size: 0.95rem;
+}
+
+.toolbox a { color: var(--tb-blue); }
+.toolbox a:hover { color: var(--tb-gold); }
+
+@media print {
+  .toolbox { background: #fff; }
+  .washing-up { background: #fff; border-left: 3px solid #999; }
+}
+
+/* ============================================================
+   PIGGLYVALE — episode page shell + sidebar navigation
+
+   Episode One's markup already used .layout and .epnav*, but the
+   rules were missing from the copy of this stylesheet in the
+   project. Reconstructed here so the pages render standalone.
+   If your live stylesheet already has these, delete this block.
+   ============================================================ */
+
+.layout { display: block; }
+
+.epnav {
+  max-width: var(--wide);
+  margin: 0 auto;
+  padding: 2rem 1.5rem 0;
+}
+
+.epnav-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+  margin: 0 0 0.75rem;
+}
+
+.epnav-list { list-style: none; margin: 0 0 1rem; padding: 0; }
+
+.epnav-item { margin-bottom: 0.6rem; }
+
+.epnav-item a {
+  display: block;
+  text-decoration: none;
+  color: var(--ink);
+  border-left: 3px solid var(--paper-deep);
+  padding-left: 0.8rem;
+}
+.epnav-item a:hover { border-left-color: var(--mango); color: var(--guava); }
+.epnav-item.is-current a { border-left-color: var(--guava); }
+
+.epnav-number {
+  display: block;
+  font-family: var(--display);
+  font-size: 0.8rem;
+  color: var(--sofrito);
+}
+
+.epnav-name {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.2;
+}
+
+.epnav-home {
+  font-family: var(--display);
+  font-size: 0.92rem;
+}
+
+/* On a wide screen the nav sits alongside the episode. */
+@media (min-width: 68rem) {
+  .layout {
+    display: grid;
+    grid-template-columns: 14rem minmax(0, 1fr);
+    gap: 0 2.5rem;
+    max-width: 78rem;
+    margin: 0 auto;
+    align-items: start;
+  }
+  .epnav {
+    position: sticky;
+    top: 2rem;
+    max-width: none;
+    margin: 0;
+    padding: clamp(2.5rem, 6vw, 4rem) 0 0 1.5rem;
+  }
+  .layout > main { padding-left: 0; }
+}
+
+@media print { .epnav { display: none; } }

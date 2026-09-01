@@ -3,117 +3,180 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>EPISODE TITLE — The Chronicles of Pigglyvale</title>
+<title>EPISODE TITLE &mdash; The Chronicles of Pigglyvale</title>
 <meta name="description" content="One-sentence hook.">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 
+<!-- Page order, from Episode Two on:
+     story → After the Washing-Up → Advisor's Notes (ending on the Movement
+     card) → From My Toolbox → Talk It Over → recipe.
+     Add the episode to assets/episodes.js as well, or it will not appear
+     in any sidebar. Add no local CSS, ever. -->
+
 <header class="site-header">
   <a class="kingdom-mark" href="../index.html">The Chronicles of Pigglyvale</a>
   <nav>
     <a href="../index.html">All episodes</a>
+    <a href="../pages/the-map-of-the-keep.html">The Keep</a>
   </nav>
 </header>
 
-<main>
+<div class="layout">
 
-  <div class="episode-header">
-    <p class="episode-number">Episode One</p>
-    <h1>Episode Title</h1>
-    <p class="standfirst">A single italic line that sets the weather without giving away the hinge.</p>
-  </div>
+  <aside class="epnav">
+    <h2 class="epnav-title">Jump to an episode</h2>
+    <ul class="epnav-list" id="epnav-list"></ul>
+    <a class="epnav-home" href="../index.html">Front page</a>
+  </aside>
 
-  <figure class="hero-figure">
-    <img src="../images/ep-001/01-hero.png" alt="Descriptive alt text for the establishing illustration.">
-  </figure>
+  <main>
 
-  <article class="story">
+    <div class="episode-header">
+      <p class="episode-number">Episode N</p>
+      <h1>Episode Title</h1>
+      <p class="standfirst">A single italic line that sets the weather without giving away the hinge.</p>
+    </div>
 
-    <p>Opening paragraph. The drop cap lands automatically on the first letter here.</p>
-
-    <p>Cold open continues. Comedy, food, domestic absurdity — safety first.</p>
-
-    <figure>
-      <img src="../images/ep-001/02-beat.png" alt="Descriptive alt text.">
-      <figcaption>Optional caption.</figcaption>
+    <figure class="hero-figure">
+      <img src="../images/ep-00N/01-hero.png" alt="Descriptive alt text for the establishing illustration.">
     </figure>
 
-    <p>The snag.</p>
+    <article class="story">
 
-    <hr class="divider">
+      <p>Opening paragraph. The drop cap lands automatically on the first letter here.</p>
 
-    <p>Escalation by rationalization.</p>
+      <p>Cold open continues. Comedy, food, domestic absurdity &mdash; safety first.</p>
 
-    <figure>
-      <img src="../images/ep-001/03-beat.png" alt="Descriptive alt text.">
-    </figure>
+      <figure>
+        <img src="../images/ep-00N/02-beat.png" alt="Descriptive alt text.">
+        <figcaption>Optional caption.</figcaption>
+      </figure>
 
-    <p>The wobble.</p>
+      <p>The snag. One want collides with another want. Both are reasonable.</p>
 
-    <figure>
-      <img src="../images/ep-001/04-beat.png" alt="Descriptive alt text.">
-    </figure>
+      <hr class="divider">
 
-    <p>The hinge, then the repair. No jokes on top of the repair.</p>
+      <p>Escalation by rationalization. Every character who causes harm gets one moment where their view is
+        presented as they see it, and it is at least partly true.</p>
 
-    <hr class="divider">
+      <figure>
+        <img src="../images/ep-00N/03-beat.png" alt="Descriptive alt text.">
+      </figure>
 
-    <p>The warm close.</p>
+      <p>The wobble. Carolyn does the wrong-but-sympathetic thing.</p>
 
-    <figure>
-      <img src="../images/ep-001/05-close.png" alt="Descriptive alt text.">
-    </figure>
+      <figure>
+        <img src="../images/ep-00N/04-beat.png" alt="Descriptive alt text.">
+      </figure>
 
-  </article>
+      <p>The hinge &mdash; somebody names the real thing out loud.</p>
 
-  <section class="notes">
-    <div class="notes-wing" role="presentation"></div>
-    <h2>Advisor's Notes</h2>
-    <p class="notes-byline">Thomas the Drake of Snouton, Storykeeper and Master of Lessons</p>
+      <hr class="divider">
 
-    <h3>What happened</h3>
-    <p>Two neutral sentences. No verdict yet.</p>
+      <p>The repair: what I did, no excuse attached, what I will do differently &mdash; and then it is
+        actually received. No joke lands on top of this beat. Butterflies here, if anywhere, and only if a
+        costly truth was said.</p>
 
-    <h3>Where the line ran</h3>
-    <p>Who wanted what, and what each one told themselves.</p>
+      <figure>
+        <img src="../images/ep-00N/05-repair.png" alt="Descriptive alt text.">
+      </figure>
 
-    <h3>What Scripture says, and how we got there</h3>
-    <p>Text, then principle, then why it reaches this kitchen.</p>
-    <p class="script">A short quotation, a verse or two. <span class="verse">— Reference (ESV)</span></p>
+      <p>The warm close. Usually the Long Table. Usually food.</p>
 
-    <h3>Try it this week</h3>
-    <p>One concrete script. Actual sentences she could say out loud.</p>
-  </section>
+      <figure>
+        <img src="../images/ep-00N/06-close.png" alt="Descriptive alt text.">
+      </figure>
 
-  <section class="talk">
-    <h2>Talk it over</h2>
-    <ol>
-      <li>First question.</li>
-      <li>Second question.</li>
-      <li>Third question — this one has no clean answer.</li>
-    </ol>
-  </section>
+    </article>
 
-  <section class="recipe">
-    <h2>Dish Name</h2>
-    <p class="recipe-from">From the Kitchen Royal, as made in this episode.</p>
-    <ul>
-      <li>Ingredient</li>
-    </ul>
-    <p>Method in two or three short paragraphs.</p>
-  </section>
+    <section class="washing-up">
+      <h2>After the Washing-Up</h2>
+      <p class="washing-up-note">Two-hander, usually the Kitchen Royal, usually late. Somebody is doing
+        something with their hands.</p>
 
-  <nav class="pager">
-    <span>&#8592; Previous</span>
-    <span>Next &#8594;</span>
-  </nav>
+      <p class="wu"><span class="wu-who">Thomas.</span> He has the vocabulary. He names the pattern and gets
+        the emphasis backwards.</p>
 
-</main>
+      <p class="wu"><span class="wu-who">Carolyn.</span> <span class="wu-do">(stage direction)</span> She
+        has the eyes. She turns it the right way round.</p>
+
+      <p class="wu"><span class="wu-who">Thomas.</span> The obvious, generous, first-order fix.</p>
+
+      <p class="wu"><span class="wu-who">Carolyn.</span> And then what would that cause? &mdash; the Second
+        Question. It is visible, it changes the answer, and the technique is never named.</p>
+
+      <p class="washing-up-foot">Sidelong line. The term lives in
+        <a href="{{TOOLBOX_URL}}/patterns/slug">the link</a>, never in the dialogue.</p>
+    </section>
+
+    <section class="notes">
+      <div class="notes-wing" role="presentation"></div>
+      <h2>Advisor&rsquo;s Notes</h2>
+      <p class="notes-byline">Thomas the Drake of Snouton, Storykeeper and Master of Lessons</p>
+
+      <h3>What happened</h3>
+      <p>Two neutral sentences. No verdict yet.</p>
+
+      <h3>Where the line ran</h3>
+      <p>Who wanted what, and what each one told themselves. Charitable and specific.</p>
+
+      <h3>What Scripture says, and how we got there</h3>
+      <p>Text, then principle, then why it reaches this kitchen. The reasoning move is visible.</p>
+      <p class="script">A short quotation, a verse or two. <span class="verse">&mdash; Reference (ESV)</span></p>
+
+      <h3>Try it this week</h3>
+      <p>One concrete script. Actual sentences she could say out loud.</p>
+      <p class="script"><em>&ldquo;The sentence.&rdquo;</em></p>
+
+      <!-- Movement card: run `python3 tools/movement_card.py` and paste the
+           whole <div class="movement"> block here. Never in the story. -->
+    </section>
+
+    <aside class="toolbox">
+      <p class="toolbox-mark">From My Toolbox</p>
+      <h2>The picture, not the term</h2>
+      <p>Name the pattern in plain words. Show it in one specific beat from this episode. Say what it costs.
+        Then look up.</p>
+      <p class="toolbox-limit">If an analogy is doing theological work, say out loud that it is an analogy
+        and mark where it stops reaching.</p>
+      <p class="toolbox-link"><a href="{{TOOLBOX_URL}}/patterns/slug">The fuller page on this one &rarr;</a></p>
+    </aside>
+
+    <section class="talk">
+      <h2>Talk it over</h2>
+      <ol>
+        <li>First question.</li>
+        <li>Second question.</li>
+        <li>Third question &mdash; this one has no clean answer.</li>
+      </ol>
+    </section>
+
+    <section class="recipe">
+      <h2>Dish Name</h2>
+      <p class="recipe-from">From the Kitchen Royal, as made in this episode.</p>
+      <ul>
+        <li>Ingredient</li>
+      </ul>
+      <p>Method in two or three short paragraphs.</p>
+    </section>
+
+    <nav class="pager">
+      <a href="ep-00M-previous.html">&#8592; Previous</a>
+      <span>Next &#8594;</span>
+    </nav>
+
+  </main>
+
+</div>
 
 <footer class="site-footer">
   <p>Made for Carolyn.</p>
 </footer>
+
+<script>window.PV_BASE = "../"; window.PV_CURRENT = "ep-00N-slug";</script>
+<script src="../assets/episodes.js"></script>
 
 </body>
 </html>

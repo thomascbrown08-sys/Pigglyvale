@@ -106,6 +106,7 @@ is a reason otherwise.
 |---|---|---|
 | **Beatrix Hollyhock** | *varies* | The kingdom's baker. Flour to the elbows, two apprentices, dry as a cracker. Her big oven cracked in Episode One and Gus says three weeks. Load-bearing for the economics track — she is the one a free-bread decree would ruin. |
 | **Gus Thornapple** | *Rule over person* | An old boar. Tends the Pepper Patch and the one good road, grumbles about both. Judged a tomato the winner of the pepper contest once and has never lived it down. Notices things before anyone else and mentions them too late. |
+| **Marisol Vega** | *none — she is not an engine* | Travelling baker, about fifty, arrived Episode Two with a portable clay oven and stayed. Now has a fixed pitch at the top of Marketrow, three stalls along from Gus. Genuinely excellent, genuinely funny, never lies. Her only failing is that she accepts everything she is offered, which is not a crime. She does not know that anything happened in 002. |
 | **The Bramblewick litter** | *the puncture* | Four piglets — **Fig**, **Dot**, **Sorrel**, and **Bean**, roughly four to nine. Deliver eggs. Chaos. Their job is to ask the plain question that collapses an adult's rationalization, then wander off unaware. Use sparingly or the trick wears out. |
 
 ### Supporting appearance tokens *(settled by the Episode One art)*
@@ -116,6 +117,23 @@ is a reason otherwise.
   bill, a scarlet headwrap and a pale work apron heavily stained with spice
 - **Fig Bramblewick:** a very young anthropomorphic piglet, pink, a dark grey patch over one eye, patched
   blue denim pinafore, usually carrying a basket of eggs
+
+**Added Episode Two — PROVISIONAL until the sheets are rolled and approved (Round Five):**
+
+- **Miss Delphine Quill:** a small anthropomorphic hedgehog woman, middle-aged, dark-tipped brown-grey
+  spines swept neatly back from her face, pale cream muzzle, small round black eyes behind wire-rimmed
+  half-moon spectacles pushed high on the bridge, a slate-grey high-collared jacket buttoned all the way to
+  the throat over a starched cream blouse, ink-stained fingertips, a pencil tucked behind one ear; very
+  small, very upright, everything about her squared to the edge of something
+- **Marisol Vega:** a tall lean anthropomorphic pig woman of about fifty, dusty rose-grey skin, broad flat
+  snout, small dark eyes with deep laugh lines, close-cropped silver hair under a faded indigo headwrap, one
+  small gold hoop earring, a sleeveless oatmeal canvas smock with a scorch mark on the hip worn over a narrow
+  blue-striped shirt, bare floury forearms; rangy, weathered, and entirely at ease
+
+> **Marisol is deliberately the anti-Carolyn.** Tall where Carolyn is short, lean where she is round, indigo
+> and oatmeal where she is plum and mango, silver-cropped where she is loc'd and gold-banded, twenty years
+> older. If the two of them could be sisters in a frame, the roll is wrong. Quill is the only character on
+> the site whose silhouette is vertical and closed, which is the point of her.
 
 Rough crops for all three are in `images/_reference/` (`pim-crop.png`, `yolanda-crop.png`, `fig-crop.png`).
 Attach them until each gets a proper sheet.
@@ -224,41 +242,7 @@ Update after every episode. This is what keeps the teaching balanced and the cal
 | # | Title | Primary lesson | Background lesson | Harm engine | Who apologized | New canon facts |
 |---|---|---|---|---|---|---|
 | 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared |
-
----
-
-## 6b. The Map of the Keep
-
-Published as `pages/the-map-of-the-keep.html`. This is now canon and episodes may reference it by name.
-
-**Six rings, outermost first:** the Road · Marketrow · the Great Hall · the Inner Court · the Long Table ·
-the Hearth. Four of the six are existing places in the kingdom, which is the point — the chart is the
-kingdom's own geography, not a new invention.
-
-**The Watch is not a ring.** It is a mark set on one named person at whatever ring they already stand in.
-They keep their standing and lose specific keys. This is the mechanic that carries forgiveness-versus-
-reconciliation, and it exists because a purely concentric model would teach that harm lives out among
-strangers. It does not. It usually lives at the Long Table.
-
-**The six keys**, granted one at a time: time · knowing · say · the door · purse and hands · the benefit
-of the doubt. The last one scales with evidence, never with fondness, and giving it away early is the
-engine behind every cut-off.
-
-**The ladder out**, five rungs: notice · name it small and early · adjust one key · step them out a ring
-and say so · set the Watch. Nobody in Pigglyvale is exiled. The door is shut and never welded.
-
-**Where the cast stands, relative to Carolyn** — *proposed; confirm before an episode leans on it.*
-
-| Ring | Who |
-|---|---|
-| Hearth | Unassigned. Do not fill it without the author's say-so. |
-| Long Table | Thomas. Pim by proximity — she is in the kitchen daily but has not been handed the keys, and that gap is a story. |
-| Inner Court | Auntie Yolanda Plum (thirty years). Old Ambrose. |
-| Great Hall | Miss Delphine Quill. Beatrix Hollyhock. Gus Thornapple. |
-| Marketrow | Bruno "Buckets" Marrow. |
-
-Miss Quill sitting in the Great Hall after twenty years of service, while a newcomer gets promoted past
-her on charm, is the episode this chart is asking for.
+| 002 | *The Column Nobody Read* | Boundaries: trust is earned by evidence | Biblical principle, reasoned out (Luke 16:10) | Good intention, bad execution (Carolyn) **chained into** rule over person (Quill) | **Carolyn** to Quill, three parts; **Quill** to Carolyn, badly and meaning it | Marisol Vega; the seventh column; the Keep enters the Notes via the Movement card; Thomas corrected by Ambrose *inside the Notes* and does not yet own it |
 
 ---
 
@@ -279,16 +263,29 @@ color the kitchen door is. Future-you will need every one of these.)*
 - Gus Thornapple once gave the pepper-contest ribbon to a tomato.
 - Pim hangs the wooden spoon on its hook **handle outward**, the way she was taught.
 - Thomas appears as a participant in the story, not only as narrator — established Episode One.
-- **The Keep** is the kingdom's name for its rings of access. Carolyn keeps the chart; Thomas voiced it.
-- Thomas's confessed flaw, on the record: he decides someone is *his* person within four minutes and hands
-  over the whole ring of keys at once. "Impatience wearing warmth's apron" is his own phrase.
-- Carolyn serves arroz con gandules to Marketrow-level guests at the kitchen door without letting them in.
-  Warmth and access are separate acts in Pigglyvale and the kingdom is unbothered by this.
 - **The Kitchen Royal:** whitewashed walls, a long scrubbed worktable, copper pots on a rail, garlic and
   herbs hung to dry, a rack of wooden spoons on the wall, a stone hearth, shuttered windows onto green.
 - **Marketrow:** striped awnings, open baskets of dried chiles and spices, bright and crowded.
 - **The Long Table:** a stone courtyard, benches both sides, paper lanterns strung overhead in warm gold
   and plum.
+- **The seventh column** in Miss Quill's ledger has no heading and records who was last at the Long Table
+  and when, with a second date beside the ones who came back. Twenty years of it. It is not an official
+  column and she has never billed anyone for it. Carolyn had been initialling it since she was nineteen
+  without once asking what it was.
+- **The grant rule:** a person not on the household roll may use the Kitchen Royal only under a
+  countersigned written grant, requiring seven days' notice. Everyone agrees it is a poor rule. Miss Quill
+  has said so twice, in writing. She is rewriting it, in her own words, and Carolyn has agreed in advance to
+  sign whatever she brings.
+- **The fair account closes on the last Sunday of Fair Week.** Lamp oil for the Long Table lanterns comes
+  out of the common store and now goes on a signed docket.
+- **Marisol Vega's clay oven** stands at the top of Marketrow, three stalls along from Gus. She comes to the
+  Kitchen Royal twice a week.
+- **Beatrix Hollyhock had not been to the Long Table in six weeks** at the close of Episode Two, on account
+  of the oven. Carolyn and Miss Quill walked a plate up to the bakery.
+- **The records room window is always open**, because of the ink.
+- **Miss Quill's jacket is buttoned to the throat**, and she buttons an already-buttoned button when she is
+  moved.
+- **Old Ambrose keeps a dark honey** and brings a jar when he intends to correct somebody.
 - **Thomas has his own small table at the Long Table**, set at the end — because he takes up the space of
   three. Established by the art, and it is a running gag rather than an exclusion. He is not sitting apart;
   he simply does not fit on a bench.
@@ -301,7 +298,11 @@ color the kitchen door is. Future-you will need every one of these.)*
 
 - Thomas cannot fit through the kitchen's side door and refuses to acknowledge it.
 - Bruno's cart has a new painted name every episode.
-- Miss Quill's ledger has a column nobody else understands.
+- ~~Miss Quill's ledger has a column nobody else understands.~~ **Retired in Episode 002 — it paid off.**
+  What replaces it: Miss Quill keeps records nobody asked her to keep, and produces one at the exact moment
+  it turns out to matter.
+- Bruno's cart name is a longer game than anybody realises (*MARROW & DAUGHTERS*; there are no daughters).
+- Marisol doing an impression of somebody from a town six ridges over.
 - Pim asking "Now? Now?" about the stirring.
 - Carolyn re-tying the green cloth instead of sighing.
 - Gus retreating behind a wall when he is pleased.
@@ -312,3 +313,41 @@ color the kitchen door is. Future-you will need every one of these.)*
 
 *(Carolyn's own asks — characters she wants, arcs she wants, things she liked. Log them here with the date
 so nothing gets lost between sessions.)*
+
+**2026-09-01**
+- **Donna** — a female deer. Wanted as a future character. Species and name fixed; engine, role and flaw
+  still open. *(Note for whoever picks this up: Pigglyvale is majority pig, and a deer reads as tall,
+  quick, and easily startled — which makes her a natural fit for either the *good intention, bad execution*
+  engine or, more interestingly, a character whose first instinct in conflict is to leave the room. That
+  would give the series its first flight-response character, and the Abandonment Protocol means it must be
+  handled carefully and repaired in-episode. Raise it before writing it.)*
+- **A thief.** An episode dealing with theft. *(Sits naturally with Arc A and the Watch: forgiveness is
+  immediate and unilateral, trust is evidence. Do not let the thief repent-and-be-restored inside one
+  episode — that is the trap already flagged for Bruno.)*
+- **A college setting, or working at a food establishment.** *(Pigglyvale has no college. Options: Snouton
+  over the ridge could have one; or Marisol's Marketrow pitch and Beatrix's bakery are already
+  food-establishment workplaces with staff, shifts and a boss, which the series has not used yet. The
+  bakery is the cheaper and more canon-consistent route.)*
+
+---
+
+## 10. Open Threads
+
+*(The second good idea that turns up mid-draft is not a paragraph. It is a future episode. Log it here.)*
+
+- **Thomas owes the 002 correction.** Ambrose corrected him inside the Advisor's Notes for promoting Marisol
+  in four minutes, and Thomas explicitly did not finish owning it. **Episode 003 opens with him owning it.**
+  This discharges the second half of the every-three-or-four-episodes rule.
+- **Miss Quill's new grant rule** is due in a month of story time. It is a written thing she made, and it
+  should turn up on the page rather than being mentioned.
+- **Quill moves one more ring across a season, not in one jump.** Arc C (Yolanda, expectations said out
+  loud) is where her ledger becomes the hero.
+- **The two-hundred-word Pim beat** — Pim breaks something and starts quietly gathering her things, and
+  Carolyn says: *"You don't lose your seat here. You might lose the spoon for a week."* Plant it somewhere
+  in 003–005 at low stakes.
+- **"The Watch" as a name** was never ruled on — protective or punitive? Canon by default. *The Gate* and
+  *The Threshold* were the alternatives. A find-and-replace if it lands wrong.
+- **Contingent worth** needs its own My Toolbox page. Episode 002's case study motivates it; write the story
+  first and the page second.
+- **Ring 1 of the Keep** is provisionally called *the Kitchen* in the reconstructed Keep page. Confirm
+  against the original chart.

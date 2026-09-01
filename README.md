@@ -10,7 +10,7 @@ episodes/        ep-001 · ep-002 · _TEMPLATE.html
 pages/           the-map-of-the-keep.html
 prompts/         00-reference-sheets.md · ep-002-prompts.md
 tools/           movement_card.py
-docs/            the-arc-room.md · HANDOFF.md · 002-bible-delta.md
+docs/            site-conventions.md · the-arc-room.md · HANDOFF.md · 002-bible-delta.md
 images/          _reference/ · keep/ · ep-001/ · ep-002/
 ```
 
@@ -52,7 +52,7 @@ involved:
 
 | File | What happened |
 |---|---|
-| `pages/the-map-of-the-keep.html` | **No longer reconstructed — the original was supplied and now stands.** An earlier version in this folder was a summary written from `docs/the-arc-room.md`; it has been discarded entirely. The live page is the author's `v3`, unaltered except for four file paths and two pager links repointed to this folder structure. Its CSS is in `assets/style.css` under *THE KEEP*. |
+| `pages/the-map-of-the-keep.html` | **No longer reconstructed — the original was supplied and now stands.** An earlier version in this folder was a summary written from `docs/the-arc-room.md`; it has been discarded entirely. The live page is the author's `v3`, unaltered except for four file paths and two pager links repointed to this folder structure. Its CSS is in `assets/style.css` under *THE KEEP*. Masthead and footer standardised to match the rest of the site. |
 | `assets/style.css` | The original, plus four component blocks at the foot — the Washing-Up, the Movement card, the Toolbox citation, and the Keep — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
 | `assets/episodes.js` | Both episode pages load it and it was not in the project. Adding an episode is one line in the `EPISODES` array. |
 | `tools/movement_card.py` | Rebuilt from the arc room's three-elements spec. Run it, paste the block into the Notes. The Episode Two card on the page is this script's own output, so the two cannot drift. |
@@ -74,11 +74,17 @@ inside the skill file were followed for all analysis prose.
 
 ---
 
+## Before adding any page
+
+Read `docs/site-conventions.md`. It carries the standing structural rules — the left navigation pane on
+every content page, no local CSS, one masthead and footer, and how relative paths work here.
+
 ## Adding Episode Three
 
-1. Copy `episodes/_TEMPLATE.html`.
+1. Copy `episodes/_TEMPLATE.html`. It already has the left navigation pane wired in.
 2. Add one line to the `EPISODES` array in `assets/episodes.js`.
-3. Add a `.plate` block at the top of the `.plates` grid in `index.html`.
+3. Add a `.plate` block to the `.plates` grid in `index.html` — at the **end** of the episode run, above
+   the Map of the Keep. Episodes are listed in sequence, oldest first; see `docs/site-conventions.md` §2.
 4. Edit `MOVES` in `tools/movement_card.py`, run it, paste the block into the Notes.
 5. Update the ledger, the facts, the gags and Open Threads in `series-bible.md`.
 

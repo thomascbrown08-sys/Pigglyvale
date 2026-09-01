@@ -3,21 +3,29 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>The Map of the Keep — Pigglyvale</title>
+<title>The Map of the Keep &mdash; The Chronicles of Pigglyvale</title>
 <meta name="description" content="Who gets which key in the kingdom of Pigglyvale, and how anybody moves.">
 <link rel="stylesheet" href="../assets/style.css">
 </head>
 <body>
 
 <header class="site-header">
-  <a class="kingdom-mark" href="../index.html">Pigglyvale</a>
+  <a class="kingdom-mark" href="../index.html">The Chronicles of Pigglyvale</a>
   <nav>
     <a href="../index.html">Episodes</a>
     <a href="the-map-of-the-keep.html">The Keep</a>
   </nav>
 </header>
 
-<main>
+<div class="layout">
+
+  <aside class="epnav">
+    <h2 class="epnav-title">Jump to an episode</h2>
+    <ul class="epnav-list" id="epnav-list"></ul>
+    <a class="epnav-home" href="../index.html">Front page</a>
+  </aside>
+
+  <main>
 
   <header class="episode-header">
     <p class="episode-number">A Chart from the Kingdom</p>
@@ -518,10 +526,12 @@
     <a href="../episodes/ep-002-the-column-nobody-read.html">Episode Two: The Column Nobody Read &#8594;</a>
   </nav>
 
-</main>
+  </main>
+
+</div>
 
 <footer class="site-footer">
-  <p>Pigglyvale — a small kingdom run mostly out of its kitchen.</p>
+  <p>Made for Carolyn.</p>
 </footer>
 
 <script>
@@ -561,6 +571,9 @@
   select('hearth');
 })();
 </script>
+
+<script>window.PV_BASE = "../"; window.PV_CURRENT = "the-map-of-the-keep";</script>
+<script src="../assets/episodes.js"></script>
 
 </body>
 </html>

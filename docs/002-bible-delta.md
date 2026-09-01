@@ -29,9 +29,10 @@ describes the card itself: 6 Road, 5 Marketrow, 4 the Great Hall, 3 the Inner Co
 
 1. **Ring 1 is the Hearth.** The Kitchen Royal is a room in the stories, so the innermost ring needed a word
    of its own; the hearth is also what sits at dead centre of `images/keep/01-keep-aerial.png`.
-2. ~~There is no numbered rung system.~~ **Withdrawn.** The original Keep page was supplied afterwards and
-   it does carry a ladder: five numbered rungs for moving *outward*, and four things worth counting for
-   moving *inward*. Since Quill's Episode 002 move is inward and the numbered ladder is the outward one, the
-   card still carries no rung label, and which numbering an inward move should cite is an open question.
+2. ~~There is no numbered rung system.~~ **Withdrawn, then settled properly.** The original Keep page was
+   supplied afterwards and it carries two ladders: five *numbered* rungs for moving **outward**, and four
+   things worth counting for moving **inward**. Quill's Episode 002 move is inward, so **it is described in
+   plain words and carries no number** — which is now the standing rule, written into `series-bible.md`
+   §9b and into the header of `tools/movement_card.py`. Outward moves may cite their rung by number.
 
 Both are now written into §7 Established Facts and §10 Open Threads of the bible.

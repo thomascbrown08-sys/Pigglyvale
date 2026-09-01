@@ -33,8 +33,18 @@ import math
 import sys
 
 # --- the Keep, outermost first --------------------------------------------
-# Ring 1 is innermost. There is deliberately no numbered rung system: a clean
-# move is described in plain words in the legend, never labelled with a number.
+# Ring 1 is innermost.
+#
+# Rungs. The Keep page carries two ladders and they are not interchangeable:
+#   OUTWARD — five numbered rungs (notice it · name it small and early ·
+#             adjust one key · step them out one ring and say so · set the
+#             Watch). An outward move may cite its rung by number.
+#   INWARD  — four things worth counting (time under weather · small things
+#             repeatedly · how they take a no · what repair looks like when
+#             they fail). These are NOT numbered on the card.
+#
+# Ruling: an inward move is always described in plain words in the legend.
+# Never give an inward leg a rung number.
 
 RINGS = {
     6: "the Road",

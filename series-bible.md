@@ -393,6 +393,31 @@ so nothing gets lost between sessions.)*
 
 ---
 
+## 9b. Register and Proportion
+
+- **The analysis is not bounded by word count.** The story is what earns the reader's interest; by the time
+  they reach the Advisor's Notes, the Toolbox block and Talk It Over, they have chosen to be there. Those
+  sections are bounded by *scope* — one idea, one picture, one turn, one thing to try — and a section that
+  needs another two hundred words to land the turn properly should have them. The old 450–550 word guide on
+  the Notes is a shape, not a ceiling.
+- **The story still holds its shape.** Cutting the analysis short to protect a word count is the error;
+  letting the story sprawl is a different one and the caps there still apply.
+- **Inward movement is explained in plain words.** On the Movement card and everywhere else. The numbered
+  ladder belongs to outward movement only.
+- **Applied retroactively to Episode 002.** The Advisor's Notes went from roughly 560 words to 1,100 and the
+  Toolbox block from 380 to 540. What the room bought: the Luke 16 context (the dishonest manager, and
+  *entrust* as the load-bearing word in verse 11); the objection — *does this not make friendship cold?* —
+  raised and answered rather than left standing; the mercy inside the slowness; and, in the Toolbox block,
+  the split between *am I useful here* and *am I wanted here*, which is the actual engine of contingent
+  worth and had been compressed into half a sentence.
+- **Site build conventions** live in `docs/site-conventions.md` and are the standing reference for anything
+  structural. Two that affect how the writing is read: every content page carries a left navigation pane,
+  and **episodes are listed in sequence, oldest first** — the series is produced faster than it is read, so
+  most visitors are arriving behind rather than waiting on the next one, and newest-first would ask them to
+  start in the middle.
+
+---
+
 ## 10. Open Threads
 
 *(The second good idea that turns up mid-draft is not a paragraph. It is a future episode. Log it here.)*
@@ -416,6 +441,6 @@ so nothing gets lost between sessions.)*
   five numbered rungs for **moving outward** (notice it · name it small and early · adjust one key · step
   them out one ring and say so · set the Watch) and four things worth counting for **moving inward** (time
   under weather · small things repeatedly · how they take a no · what repair looks like when they fail).
-  **Open question:** the Movement card labels a clean move "with the rung that was used" — but Quill's move
-  in Episode 002 is *inward*, and the numbered ladder is the *outward* one. Decide whether inward moves cite
-  the four countables by number, or stay in words. The Episode 002 card currently carries no rung label.
+  **Settled: an inward move is described in plain words on the Movement card, never numbered.** The
+  numbered ladder is the outward one, and an outward move may cite its rung by number. The four inward
+  countables are named in prose or not at all.

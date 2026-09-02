@@ -43,7 +43,12 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 - [ ] **React to the specimen.** Does the shape carry? The parts most worth judging: the mask card's four
       fields, whether the *further along the same road* fourth response earns its place, and whether the
       closing self-facing section lands as a gift rather than an instrument.
-- [ ] **The Rulebook** (Miss Quill) — the other-facing case. Next if the shape holds.
+- [x] **Rebuilt as interactive** — `assets/dojo.js`, choices with consequences, Ambrose as sensei. Labels
+      withheld until after the outcome. Progressive enhancement: works with JS off.
+- [x] **The Mind-Reader** — green belt, built. `dojo/green-01-the-mind-reader.html`.
+- [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
+      throughout. Genesis 3 and 1 Kings 18:17–18.
+- [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.
 - [ ] **The Joke** (Bruno, in costume, deliberately not canon) — proves the wing can hold what the kingdom
       cannot.
 - [ ] **The Standard** — later. Discernment about when to speak and when not to; Ephesians 4:15.

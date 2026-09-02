@@ -30,7 +30,11 @@ five hundred words without an episode having to go dark for two thousand.
    section and gets the most care. And it **never ends on the recognition**: it ends with what taking the
    mask off actually sounds like, in sentences the reader could say. Diagnosis without a next sentence is
    just a nicer way of feeling bad.
-3. **The Dojo names situations, sentences and masks. It never names the story's machinery.** No harm
+3. **Clinical terms stay off the page.** DARVO, projection, gaslighting and the rest are demoted to a My
+   Toolbox link, exactly as contingent worth is. The reader gets the mechanism in plain words here and the
+   vocabulary there if she wants it. A named syndrome invites diagnosis; a described mechanism invites
+   recognition.
+4. **The Dojo names situations, sentences and masks. It never names the story's machinery.** No harm
    engines, no second-order thinking, no rung ladders. Those stay taught-by-plot in the episodes. This is
    the exact seam where the wing could start explaining the episodes to their own audience, and a future
    session will read "the Dojo explains things" as licence to explain everything. It is not.
@@ -50,8 +54,23 @@ ordinary friction as malice.
 | Brown | A pattern you can no longer explain charitably. You still do not know their heart. |
 | Black | The mask has fused. No repair on offer. Technique runs out. |
 
-**Masks cut across the belts.** The same mask appears at white belt worn for an afternoon and at brown belt
-worn for twenty years. Watching one travel up the belts is most of what there is to learn about it.
+**Masks scale across the belts.** The same mask appears at more than one belt. What moves it up is never
+the mask itself — it is what else the scenario contains. **Two escalators, and both are acts:**
+
+1. **A track record.** The same move repeated, landing the same way, always in their favour. One of anything
+   proves nothing; six is a shape.
+2. **An act out of bounds on its own.** Wrong in itself whatever was meant by it — a confidence repeated to
+   third parties, a checkable fact denied, somebody's standing moved as a punishment. These can raise a belt
+   inside a *single* conversation, because you do not need a pattern to establish that a thing happened.
+
+Keeping both escalators on the level of **acts** is what makes the higher belts safe to write. *"You told
+three people what I said in confidence"* is checkable and answerable. *"You are manipulative"* is a verdict
+on an interior nobody has seen. So a raised belt changes how carefully the reader responds and what happens
+to the other person's keys — and still licenses no conclusion about their heart. That is the Keep's own
+rule: access moves on evidence, standing does not move at all.
+
+**Power imbalance is a third escalator** and is reserved for brown and above. Green is peer-level by
+definition, since the belt is *shame-driven, good faith underneath*.
 
 A **mask is a rationalization** — a sentence a person tells themselves so that what they are doing can go on
 feeling alright. It is a state, not an essence; anyone can put one on and they come off. Masks are never
@@ -63,27 +82,65 @@ species-coded and never assigned to a permanent outsider class.
 > the tier genuinely hard while keeping it charitable — and it is the biblical account of the thing, where
 > the deceiving is mostly of oneself.
 
-## 4. The shape of a case
+## 4. The shape of a case — interactive
 
-Roughly 900–1,400 words. Six parts, in this order.
+**A case is a game, not an essay.** The reader chooses a response and finds out what it caused. This is not
+decoration on the teaching: the series' central device is **the Second Question** — the moment where an
+obvious answer changes because somebody asks what it would *cause*. A static page can only assert that. A
+drill makes the reader do it, which is the one thing the episodes cannot do.
 
-1. **The rehearsal note** (`.dojo-note`) — one short italic paragraph. Who is wearing the mask, and the fact
-   that they are acting. Bruno enjoys it too much; somebody is laughing.
-2. **The drill** — the scene in about 120 words, then **the line that lands on you**, set apart.
-3. **The mask card** (`.mask`) — four fields, always these four: *what it protects underneath · what it buys
-   · why it fails · what Scripture puts in its place.* The Scripture field is not decoration; it does the
-   replacing, and the reasoning must be visible rather than asserted.
-4. **The roads** (`.road`) — `is-left` caving, `is-right` lashing, `is-path` the road, and usually
-   `is-far`, a version further along the same road. Each carries **what it buys** before **what it costs**,
-   and the ditches get their goods named sincerely. A reader who caves needs to see why caving is
-   understandable, or she will feel caught rather than taught.
-5. **Why the last one is best** — and specifically that it is *not the average of the ditches*. Caving and
-   lashing are both self-protective. The road costs you something for the other person's sake. If a
-   response gets easier as it gets better, it is not the road.
-6. **The mask on yourself** (`.onself`) — one narrow question with a real answer, not *do I do this too
-   much*. Then what taking it off sounds like, before and after.
+**Two drills per case**, and the second one is the important one:
 
-Close with **Practise it** (`.talk`) — three exercises, the last one turning it on the reader.
+- **Drill one — it is being done to you.** Somebody else wears the mask.
+- **Drill two — you are wearing it.** Same mask, reader in it. This is where the case earns its place, and
+  it should be the harder of the two.
+
+Each drill: scene (~120 words) → **the line that lands** (`.drill-lands`) → four choices → an outcome per
+choice → sensei.
+
+### Rules for the choices
+
+- **Four options, never labelled.** No *(caving)*, no ordering by quality, no tick marks. A labelled answer
+  gets picked because it is labelled and teaches nothing but a script.
+- **Not all four are a ditch and a road.** Include at least one genuinely arguable option — a half-measure,
+  or one whose rightness depends on something the reader has not decided yet. *Multiple answers may be
+  defensible.* Drill two of the Helper has only one certainly-wrong choice, and it is the kind one.
+- **The best answer is not always fourth.** Vary it.
+
+### Rules for the outcomes
+
+- **Every choice gets a real scene**, not a verdict. Weeks later, with the consequence in it. The wrong ones
+  are not punished; they are *followed*, which is the actual lesson.
+- **Never hit/block, win/lose, correct/incorrect.** Winning language is precisely how this wing turns into
+  the internet version, where the reader optimises for the move that defeats the other person. The
+  distinction is never right-versus-wrong; it is *what it cost that you did not intend*.
+- **Consequences must be specific and material.** Not *he feels hurt* but *he stops telling you*. The
+  lashing outcome in the Helper does not stop the behaviour; it drives it underground. That is what makes it
+  land.
+
+### The sensei
+
+**Old Ambrose** runs the yard. Slow, unhurried, already the character who corrects people, and he brings the
+dark honey when he means to. He speaks after every choice, in this order: what was genuinely good about it
+first, then what it cost, and **only at the end** a name — *left ditch, caving* — in `.names`. The
+abstraction is his, never the interface's.
+
+He must not become Thomas. Short, dry, one idea, and he never grades the reader as a person.
+
+### The rest of the case
+
+- **The mask card** (`.mask`) — four fields, always these four: *what it protects underneath · what it buys
+  · why it fails · what Scripture puts in its place.* The Scripture field does the replacing, and the
+  reasoning is shown rather than asserted.
+- **Taking it off** (`.onself`) — one narrow question with a real answer, then the sentences: one for
+  before, one for after you have already done it.
+- **Practise it** (`.talk`) — three exercises, the last turning it on the reader.
+
+### Build notes
+
+`assets/dojo.js` drives all of it and needs no per-case code — mark up `.drill`, `.choice[data-outcome]`,
+`.outcome#id`, `.drill-again`, `.drill-done`. It is progressive enhancement: with JavaScript off every
+outcome is visible and the case reads as a plain page.
 
 ## 5. Register
 
@@ -116,6 +173,16 @@ None have been rolled yet. The specimen case ships text-only and reads fine that
   people actually get bulldozed.
 - **The Joke** — deliberately **not** canon. Nobody in Pigglyvale does this in earnest and nobody should,
   which is exactly why it needs the rehearsal frame. Proves the wing can hold what the kingdom cannot.
+- **The Mind-Reader** — green belt. *Built.* They tell you what is inside you and answer the invention.
+  Anchor: 1 Corinthians 2:11, chosen because it disqualifies the reader as well — nobody argues about
+  anybody's interior. Technique: *report what you saw, ask what it means, do not fill the gap.*
+- **The Turn** — brown belt, and the case that justifies the belt system. A single reversal is genuinely
+  indistinguishable from somebody who was really hurt, so it can only be taught where a track record or an
+  out-of-bounds act is on the table. The masked figure stays masked for the whole case: not because they are
+  an outsider, but because the covered face *is* the epistemics. Anchors: Genesis 3 (Adam blames Eve *and*
+  God; the reversal is the first reflex of the species, which is depravity taught charitably) and 1 Kings
+  18:17–18 (Elijah answers *"you troubler of Israel"* by stating plainly who did what, and neither caves nor
+  lashes).
 - **The Standard** — later, and flagged by the author as personally relevant. The case is discernment about
   *when to speak and when not to*, and why honesty for its own sake is not a virtue on its own. Ephesians
   4:15 is the anchor: the truth is to be spoken **in love**, and the two are one instruction rather than a

@@ -993,3 +993,117 @@ a.belt:hover .belt-name { color: var(--guava); }
   .onself { background: #fff; color: #000; border: 1px solid #999; }
   .onself h2, .onself .ask { color: #000; }
 }
+
+/* ---------- the Dojo drills (interactive) ---------- */
+
+.drill {
+  max-width: var(--measure);
+  margin: 2rem auto;
+  padding: 1.6rem 1.5rem 1.3rem;
+  background: var(--paper-deep);
+  border-top: 4px solid var(--sofrito);
+}
+
+.drill h2 { font-size: 1.2rem; color: var(--plum); margin: 0 0 0.75rem; }
+.drill > p { margin: 0 0 0.9rem; }
+
+.drill-lands {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 1.14rem;
+  color: var(--guava);
+  margin: 1.2rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--guava);
+}
+
+.drill-ask {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 0.82rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+  margin: 1.5rem 0 0.75rem !important;
+}
+
+.choices { display: grid; gap: 0.6rem; margin-bottom: 1.25rem; }
+
+.choice {
+  font-family: var(--body);
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: left;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid rgba(92, 69, 96, 0.28);
+  border-left: 4px solid var(--paper-deep);
+  border-radius: 2px;
+  padding: 0.8rem 0.95rem;
+  cursor: pointer;
+}
+.choice:hover { border-left-color: var(--mango); background: #fff; }
+.choice[aria-pressed="true"] { border-left-color: var(--plum); background: #fff; }
+.choice.is-seen::after {
+  content: " ·";
+  color: var(--sofrito);
+  font-weight: 700;
+}
+
+.outcome {
+  background: var(--paper);
+  border-left: 4px solid var(--plum);
+  padding: 1.25rem 1.3rem 1rem;
+  margin-bottom: 1rem;
+}
+.outcome:focus { outline: none; }
+.outcome h3 {
+  font-size: 0.82rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+  margin: 0 0 0.7rem;
+}
+.outcome p { margin: 0 0 0.85rem; }
+
+.sensei {
+  margin-top: 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--paper-deep);
+}
+.sensei-who {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.05em;
+  color: var(--plum);
+  margin: 0 0 0.4rem !important;
+}
+.sensei p { font-size: 0.99rem; }
+.sensei .names {
+  font-family: var(--display);
+  font-style: italic;
+  color: var(--ink-soft);
+  margin-bottom: 0 !important;
+}
+
+.drill-again, .drill-done {
+  font-size: 0.94rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  margin: 0 !important;
+}
+.drill-done {
+  margin-top: 0.75rem !important;
+  padding: 0.85rem 1rem;
+  background: var(--paper);
+  border-left: 3px solid var(--mango);
+  font-style: normal;
+}
+
+@media print {
+  .choices { display: none; }
+  .outcome { display: block !important; }
+}

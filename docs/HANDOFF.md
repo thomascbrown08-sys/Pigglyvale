@@ -1,5 +1,10 @@
 # Handoff — everything standing between here and Episode 002
 
+> **HISTORICAL RECORD — 2026-09-01. Do not work from this file.**
+> This was the handoff into the Episode 002 session. Its checklist is complete and its filenames predate
+> the versioning convention. Kept because it documents what was intended at the time. For current tasks see
+> `the-workbench_v3.md`; for canon see `series-bible_v4.md`.
+
 ## 1. Put these in the project
 
 So a fresh session has the whole picture without needing this conversation.

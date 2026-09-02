@@ -30,6 +30,12 @@
       label: "A Chart from the Kingdom",
       title: "The Map of the Keep",
       path:  "pages/the-map-of-the-keep.html"
+    },
+    {
+      slug:  "dojo-index",
+      label: "A Wing of the Kingdom",
+      title: "The Dojo",
+      path:  "dojo/index.html"
     }
   ];
 

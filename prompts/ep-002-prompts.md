@@ -32,7 +32,7 @@ Hence two rules, and they govern this whole file:
 > do not name them and do not attach their sheet. That is the whole method and it is the only one that works
 > with this tool.
 
-**About the old blocks.** `series-bible.md` §5 still carries a `[NEGATIVE]` block. It was written for a tool
+**About the old blocks.** `series-bible_v4.md` §5 still carries a `[NEGATIVE]` block. It was written for a tool
 that had a negative field, and it worked there. Do not paste it into this one. The positive-form **STYLE**
 paragraph used in every slot below replaces it.
 

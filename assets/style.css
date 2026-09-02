@@ -841,3 +841,155 @@ blockquote {
   .keep-pick { display: none; }
   .keep-card { display: block !important; background: #fff; border: 1px solid #999; }
 }
+
+/* ============================================================
+   THE DOJO — belt board, mask cards, and the three-road drill
+   Used only by pages under dojo/.
+   ============================================================ */
+
+.dojo-note {
+  max-width: var(--measure);
+  margin: 0 auto 2rem;
+  font-family: var(--display);
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 1rem;
+}
+
+/* ---------- belt board ---------- */
+
+.belts { max-width: var(--measure); margin: 0 auto; list-style: none; padding: 0; }
+
+.belt {
+  display: block;
+  margin-bottom: 1.1rem;
+  padding: 1rem 1.1rem 0.9rem 1.4rem;
+  background: var(--paper-deep);
+  border-left: 10px solid var(--belt, var(--ink-soft));
+  text-decoration: none;
+  color: inherit;
+}
+a.belt:hover .belt-name { color: var(--guava); }
+
+.belt-name {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--plum);
+  display: block;
+}
+.belt-bears { margin: 0.2rem 0 0; color: var(--ink-soft); font-size: 0.97rem; }
+.belt-count { font-size: 0.88rem; color: var(--sofrito); font-style: italic; }
+
+.belt.is-white  { --belt: #e8ddcb; }
+.belt.is-yellow { --belt: var(--mango); }
+.belt.is-green  { --belt: var(--sofrito); }
+.belt.is-brown  { --belt: #7a5230; }
+.belt.is-black  { --belt: var(--plum-deep); }
+
+/* ---------- the mask card ---------- */
+
+.mask {
+  max-width: var(--measure);
+  margin: 2.25rem auto;
+  background: var(--paper-deep);
+  border-top: 4px solid var(--plum);
+  padding: 1.6rem 1.5rem 1.3rem;
+}
+.mask h2 { font-size: 1.3rem; color: var(--plum); margin: 0 0 0.3rem; }
+.mask .mask-says {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 1.12rem;
+  color: var(--guava);
+  margin: 0 0 1.2rem;
+}
+.mask dl { margin: 0; }
+.mask dt {
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+  margin-top: 1rem;
+}
+.mask dd { margin: 0.15rem 0 0; }
+
+/* ---------- the three roads ---------- */
+
+.road {
+  max-width: var(--measure);
+  margin: 1.5rem auto;
+  padding: 1.25rem 1.35rem 1rem;
+  background: var(--paper);
+  border: 1px solid var(--paper-deep);
+  border-left: 5px solid var(--road, var(--ink-soft));
+}
+.road.is-left  { --road: #8a8fa8; }
+.road.is-right { --road: var(--guava); }
+.road.is-path  { --road: var(--sofrito); }
+.road.is-far   { --road: var(--mango); }
+
+.road-where {
+  font-family: var(--display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--road);
+  margin: 0 0 0.5rem;
+}
+.road-say {
+  font-size: 1.06rem;
+  font-style: italic;
+  color: var(--ink);
+  margin: 0 0 0.9rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid var(--paper-deep);
+}
+.road .buys, .road .costs { margin: 0 0 0.4rem; font-size: 0.97rem; }
+.road .buys b, .road .costs b {
+  font-family: var(--display);
+  font-size: 0.78rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+.road .buys b  { color: var(--sofrito); }
+.road .costs b { color: var(--guava); }
+
+/* ---------- the mask on yourself ---------- */
+
+.onself {
+  max-width: var(--measure);
+  margin: 2.5rem auto 0;
+  padding: 1.75rem 1.6rem 1.4rem;
+  background: var(--plum);
+  color: var(--paper-deep);
+  border: 0;
+}
+.onself h2 { color: var(--paper); font-size: 1.25rem; margin: 0 0 0.8rem; }
+.onself p { margin: 0 0 0.85rem; }
+.onself .ask {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--mango);
+  margin: 1.1rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--mango);
+}
+.onself .offsay {
+  background: rgba(250, 240, 232, 0.1);
+  border-left: 3px solid var(--paper-deep);
+  padding: 0.85rem 1rem;
+  margin: 0.9rem 0;
+  font-style: italic;
+}
+.onself a { color: var(--mango); }
+
+@media print {
+  .onself { background: #fff; color: #000; border: 1px solid #999; }
+  .onself h2, .onself .ask { color: #000; }
+}

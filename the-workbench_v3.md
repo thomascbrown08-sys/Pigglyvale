@@ -5,7 +5,8 @@
 > were stale — the site had moved ahead of the snapshot v2 was written from. See §5. Companion canon files
 > are now `series-bible_v4.md` and `the-arc-room_v2.md`.
 
-**The single place to look for outstanding tasks.** Pigglyvale only. Update whenever something ships.
+**Production detail for Pigglyvale.** For priorities, dependencies and what to do first, see **`TODO.md`**
+at the root — that is the master list and it points here. Update this file whenever something ships.
 
 Companion files: `series-bible_v4.md` (canon) · `docs/the-arc-room_v2.md` (planning) ·
 `docs/site-conventions.md` (structure).

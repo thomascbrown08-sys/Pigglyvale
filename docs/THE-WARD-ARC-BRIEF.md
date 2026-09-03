@@ -67,15 +67,65 @@ notices it for about four seconds and then gets on with the beans.
 *Security is boring.* That is the whole payload, and it is the opposite of a climax, which is why it needs
 planning rather than instinct. Everything else in the arc exists to make that Tuesday land.
 
-## 6. Canon conflict that must be resolved first
+## 6. Canon conflict — decided in principle, amendment still to draft
 
 **The Abandonment Protocol.** The bible currently requires abandonment to be approached *obliquely* and
 *resolved within the same episode*. A ward arc is a sustained, multi-episode engagement with exactly that.
 
-The rule was written for a good reason and this arc breaks it. It must be **amended deliberately**, with new
-limits written down — not quietly overrun. The planning session should produce the amendment before it
-produces a spine. Candidate shape: oblique remains the default; the ward arc is a named, bounded exception
-with its own rule about how long a fear may stand unresolved on the page.
+**Author's ruling: the arc is exempt.** By the time it runs, the protocol either carries a named exemption
+for Arc D or is retired altogether.
+
+**Recommendation — exempt rather than retire, and replace the rule rather than delete it.** The protocol was
+written for a real reason: sustained, unresolved abandonment on the page is the thing most able to do harm
+here. Deleting it leaves nothing in its place at exactly the point of maximum risk. What the old rule
+governs is *approach*; what the arc needs governed is *duration*. So:
+
+> **Proposed amendment.** Outside Arc D, abandonment stays oblique and resolves within the episode, as now.
+> Inside Arc D it may be direct and may run across episodes — but **no episode ends with the fear standing
+> alone.** Every episode that raises it must also contain, on the page, a beat of ordinary secure presence:
+> somebody is still there, doing something dull, and has not gone. The fear may be unresolved. It may never
+> be unaccompanied.
+
+That keeps the honesty and removes the harm, and it is checkable per episode rather than a matter of taste.
+
+## 6b. The abandonment is a choice, not a misfortune — decided
+
+**Author's ruling.** The ward's parents could no longer support the child, or chose not to. Not killed by
+circumstance. The wound is deeper when abandonment reads as a *verdict from someone who loved you* rather
+than a tragedy that happened to everybody, and the arc should reach the real thing rather than a softer
+neighbour of it.
+
+**This is right, and it raises the stakes on guard #1 rather than lowering them.** A verdict-shaped
+abandonment maps far more closely onto the reader's own, which is exactly what makes it reach — and exactly
+what makes identification more likely to invert toward the child. So:
+
+- **The parents never appear on the page. Ever.** Not in a scene, not in a flashback, not arriving late in
+  the arc to be confronted or forgiven. They are a fact the child carries, never an event the reader
+  watches. Staging the abandonment puts the reader inside the child's experience of it, which is the one
+  place this arc must not take her.
+- **The child knows they chose.** That is stated once, plainly, early, by the child, in a flat voice, and
+  nobody argues with it or softens it. It is not revisited as a mystery.
+- **Nobody explains it.** No adult offers a reason, a redemptive reading, or a "they must have loved you
+  really." Carolyn's job is not to reframe it. It is to be there on Tuesday.
+
+## 6c. Where the truth goes, and how carefully
+
+The theological centre of this arc is **adoption**, and it is not a metaphor bolted on — it is the Christian
+account of belonging, in which a place is *conferred* rather than earned, by choice rather than by blood,
+and cannot be revoked by the one who conferred it. That is the precise inverse of a parent who could revoke.
+
+**This also puts pressure on the Keep's own formulation**, which the planning session must resolve:
+*blood gets you the seat, conduct keeps the keys.* A ward has no blood claim and gets the seat anyway. Two
+options — deepen the phrase so the arc is where it is finally understood, or amend it. **Deepening is much
+better**, and it would be the strongest payoff the Keep chart could possibly get.
+
+**On Scripture, and the one verse to be most careful with.** Psalm 27:10 says what this arc is about almost
+too exactly: *my father and my mother have forsaken me, but the LORD will take me in.* It is the right text
+and it must not be handed to anybody. Do not put it in an Advisor's Note about the ward. Do not let a
+character quote it at the child. If it appears at all, it appears once, very late, unremarked, in the mouth
+of somebody who is not talking about the child — and then nobody says anything about it.
+
+The arc's job is not to apply truth to a wound. It is to build a true picture and then be quiet.
 
 ## 7. What has to be earned first — criteria, not a season number
 
@@ -99,8 +149,8 @@ Season One is too early. Season Two probably is as well. That is a feature.
 - **Is the ward Donna?** A young deer taken into a kingdom of pigs is visibly not-of-this-family, which puts
   belonging-without-matching directly on the page. It also uses a character already asked for. Risk: too
   on-the-nose, and it overloads a character who may be wanted for something else.
-- **Where do they come from, and is anyone still alive?** This is the single largest decision. A dead parent
-  and a living-but-absent one are entirely different arcs and only one of them is writable here.
+- ~~Where do they come from?~~ **Decided — see §6b.** Abandoned by choice; parents never appear. Still open:
+  whether they are alive, which the reader need never learn, and probably should not.
 - **Does the kingdom decide, or does Carolyn?** The Long Table has a claim. This is also the cleanest way to
   make it a *story* rather than a private emotional event.
 - **How does it end, and does it end?** The arc room's habit is to know the last beat first.

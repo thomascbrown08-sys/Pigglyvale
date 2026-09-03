@@ -3,20 +3,27 @@
 Everything is in here. Unzip, upload the whole folder, done.
 
 ```
+TODO.md                 ← START HERE. Master list, priorities, dependencies.
 index.html
 series-bible_v4.md      canon — continuity, characters, pipeline rules
-the-workbench_v3.md     the task list — start here after a break
+the-workbench_v3.md     production detail behind the master list
 assets/          style.css · episodes.js
 episodes/        ep-001 · ep-002 · _TEMPLATE.html
 pages/           the-map-of-the-keep.html
 prompts/         00-reference-sheets.md · ep-002-prompts.md
 tools/           movement_card.py
-docs/            site-conventions.md · the-arc-room_v2.md · EPISODE-003-HANDOFF.md
+docs/            site-conventions.md · the-arc-room_v2.md · the-dojo-design.md
+                 EPISODE-003-HANDOFF.md · THE-WARD-ARC-BRIEF.md
                  002-bible-delta.md · HANDOFF.md (historical)
 images/          _reference/ · keep/ · ep-001/ · ep-002/
 ```
 
 ---
+
+## Where to start
+
+**`TODO.md`.** It is the master list: what is blocking, what is unblocked, which way the dependencies run,
+and which file holds the detail for each item. Everything else is a sublist it points at.
 
 ## Before it goes live — three things
 

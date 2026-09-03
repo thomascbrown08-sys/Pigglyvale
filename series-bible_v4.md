@@ -503,9 +503,16 @@ A wing of the site, at `dojo/`. Full design rules in `docs/the-dojo-design.md`; 
 A long arc in which Carolyn takes in an orphan. **Not to be written yet**, and it is the one planned arc
 that breaks an existing rule rather than extending one.
 
-- **It conflicts with the Abandonment Protocol.** Abandonment is currently handled obliquely and resolved
-  within the same episode. This arc is a sustained engagement with it. The protocol must be **amended on
-  purpose**, with new limits written down, before any spine exists. Do not quietly overrun it.
+- **The Abandonment Protocol is exempted for this arc** (author's ruling). Recommended amendment, still to
+  be drafted: outside Arc D the rule stands as now; inside it, abandonment may be direct and may run across
+  episodes, but **no episode ends with the fear standing alone** — every episode raising it also carries a
+  beat of ordinary secure presence on the page. Unresolved is allowed. Unaccompanied is not.
+- **The abandonment is a choice, not a misfortune** (author's ruling). The parents could not or would not
+  keep the child. **They never appear on the page** — not in a scene, not in a flashback, not late in the
+  arc to be confronted or forgiven. The child states it once, plainly, and nobody softens it or explains it.
+- **Adoption is the theological centre**, and it puts pressure on the Keep's own phrase — *blood gets you
+  the seat* — since a ward has no blood claim and gets the seat anyway. Deepen the phrase there rather than
+  amend it; it would be the strongest payoff the chart could get.
 - **Point of view stays locked to Carolyn.** Never inside the child's head, in any episode, for any reason.
 - **The child is a character, not a function** — wants of their own that have nothing to do with the theme.
 - **The site still never narrates her progress.** That rule is load-bearing here more than anywhere else.

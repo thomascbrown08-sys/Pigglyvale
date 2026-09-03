@@ -57,9 +57,14 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
       layer is navigation and does not need replacing.
 - [x] **The Helper expanded to four drills** — two per perspective, differing on one axis each. The
       pattern is documented in the design doc; it is the shape every case should now follow.
-- [ ] **The Mind-Reader needs the same treatment** — it has two drills and wants four. Suggested axes: a
-      second *done to you* where the reader must answer in front of other people, and a second *you wear it*
-      where the reading is about somebody's feelings toward a third party rather than toward you.
+- [x] **Mind-Reader drill one rebuilt as transcript** — Yolanda named as the wearer, outcomes played out
+      as dialogue, analysis pinned to specific lines via `.beat-note`, Ambrose cut to two sentences. This is
+      now the house pattern; the first draft was too abstract to follow.
+- [ ] **Apply the transcript pattern to the rest** — Mind-Reader drill two, and all four Helper drills.
+      They still use narrated summary and read as over-explained beside the rebuilt one.
+- [ ] **The Mind-Reader still wants four drills** — a second *done to you* where you must answer in front
+      of other people, and a second *you wear it* where the reading is about somebody's feelings toward a
+      third party rather than toward you.
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.

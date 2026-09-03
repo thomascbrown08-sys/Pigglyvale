@@ -1246,3 +1246,36 @@ a.belt-choice:hover .belt-name { color: var(--guava); }
   color: var(--sofrito);
 }
 .two-ways p.is-mine b { color: var(--guava); }
+
+/* ---------- transcripts inside a drill outcome ----------
+   Same markup as the Washing-Up (p.line / span.who / em) so there is one
+   dialogue convention on the site. Notes pin the analysis to the line it is
+   about, instead of banking it all up at the end. */
+
+.outcome p.line {
+  margin: 0 0 0.55rem;
+  padding-left: 1.4rem;
+  text-indent: -1.4rem;
+  font-size: 1rem;
+}
+.outcome .who {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 0.86rem;
+  letter-spacing: 0.04em;
+  color: var(--plum);
+}
+.outcome p.line em { color: var(--ink-soft); }
+
+.beat-note {
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.7rem 0.9rem;
+  background: var(--paper-deep);
+  border-left: 3px solid var(--mango);
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink-soft);
+}
+.beat-note b { font-style: normal; color: var(--plum); }
+.outcome .after { margin-top: 1rem; }

@@ -210,10 +210,29 @@ choice → sensei.
   defensible.* Drill two of the Helper has only one certainly-wrong choice, and it is the kind one.
 - **The best answer is not always fourth.** Vary it.
 
-### Rules for the outcomes
+### Rules for the outcomes — show it, do not summarise it
 
-- **Every choice gets a real scene**, not a verdict. Weeks later, with the consequence in it. The wrong ones
-  are not punished; they are *followed*, which is the actual lesson.
+**This is where the first draft of the Mind-Reader went wrong and it is worth stating hard.** An outcome
+written as narrated compression — *"forty minutes later you are both exhausted"* — tells the reader it
+devolved instead of letting her watch it devolve, and then the analysis has nothing on the page to attach
+itself to. The reader ends up holding two abstractions and no scene.
+
+- **Outcomes are transcripts.** Use the site's one dialogue convention: `p.line` / `span.who` / `<em>` for
+  business, the same as the Washing-Up. Let the conversation actually play out, turn by turn, so the
+  devolution is felt rather than reported.
+- **Name the person wearing the mask.** *"A friend"* has no face and cannot carry a scene. Auntie Yolanda
+  can. A named character brings tells, history and a voice the reader already knows, and every one of those
+  is doing work the prose would otherwise have to do alone.
+- **Pin the analysis to the line it is about.** A `.beat-note` sits inside the transcript, immediately after
+  the exchange it explains, and points at one specific sentence: *there — that is the turn, and it is not
+  the accusation, it is the "I'm not blaming you."* This is a coach stopping the tape, not a lecture after
+  the match. Two or three per outcome, one or two sentences each.
+- **Ambrose gets shorter as the transcript gets longer.** Two sentences and the name. If he needs more than
+  that, the transcript has not done its job and the fix is upstream.
+- **One concrete detail beats a paragraph of principle.** The whole grievance in the Mind-Reader turns out
+  to be that Bean put a pepper in Yolanda's tea and then watched her. That is what the reader remembers, and
+  it is what makes *the real thing was never what you had decided about her* land without being asserted.
+- **The wrong choices are not punished; they are followed.**
 - **Never hit/block, win/lose, correct/incorrect.** Winning language is precisely how this wing turns into
   the internet version, where the reader optimises for the move that defeats the other person. The
   distinction is never right-versus-wrong; it is *what it cost that you did not intend*.

@@ -82,6 +82,47 @@ species-coded and never assigned to a permanent outsider class.
 > the tier genuinely hard while keeping it charitable — and it is the biblical account of the thing, where
 > the deceiving is mostly of oneself.
 
+## 3b. The shape of the wing — three levels
+
+**A reader in distress can hold one question: *what did they just say to me?*** She cannot hold a page that
+asks her to pick a belt she has not learned yet. So the wing is a tree and you enter it by the sentence.
+
+| Level | Page | Carries |
+|---|---|---|
+| **The room** | `dojo/index.html` | What this place is, and the shelf of masks — each one a sentence. Nothing else. |
+| **The branch** | `dojo/mask-*.html` | One mask: what is under it, what it buys, why it fails, the Scripture, how to take it off yourself. Then the belts *this mask is offered at*. |
+| **The leaf** | `dojo/the-*-<belt>.html` | The drills, and nothing else. Ring art at the top, two drills, practise. Visually quiet. |
+
+**Not every mask gets every belt, and the gaps are the teaching.** A belt row can say *not offered* with a
+reason — the Helper has no brown belt because a helper who will not stop when asked is wearing something
+else, and the Mind-Reader has no white belt because being told what you are thinking is never quite
+nothing-aimed. Writing those refusals down is how the ladder stays honest.
+
+**`how-the-belts-work.html`** holds the two ditches and the road, the five belts, and the two escalators.
+Splitting it off the front page is what makes the front page usable.
+
+**Guard against diagnosis-shopping.** Mask-first navigation invites a reader to browse for the label that
+fits somebody she is angry with. The counterweight is in the writing: a branch page opens with *the sentence
+you heard*, never a profile of a person, and the self-facing repair sits on the branch rather than buried at
+the foot of a leaf. She arrives by what was said, not by what someone is.
+
+## 3c. Art — SVG, not the image pipeline
+
+Masks are geometric objects, so the wing's art is flat SVG in the site palette — the same register as the
+Movement card and the butterfly, and it costs no image rolls.
+
+- **Mask icons.** One shared face path plus a two-or-three-element mark per mask. Generator and marks are in
+  `tools/dojo_icons.py`; adding a mask is one dictionary entry. **A mask with no case built yet gets a blank
+  face** — that does the navigation work honestly instead of looking unfinished.
+- **Belt swatches.** One SVG tinted by `.is-white` … `.is-black`.
+- **The practice ring.** One shared drawing at the head of every leaf. Deliberately identical everywhere:
+  it marks *you are in the ring now* and it is not worth a unique illustration per case.
+- **The ditches and the road.** A cross-section on the belts page. It teaches the geometry faster than the
+  three paragraphs under it.
+
+*Painted mask art — a row of masks on pegs in the yard, in the storybook style — would be a good future
+episode-quality roll. The SVG layer is navigation and does not need replacing.*
+
 ## 4. The shape of a case — interactive
 
 **A case is a game, not an essay.** The reader chooses a response and finds out what it caused. This is not

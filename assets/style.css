@@ -1107,3 +1107,95 @@ a.belt:hover .belt-name { color: var(--guava); }
   .choices { display: none; }
   .outcome { display: block !important; }
 }
+
+/* ---------- Dojo iconography (SVG, no image pipeline) ---------- */
+
+.mask-icon { width: 100%; height: auto; display: block; }
+.mask-icon .m-face { fill: var(--plum); }
+.mask-icon .m-eye  { fill: var(--paper); }
+.mask-icon .m-mark { fill: none; stroke: var(--mango); stroke-width: 2.4; stroke-linecap: round; }
+.mask-icon .m-mark-f { fill: var(--mango); }
+.mask-icon.is-blank .m-face { fill: var(--paper-deep); stroke: var(--ink-soft); stroke-opacity: 0.35; }
+.mask-icon.is-blank .m-eye  { fill: var(--paper); }
+
+/* the mask shelf on the Dojo front page */
+.shelf-masks { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+@media (min-width: 40rem) { .shelf-masks { grid-template-columns: 1fr 1fr; gap: 1.1rem; } }
+
+.mask-tile {
+  display: grid;
+  grid-template-columns: 4.5rem 1fr;
+  gap: 0.9rem;
+  align-items: start;
+  padding: 0.95rem 1rem;
+  background: var(--paper-deep);
+  border-left: 4px solid var(--plum);
+  text-decoration: none;
+  color: inherit;
+}
+a.mask-tile:hover { background: #fff; }
+a.mask-tile:hover .mask-tile-name { color: var(--guava); }
+.mask-tile.is-soon { border-left-color: var(--paper-deep); opacity: 0.72; }
+
+.mask-tile-name {
+  font-family: var(--display);
+  font-variation-settings: 'SOFT' 50, 'WONK' 1;
+  font-weight: 700;
+  font-size: 1.02rem;
+  color: var(--plum);
+  display: block;
+  line-height: 1.2;
+}
+.mask-tile-says {
+  font-family: var(--display);
+  font-style: italic;
+  color: var(--guava);
+  font-size: 0.95rem;
+  margin: 0.2rem 0 0;
+}
+.mask-tile.is-soon .mask-tile-says { color: var(--ink-soft); }
+.mask-tile-belts { font-size: 0.85rem; color: var(--sofrito); margin: 0.35rem 0 0; font-style: italic; }
+
+/* belt swatch */
+.belt-swatch { width: 3.2rem; height: auto; display: block; }
+.belt-swatch .b-band { fill: var(--belt, var(--ink-soft)); }
+.belt-swatch .b-knot { fill: var(--belt, var(--ink-soft)); filter: brightness(0.85); }
+.belt-swatch .b-edge { fill: none; stroke: var(--ink); stroke-opacity: 0.25; stroke-width: 1; }
+
+.belt-choice {
+  display: grid;
+  grid-template-columns: 3.6rem 1fr;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 1rem 1.1rem;
+  background: var(--paper-deep);
+  text-decoration: none;
+  color: inherit;
+}
+a.belt-choice:hover { background: #fff; }
+a.belt-choice:hover .belt-name { color: var(--guava); }
+.belt-choice.is-none { opacity: 0.7; }
+.belt-choice.is-none .belt-name { color: var(--ink-soft); }
+
+/* the practice ring, at the head of every engagement page */
+.ring-art { max-width: 22rem; margin: 0 auto 1.5rem; }
+.ring-art svg { width: 100%; height: auto; display: block; }
+.ring-art .r-ground { fill: var(--paper-deep); }
+.ring-art .r-rope { fill: none; stroke: var(--mango); stroke-width: 2.5; stroke-dasharray: 9 7; stroke-linecap: round; }
+.ring-art .r-post { fill: var(--plum); }
+.ring-art .r-mark { fill: none; stroke: var(--ink-soft); stroke-opacity: 0.4; stroke-width: 1.5; stroke-linecap: round; }
+
+/* the two ditches and the road, as a cross-section */
+.roads-art { max-width: var(--measure); margin: 1.5rem auto 2rem; }
+.roads-art svg { width: 100%; height: auto; display: block; }
+.roads-art .g-fill { fill: var(--paper-deep); }
+.roads-art .g-line { fill: none; stroke: var(--ink-soft); stroke-opacity: 0.5; stroke-width: 2; }
+.roads-art .g-road { fill: none; stroke: var(--sofrito); stroke-width: 4; stroke-linecap: round; }
+.roads-art .g-label {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 13px;
+  fill: var(--ink-soft);
+  text-anchor: middle;
+}
+.roads-art .g-label.on-road { fill: var(--sofrito); font-weight: 700; }

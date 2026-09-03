@@ -46,6 +46,12 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 - [x] **Rebuilt as interactive** — `assets/dojo.js`, choices with consequences, Ambrose as sensei. Labels
       withheld until after the outcome. Progressive enhancement: works with JS off.
 - [x] **The Mind-Reader** — green belt, built. `dojo/green-01-the-mind-reader.html`.
+- [x] **Restructured into a tree** — room → mask → belt. Front page is a mask shelf; belts and escalators
+      moved to `how-the-belts-work.html`; mask cards moved onto branch pages, so the leaves are drills only.
+- [x] **SVG art layer** — mask icons (blank face where no case exists yet), belt swatches, the practice
+      ring, the ditches-and-road cross-section. Generator: `tools/dojo_icons.py`.
+- [ ] **Painted mask art** — optional, later. A row of masks on pegs in the yard, storybook style. The SVG
+      layer is navigation and does not need replacing.
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.

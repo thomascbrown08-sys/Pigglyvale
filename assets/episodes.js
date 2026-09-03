@@ -36,6 +36,12 @@
       label: "A Wing of the Kingdom",
       title: "The Dojo",
       path:  "dojo/index.html"
+    },
+    {
+      slug:  "dojo-how",
+      label: "The Dojo",
+      title: "How the belts work",
+      path:  "dojo/how-the-belts-work.html"
     }
   ];
 

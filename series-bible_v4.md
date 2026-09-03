@@ -498,6 +498,22 @@ A wing of the site, at `dojo/`. Full design rules in `docs/the-dojo-design.md`; 
 
 ---
 
+## 9d. Arc D, the Ward — flagged, not scheduled
+
+A long arc in which Carolyn takes in an orphan. **Not to be written yet**, and it is the one planned arc
+that breaks an existing rule rather than extending one.
+
+- **It conflicts with the Abandonment Protocol.** Abandonment is currently handled obliquely and resolved
+  within the same episode. This arc is a sustained engagement with it. The protocol must be **amended on
+  purpose**, with new limits written down, before any spine exists. Do not quietly overrun it.
+- **Point of view stays locked to Carolyn.** Never inside the child's head, in any episode, for any reason.
+- **The child is a character, not a function** — wants of their own that have nothing to do with the theme.
+- **The site still never narrates her progress.** That rule is load-bearing here more than anywhere else.
+
+Full brief, including the five criteria that must be true before it can run: `docs/THE-WARD-ARC-BRIEF.md`.
+
+---
+
 ## 10. Open Threads
 
 *(The second good idea that turns up mid-draft is not a paragraph. It is a future episode. Log it here.)*

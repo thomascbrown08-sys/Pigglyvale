@@ -60,6 +60,9 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 - [x] **Mind-Reader drill one rebuilt as transcript** — Yolanda named as the wearer, outcomes played out
       as dialogue, analysis pinned to specific lines via `.beat-note`, Ambrose cut to two sentences. This is
       now the house pattern; the first draft was too abstract to follow.
+- [x] **Mind-Reader is fully uniform** — both drills are transcripts with pinned notes, and the case closes
+      with a prayer. This page is the reference implementation.
+- [x] **Prayers designed and added to both cases.** Rule: never petition for the skill. See design doc.
 - [ ] **Apply the transcript pattern to the rest** — Mind-Reader drill two, and all four Helper drills.
       They still use narrated summary and read as over-explained beside the rebuilt one.
 - [ ] **The Mind-Reader still wants four drills** — a second *done to you* where you must answer in front
@@ -162,7 +165,9 @@ every time.
 - [ ] **How long is Season One?** The latency ladder has four rungs; episode count sets the spacing.
 - [ ] **Where does the Season One plant go** — the badly-and-quickly-resolved dispute that pays off in
       Season Two. Needs a host episode in the back half.
-- [ ] **Donna's engine and role.**
+- [ ] **Donna's engine and role.** *(Also open: whether Donna is the ward in Arc D. See the brief §8 —
+      a deer in a kingdom of pigs puts belonging-without-matching on the page, but it may be too on-the-nose
+      and it spends a character who might be wanted elsewhere.)*
 - [ ] **"The Watch" as a name** — protective or punitive? Canon by default; *The Gate* and *The Threshold*
       were the alternatives. A find-and-replace if it lands wrong, and it gets more expensive every episode.
 - [ ] **Miss Quill's rewritten grant rule** is due in a month of story time and should appear on the page
@@ -205,7 +210,7 @@ From arc room §6. Not decisions — just what is next.
 | **004 — Arc A, the Watch** | Needs two clean Movement cards read first. Bruno does not repent. |
 | **005 — Arc B, the offer** | Structural, no antagonist, rests the register after 004. |
 | *Somewhere 003–005* | The two-hundred-word Pim beat — *"You don't lose your seat here. You might lose the spoon for a week."* |
-| **Later, told in advance** | Arc D, the ward. |
+| **Later, told in advance** | **Arc D, the ward.** Now has a planning brief: `docs/THE-WARD-ARC-BRIEF.md`. Not to be written until the five criteria in its §7 are all true — Season Two is probably still too early. Needs a **dedicated planning chat**, and needs the Abandonment Protocol amended before any spine exists. |
 
 ---
 

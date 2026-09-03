@@ -249,6 +249,29 @@ abstraction is his, never the interface's.
 
 He must not become Thomas. Short, dry, one idea, and he never grades the reader as a person.
 
+### The prayer that closes a case
+
+**One per case, at the very end, after the drills.** Not one per drill — by the third it is rote, and rote
+is the opposite of what it is for.
+
+Three short movements, no headings:
+
+1. **What is true of God**, drawn from *this case's* passage so it cannot drift generic.
+2. **What is true of me** — the confession, the mask named plainly in the first person.
+3. **The asking** — and this is the rule that matters: **never ask for the skill.** A prayer that says
+   *help me say the road response* has recruited prayer into the method, which is precisely the failure the
+   prayer exists to prevent. Ask for the disposition underneath, and ask God to act on the situation and the
+   other person: *go on ahead of me, and be gentler with them than my guess about them was.*
+
+**Why this guard is not optional here.** The reader already believes her place is contingent on performing
+well. A prayer asking to perform better hands that ledger a spiritual column, and it would be the most
+harmful thing on the site. Confession and dependence are safe. Petition for competence is not.
+
+A short `.prayer-why` line above it names the limit: the drills can put a better sentence in your mouth,
+they cannot make you somebody who wants to hear the answer. The same statement appears on the Dojo front
+page under **What a yard cannot do**, so the whole wing is framed by it rather than qualified by it at the
+end.
+
 ### The rest of the case
 
 - **The mask card** (`.mask`) — four fields, always these four: *what it protects underneath · what it buys

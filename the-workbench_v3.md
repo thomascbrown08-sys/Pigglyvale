@@ -83,7 +83,10 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 - [ ] **Mind-Reader wants two more drills** — it is the only mask with two rather than four.
 - [x] **The Long Winter built** — green belt, four drills, John 5:6–8. Four masks live: Helper (white),
       Weather-Keeper (white + yellow), Mind-Reader (green), Long Winter (green).
-- [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
+- [x] **The Long Winter, brown belt** — the wing's first brown case. The masked player is unnamed
+      throughout, deliberately: the covered face *is* the epistemics. Anchor 1 Thess 5:14.
+- [ ] **The Turn** — brown belt. *(Lower priority now — the Long Winter's brown belt already demonstrates
+      the two-escalator rule and the Watch in practice.)* The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.
 - [ ] **The Joke** (Bruno, in costume, deliberately not canon) — proves the wing can hold what the kingdom

@@ -73,25 +73,16 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 > mouth is closed*, not *no tears*. To keep a character out of a frame, do not name them and do not attach
 > their sheet. Paste one slot at a time, never a whole prompt file. Bible §5, pipeline rules 13–17.
 
-### Priority — one decision, not a roll
+### Priority — cleared
 
-**1. Episode 001's repair beat — the image exists and is good. This is a decision, not a task.**
+**1. ~~Episode 001's repair beat~~ — done, 2026-09-02.**
 
-`images/ep-001/05-repair.png` is in the folder: Carolyn down on the kitchen floor at mouse height with Pim,
-two yellow butterflies, one settled on the spoon rack, exactly as the prose has it. It is a strong image and
-it is not referenced by the page.
+The image was in the folder the whole time; only the wiring was missing. `05-repair.png` now sits after the
+butterflies paragraph and the close was renumbered `06-close.png`, so Episode One matches the six-slot
+contract used from 002 on. Both episodes are now complete art, six slots each.
 
-It was wired in once and then **deliberately reverted at your instruction**, because `HANDOFF.md` says to
-leave Episode 001 alone and wiring it means editing the episode's markup. So the question is yours and only
-yours:
-
-- **Leave it.** Episode 001 keeps its five-slot shape as first published. The image stays in the folder
-  unused.
-- **Wire it.** Add a `<figure>` after *"Nobody in Pigglyvale ever remarks on the butterflies. They only
-  notice."*, and decide whether the close stays `05-close.png` or is renumbered `06-close.png` to match the
-  six-slot contract used from 002 on.
-
-Nothing else in the project is blocked on this either way.
+~~*Still open:* Episode One's pager reads "Episode Two, shortly".~~ **Done 2026-09-02** — it points at
+Episode Two. Every pager on the site now resolves to a real page.
 
 ### Round Five — already named in the bible as owed
 

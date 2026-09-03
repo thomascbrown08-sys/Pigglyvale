@@ -347,7 +347,7 @@ Update after every episode. This is what keeps the teaching balanced and the cal
 
 | # | Title | Primary lesson | Background lesson | Harm engine | Who apologized | New canon facts |
 |---|---|---|---|---|---|---|
-| 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared. *Art completed in a separate session. Five slots, no repair illustration in the markup; a sixth image exists in the folder, unused.* |
+| 001 | *The Small Yeses* | Boundaries: saying no early | Second-order thinking | Good intention, bad execution (Thomas); shortsighted self-interest (Bruno) | **Thomas** to Carolyn; **Carolyn** to Yolanda and to Pim | Fair Week; Beatrix's oven cracked (3 weeks); Thomas voiced the Notes; butterflies first appeared. *Art completed in a separate session. Brought onto the six-slot contract 2026-09-02: repair illustration added, close renumbered.* |
 | 002 | *The Column Nobody Read* | Boundaries: trust is earned by evidence | Biblical principle, reasoned out (Luke 16:10) | Good intention, bad execution (Carolyn) **chained into** rule over person (Quill) | **Carolyn** to Quill, three parts; **Quill** to Carolyn, badly and meaning it | Marisol Vega; the seventh column; the Keep enters the Notes via the Movement card; Thomas corrected by Ambrose *inside the Notes* and does not yet own it |
 
 ## 6b. The Season Clock

@@ -114,11 +114,34 @@ sentence has been said forty times before the afternoon it matters. Somebody arr
 and will still be helped, but that is not what the place is designed around, and designing around it would
 wreck it.
 
-Which settles the diagnosis-shopping problem structurally rather than by careful wording. **Every mask on
-the shelf is labelled by the reader's vulnerability, not by the other person's behaviour** — *hard for you
-if you cannot refuse a kindness without feeling ungrateful; if you feel you have to prove what you were
-really thinking; if you end up apologising and cannot reconstruct how.* You cannot browse that list for a
-label to pin on somebody, because every entry is a question about yourself.
+Which settles the diagnosis-shopping problem structurally rather than by careful wording. **Every mask is
+labelled by the reader's vulnerability, not by the other person's behaviour.** You cannot browse that list
+for a label to pin on somebody, because every entry is a question about yourself.
+
+### Two entrances, always. This is a rule.
+
+A mask gets you two ways, and every tile and every branch page carries **both**, separately labelled:
+
+- **If it is worn at you** — the sentence that would have you agreeing to something untrue by Tuesday
+  evening, or saying something you would want back.
+- **If you reach for it** — the one that comes to hand when you are cornered, tired, or in the wrong and
+  not ready to be.
+
+They map onto the two drills the case already has, so the tile is a promise the leaf keeps. And most people
+find their two are not the same mask, which is itself worth discovering.
+
+**The labels are load-bearing, not decorative.** A single unlabelled line is ambiguous in exactly the place
+it can least afford to be. *"You accept sharpness as the fair price of honesty"* read one way is tolerating
+somebody else's edge to get the truth out of them, and read the other way is excusing your own — and the
+second reading is the mask. Splitting it in two and labelling each half is the whole fix:
+
+| | The Standard |
+|---|---|
+| **Worn at you** | you take somebody's sharpness as the price of getting the truth out of them. |
+| **You reach for it** | you call your own sharpness honesty, and the shortfall in warmth gets renamed a virtue. |
+
+When writing a new mask, draft both lines before anything else. If the *you reach for it* line will not
+come, the mask is probably not a rationalization and does not belong on the shelf.
 
 **The sparring partner puts on whatever you need.** Bruno is equipment, not a bestiary. Saying so in the
 room copy is what keeps the mask list from reading as a catalogue of enemies — the mask is the thing being

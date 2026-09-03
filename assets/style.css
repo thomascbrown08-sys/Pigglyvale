@@ -1200,14 +1200,21 @@ a.belt-choice:hover .belt-name { color: var(--guava); }
 }
 .roads-art .g-label.on-road { fill: var(--sofrito); font-weight: 700; }
 
-/* the vulnerability line on a mask tile — the way in is your own weak side */
+/* The two ways in. Every mask is entered by the reader's own weak side, and
+   there are two of those: folding when it is worn at you, and reaching for it
+   yourself. Both lines are labelled so neither has to carry the ambiguity. */
 .mask-tile-hard {
   font-size: 0.9rem;
   color: var(--ink-soft);
-  margin: 0.4rem 0 0;
-  padding-top: 0.4rem;
+  margin: 0.45rem 0 0;
+  padding-top: 0.45rem;
   border-top: 1px solid rgba(92, 69, 96, 0.18);
   display: block;
+}
+.mask-tile-hard.is-mine {
+  margin-top: 0.3rem;
+  padding-top: 0;
+  border-top: 0;
 }
 .mask-tile-hard b {
   font-family: var(--display);
@@ -1216,3 +1223,18 @@ a.belt-choice:hover .belt-name { color: var(--guava); }
   text-transform: uppercase;
   color: var(--sofrito);
 }
+.mask-tile-hard.is-mine b { color: var(--guava); }
+
+/* the same pair, at full size, on a branch page */
+.two-ways { margin: 1.5rem 0; }
+.two-ways p { margin: 0 0 0.75rem; padding-left: 1rem; border-left: 3px solid var(--sofrito); }
+.two-ways p.is-mine { border-left-color: var(--guava); }
+.two-ways b {
+  display: block;
+  font-family: var(--display);
+  font-size: 0.76rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+}
+.two-ways p.is-mine b { color: var(--guava); }

@@ -69,6 +69,8 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 - [ ] **The Mind-Reader still wants four drills** — a second *done to you* where you must answer in front
       of other people, and a second *you wear it* where the reading is about somebody's feelings toward a
       third party rather than toward you.
+- [x] **The Weather-Keeper built** — white belt, four drills, Romans 12:18 and 1 Cor 3:6–7. Three masks
+      now live: Helper (white), Weather-Keeper (white), Mind-Reader (green).
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.

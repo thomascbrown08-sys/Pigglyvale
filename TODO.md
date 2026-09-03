@@ -52,9 +52,8 @@ Pick these up whenever. None of them is waiting on anything.
 
 4. **Convert the Helper's four drills to transcripts.** They are now visibly the old narrated style beside
    the rebuilt Mind-Reader. Pattern and reasoning: `docs/the-dojo-design.md`.
-5. **Build the Weather-Keeper mask** — *"I should have known how that would land."* Being responsible for
-   other people's feelings. Anchor: Romans 12:18, *so far as it depends on you*. Same root as contingent
-   worth. Design notes in `the-workbench_v3.md` §0b.
+5. ~~Build the Weather-Keeper mask~~ — **done.** White belt, four drills, branch + anatomy + prayer.
+   Next for it: the **yellow belt** case (the mood doing the asking, with a track record behind it).
 6. **Roll `yolanda-sheet.png`.** She leads 003. `yolanda-crop.png` will carry her, but a lead deserves a
    sheet.
 7. **Decide the Episode 001 repair-beat renumbering** — *done*, and left in place. Nothing to do unless you

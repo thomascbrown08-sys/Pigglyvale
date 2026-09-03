@@ -10,6 +10,9 @@ MARKS = {
                '<path class="m-mark" d="M25 6 L21 3"/><path class="m-mark" d="M39 6 L43 3"/>',
  "turn":       '<path class="m-mark" d="M22 32 C26 38 40 38 43 31"/>'
                '<path class="m-mark" d="M43 31 L46 35"/><path class="m-mark" d="M43 31 L38 32"/>',
+ "weatherkeeper": '<path class="m-mark" d="M15 9 C19 5 23 13 27 9"/>'
+                   '<path class="m-mark" d="M30 8 C34 4 38 12 42 8"/>'
+                   '<path class="m-mark" d="M45 10 C48 7 51 13 54 10"/>',
  "peacemaker": '<path class="m-mark" d="M22 31 C26 35 38 35 42 31"/>',
  "softener":   '<path class="m-mark" d="M18 32 C24 28 40 36 46 31"/>',
  "rulebook":   '<path class="m-mark" d="M20 31 L44 31"/><path class="m-mark" d="M24 35 L40 35"/>',

@@ -328,6 +328,14 @@ None have been rolled yet. The specimen case ships text-only and reads fine that
   God; the reversal is the first reflex of the species, which is depravity taught charitably) and 1 Kings
   18:17–18 (Elijah answers *"you troubler of Israel"* by stating plainly who did what, and neither caves nor
   lashes).
+- **The Weather-Keeper** — white belt. *Built.* Being responsible for other people's feelings. Anchors:
+  Romans 12:18, where Paul puts the limit *inside* the command — *if possible, so far as it depends on you*
+  — so a Weather-Keeper has spent years failing to obey something God did not ask; and 1 Corinthians 3:6–7,
+  *neither he who plants nor he who waters is anything.* Sits at **white** because in the ordinary case
+  nothing was aimed at all, and the mask is that a silence got read as a summons.
+  **Its most useful teaching is a deliberate inversion:** in drill two, asking — the road everywhere else in
+  the yard — is the mask. The difference is whether you already know the answer. Asking a question you know
+  the answer to is not curiosity; it is an offer to reopen.
 - **The Standard** — later, and flagged by the author as personally relevant. The case is discernment about
   *when to speak and when not to*, and why honesty for its own sake is not a virtue on its own. Ephesians
   4:15 is the anchor: the truth is to be spoken **in love**, and the two are one instruction rather than a

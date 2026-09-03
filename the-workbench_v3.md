@@ -50,6 +50,9 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
       moved to `how-the-belts-work.html`; mask cards moved onto branch pages, so the leaves are drills only.
 - [x] **SVG art layer** — mask icons (blank face where no case exists yet), belt swatches, the practice
       ring, the ditches-and-road cross-section. Generator: `tools/dojo_icons.py`.
+- [x] **Reframed as training, not lookup.** The room now sorts masks by *what you fold against* rather
+      than by what somebody else does, and the anatomy moved to its own `under-*.html` page so the branch is
+      short and the ring is two clicks from the front door.
 - [ ] **Painted mask art** — optional, later. A row of masks on pegs in the yard, storybook style. The SVG
       layer is navigation and does not need replacing.
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked

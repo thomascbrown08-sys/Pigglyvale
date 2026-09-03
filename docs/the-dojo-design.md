@@ -89,9 +89,15 @@ asks her to pick a belt she has not learned yet. So the wing is a tree and you e
 
 | Level | Page | Carries |
 |---|---|---|
-| **The room** | `dojo/index.html` | What this place is, and the shelf of masks — each one a sentence. Nothing else. |
-| **The branch** | `dojo/mask-*.html` | One mask: what is under it, what it buys, why it fails, the Scripture, how to take it off yourself. Then the belts *this mask is offered at*. |
-| **The leaf** | `dojo/the-*-<belt>.html` | The drills, and nothing else. Ring art at the top, two drills, practise. Visually quiet. |
+| **The room** | `dojo/index.html` | What this place is, and the shelf of masks. Nothing else. |
+| **The branch** | `dojo/mask-*.html` | Icon, the sentence, one *train this if* line, the belt list. Short on purpose — get them into the ring. |
+| **The leaf** | `dojo/the-*-<belt>.html` | The drills. Ring art, two drills, practise, then a link onward. |
+| **Beside it** | `dojo/under-*.html` | The anatomy: what it protects, buys, fails, the Scripture, taking it off yourself, where it climbs. |
+
+**The anatomy is a separate page, and the order is drill first.** The description is essential once and
+overhead every time after — a reader on her third visit does not need to scroll past the theory to reach the
+ring. So the branch links to it as optional, and the leaf links to it *after* the drills: spar, then hear
+the explanation. That is the order a yard actually works in.
 
 **Not every mask gets every belt, and the gaps are the teaching.** A belt row can say *not offered* with a
 reason — the Helper has no brown belt because a helper who will not stop when asked is wearing something
@@ -101,10 +107,22 @@ nothing-aimed. Writing those refusals down is how the ladder stays honest.
 **`how-the-belts-work.html`** holds the two ditches and the road, the five belts, and the two escalators.
 Splitting it off the front page is what makes the front page usable.
 
-**Guard against diagnosis-shopping.** Mask-first navigation invites a reader to browse for the label that
-fits somebody she is angry with. The counterweight is in the writing: a branch page opens with *the sentence
-you heard*, never a profile of a person, and the self-facing repair sits on the branch rather than buried at
-the foot of a leaf. She arrives by what was said, not by what someone is.
+### You come in by your own weak side
+
+**This is a yard, not an infirmary.** The wing is for the weeks when nothing is happening, so that the hard
+sentence has been said forty times before the afternoon it matters. Somebody arriving mid-crisis is welcome
+and will still be helped, but that is not what the place is designed around, and designing around it would
+wreck it.
+
+Which settles the diagnosis-shopping problem structurally rather than by careful wording. **Every mask on
+the shelf is labelled by the reader's vulnerability, not by the other person's behaviour** — *hard for you
+if you cannot refuse a kindness without feeling ungrateful; if you feel you have to prove what you were
+really thinking; if you end up apologising and cannot reconstruct how.* You cannot browse that list for a
+label to pin on somebody, because every entry is a question about yourself.
+
+**The sparring partner puts on whatever you need.** Bruno is equipment, not a bestiary. Saying so in the
+room copy is what keeps the mask list from reading as a catalogue of enemies — the mask is the thing being
+trained against, and who happens to be wearing it is not the point.
 
 ## 3c. Art — SVG, not the image pipeline
 

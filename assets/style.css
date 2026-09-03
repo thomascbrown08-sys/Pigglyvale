@@ -1199,3 +1199,20 @@ a.belt-choice:hover .belt-name { color: var(--guava); }
   text-anchor: middle;
 }
 .roads-art .g-label.on-road { fill: var(--sofrito); font-weight: 700; }
+
+/* the vulnerability line on a mask tile — the way in is your own weak side */
+.mask-tile-hard {
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  margin: 0.4rem 0 0;
+  padding-top: 0.4rem;
+  border-top: 1px solid rgba(92, 69, 96, 0.18);
+  display: block;
+}
+.mask-tile-hard b {
+  font-family: var(--display);
+  font-size: 0.74rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--sofrito);
+}

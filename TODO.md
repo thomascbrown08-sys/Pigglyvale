@@ -18,6 +18,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
 | **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
+| **`docs/KEEP-YOUR-HEART-TODO.md`** | Gaps and handoff for the Keep Your Heart site. For its own chat. |
 | **`series-bible_v4.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live. |
 
 ---
@@ -51,7 +52,9 @@ Nothing else in the project is waiting on anything else.
 
 Pick these up whenever. None of them is waiting on anything.
 
-4. **Convert the Helper's four drills to transcripts.** They are now visibly the old narrated style beside
+4. ~~Convert the Helper's drills to transcripts~~ — **done.** Every leaf in the Dojo is now uniform.
+   Next smallest job there: the **Mind-Reader wants two more drills**, being the only mask with two rather
+   than four. They are now visibly the old narrated style beside
    the rebuilt Mind-Reader. Pattern and reasoning: `docs/the-dojo-design.md`.
 5. ~~Build the Weather-Keeper mask~~ — **done.** White *and* yellow belts, four drills each, branch +
    anatomy + prayers. Next for it: green, where they genuinely believe you are responsible.
@@ -59,7 +62,11 @@ Pick these up whenever. None of them is waiting on anything.
    sheet.
 7. **Decide the Episode 001 repair-beat renumbering** — *done*, and left in place. Nothing to do unless you
    want it reverted.
-8. **Work on My Toolbox.** `docs/TOOLBOX-SUGGESTIONS.md` — eleven proposed entries ordered by need, plus
+8. **Work on Keep Your Heart.** `docs/KEEP-YOUR-HEART-TODO.md`. The headline is that Pigglyvale has been
+   rebuilding chapters that already exist there — Ch. 15 *Burdens and Loads* is the Helper, Ch. 22 *What Was
+   Done To You* is the Watch, Ch. 14 *Truth in Love* is the Dojo's whole premise. Cross-links from
+   Pigglyvale are already in. Three real gaps: **Repair**, **Anger**, **Church hurt**.
+9. **Work on My Toolbox.** `docs/TOOLBOX-SUGGESTIONS.md` — eleven proposed entries ordered by need, plus
    one structural fix. **Contingent worth is first** and is already promised: Episode 002 motivates it and
    two deep links are parked on the Toolbox index until it exists. Carry that file into the Toolbox chat;
    it needs no Pigglyvale context.
@@ -68,27 +75,27 @@ Pick these up whenever. None of them is waiting on anything.
 
 ## P3 — queued, each waiting on something
 
-9. **Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both.
+10. **Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both.
    → blocks **Episode 004** and the bench arc.
-10. **Write Bruno's token block, then roll his sheet.** He has no crop and has never been drawn.
+11. **Write Bruno's token block, then roll his sheet.** He has no crop and has never been drawn.
     → blocks **Episode 004**.
-11. **Decide how long Season One is.** → sets the latency-ladder spacing → sets where the **Season One
+12. **Decide how long Season One is.** → sets the latency-ladder spacing → sets where the **Season One
     plant** goes (the badly-resolved dispute that pays off eighteen months later).
-12. **Decide Donna's engine and role.** → and see the ward brief §8, since she may be the ward.
-13. **Rule on "the Watch" as a name.** Canon by default; a find-and-replace now, more expensive every
+13. **Decide Donna's engine and role.** → and see the ward brief §8, since she may be the ward.
+14. **Rule on "the Watch" as a name.** Canon by default; a find-and-replace now, more expensive every
     episode.
-14. **Roll proper sheets for Pim, Fig, Quill, Marisol.** Crops are carrying all four. Not blocking anything.
+15. **Roll proper sheets for Pim, Fig, Quill, Marisol.** Crops are carrying all four. Not blocking anything.
 
 ---
 
 ## Parked on purpose
 
-15. **Arc D, the ward.** `docs/THE-WARD-ARC-BRIEF.md`. Two decisions are now made (§6, §6b); the protocol
+16. **Arc D, the ward.** `docs/THE-WARD-ARC-BRIEF.md`. Two decisions are now made (§6, §6b); the protocol
     amendment still needs drafting. **Do not start until all five criteria in §7 are true** — the binding
     one is the repair rhythm, which needs more episodes than exist. Needs its own dedicated chat.
-16. **The `presuppositions.md` trial.** Read-only for two episodes, then decide whether anything folds into
+17. **The `presuppositions.md` trial.** Read-only for two episodes, then decide whether anything folds into
     the skill. → needs 003 and 004 written.
-17. **Painted mask art for the Dojo.** The SVG layer is navigation and does not need replacing.
+18. **Painted mask art for the Dojo.** The SVG layer is navigation and does not need replacing.
 
 ---
 

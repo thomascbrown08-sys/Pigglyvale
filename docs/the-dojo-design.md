@@ -336,6 +336,19 @@ None have been rolled yet. The specimen case ships text-only and reads fine that
   **Its most useful teaching is a deliberate inversion:** in drill two, asking — the road everywhere else in
   the yard — is the mask. The difference is whether you already know the answer. Asking a question you know
   the answer to is not curiosity; it is an offer to reopen.
+- **The Long Winter** — green belt. *Built.* Real hardship arriving whenever accountability does. Anchor:
+  John 5:6–8, the man at Bethesda — Christ does not dispute the thirty-eight years and does not accept them
+  as the last word, then supplies the power, which is what keeps it from being cruelty.
+
+  > **This mask carries a guard the others do not need, and it is not optional.** In every drill the
+  > hardship is **true**. Nothing invented, nobody faking, and there is no case where it turns out to have
+  > been a story. A reader who leaves this page better at *suspecting* people has learned the exact
+  > opposite of the lesson and will use it on the next person who tells her the truth. The road never
+  > disputes the winter — it holds both: *I know it has, and the oil didn't come.* The word between them is
+  > **and**, never *but*.
+  >
+  > Say this at the top of the branch page, in the leaf, and in the design notes. It is the one place the
+  > wing could do real harm.
 - **The Standard** — later, and flagged by the author as personally relevant. The case is discernment about
   *when to speak and when not to*, and why honesty for its own sake is not a virtue on its own. Ephesians
   4:15 is the anchor: the truth is to be spoken **in love**, and the two are one instruction rather than a

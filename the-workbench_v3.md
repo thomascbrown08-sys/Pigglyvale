@@ -71,9 +71,18 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
       third party rather than toward you.
 - [x] **The Weather-Keeper built** — white *and* yellow belts, four drills each, Romans 12:18 and 1 Cor
       3:6–7. Three masks live, four belts between them.
+- [x] **Keep Your Heart cross-links added** — every Pigglyvale page that raises a problem now offers two
+      doors: My Toolbox for the clinical name, Keep Your Heart for the fuller Christian treatment. Traffic
+      is one-way and stays that way.
 - [x] **Toolbox cross-links added** to all three anatomy pages, under *If you want the clinical words for
       it*. Codependency, Parentification, Nowhere safe to fail, Disorganized attachment, DARVO — all live
       on the Toolbox already. Pigglyvale points out; the Toolbox does not point back.
+- [x] **Every leaf is now uniform** — Helper converted to transcripts, and the duplicated *taking it off*
+      section removed from the Helper and Mind-Reader leaves, since it lives on the anatomy pages. Five
+      leaves, all transcript-style, all closing on a prayer.
+- [ ] **Mind-Reader wants two more drills** — it is the only mask with two rather than four.
+- [x] **The Long Winter built** — green belt, four drills, John 5:6–8. Four masks live: Helper (white),
+      Weather-Keeper (white + yellow), Mind-Reader (green), Long Winter (green).
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.
@@ -221,6 +230,10 @@ From arc room §6. Not decisions — just what is next.
 ---
 
 ## 4. Logged, not scheduled
+
+- **The loaf that was not there before** — an episode against the zero-sum assumption, via Beatrix and
+  Marisol. Full brief in `series-bible_v4.md` §9e, including the three guards and Proverbs 11:26. Pairs with
+  the theft episode: trade creates, taking moves.
 
 - **College or food-establishment setting** — bakery or Marisol's pitch is the cheaper, more canon-consistent
   route than inventing a college in Snouton.

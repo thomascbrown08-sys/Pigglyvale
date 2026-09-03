@@ -521,6 +521,54 @@ Full brief, including the five criteria that must be true before it can run: `do
 
 ---
 
+## 9e. Candidate episode — the loaf that was not there before
+
+*Logged, not scheduled. Reader request, 2026-09-02.*
+
+**The belief to dismantle:** that gain is always taken from somebody. That for one to profit another must
+lose, so a neighbour's good week is your bad one, and the decent response to somebody prospering is
+suspicion.
+
+**Why Pigglyvale is unusually well placed for it.** The machinery already exists and none of it needs
+inventing: Beatrix has a cracked oven, two apprentices and every customer's name; Marisol has an oven and
+forty years of a different bread; the Pepper Patch is shared ground tended by everyone and therefore by
+nobody; Bruno has a cart and no figures; Miss Quill has the only accurate record of anything.
+
+**The shape.** Beatrix decides Marisol is taking her customers. That belief is reasonable, sympathetic, and
+wrong — and the harm engine is *shortsighted self-interest*, not malice. The obvious protective move is a
+decree: no outside stall during fair week. It would be popular, it would be defensible, and it would make
+everybody poorer including Beatrix, which is the second-order beat the episode turns on.
+
+**What is actually true, shown and never argued.** Two people value the same hour differently. Beatrix
+would rather do the fair-week contracts she already has than learn a bread she has never made; Marisol
+would rather bake than keep accounts and remember two hundred names. So when they trade, both end the week
+with more than they started — and the extra loaves were not taken off anybody. **They did not exist
+before.** That is the whole lesson and it must arrive as a plate of bread rather than as a paragraph.
+
+**Guards, and they matter more than usual here.**
+
+- **This touches contested political ground**, so §house rules apply at full strength: teach the
+  *mechanism* — that people value the same thing differently, that specialising and exchanging produces
+  more than either could alone — and never a policy. No character advocates a system. Nobody uses the words
+  *market*, *competition*, or *efficiency*.
+- **Honesty requires the limit.** Not everything is positive-sum. Theft is not. Fraud is not. A rigged
+  weight is not. The episode is stronger for conceding it, and it pairs naturally with the theft episode
+  already in the arcs — trade creates, taking moves.
+- **Nobody is converted by an argument.** Beatrix changes her mind because of a fortnight, an order she
+  could not have filled alone, and a loaf on a table. If she changes it because somebody explains
+  economics to her, the episode has failed.
+
+**Scripture:** Proverbs 11:26 — *the people curse him who holds back grain, but a blessing is on the head of
+him who sells it.* Remarkably exact: hoarding against a neighbour is the cursed thing, and selling to him is
+the blessed one. 1 Corinthians 12 sits underneath it for the specialisation half — many members, different
+gifts, one body — if a second text is wanted.
+
+**Also serves:** the civic-responsibility theme, since the decree that would have protected Beatrix is the
+ruler absorbing a cost on somebody's behalf and making everyone poorer by it. Same failure as Carolyn's
+flaw, at kingdom scale.
+
+---
+
 ## 10. Open Threads
 
 *(The second good idea that turns up mid-draft is not a paragraph. It is a future episode. Log it here.)*

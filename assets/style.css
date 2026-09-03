@@ -628,6 +628,14 @@ blockquote {
 
 .epnav-item { margin-bottom: 0.6rem; }
 
+/* nesting: the Dojo sits under the Keep, the belts page under the Dojo */
+.epnav-item.lv-1 { margin-left: 0.85rem; }
+.epnav-item.lv-2 { margin-left: 1.7rem; }
+.epnav-item.lv-1 .epnav-name { font-size: 0.97rem; }
+.epnav-item.lv-2 .epnav-name { font-size: 0.93rem; }
+.epnav-item.lv-1 .epnav-number,
+.epnav-item.lv-2 .epnav-number { font-size: 0.75rem; }
+
 .epnav-item a {
   display: block;
   text-decoration: none;

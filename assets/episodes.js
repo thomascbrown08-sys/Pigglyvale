@@ -24,24 +24,31 @@
     }
   ];
 
+  /* `level` indents the entry. `prefix` marks it current for any page whose
+     PV_CURRENT starts with it, so the Dojo stays lit while you are deep in a
+     mask or a drill. Exact slug matches always win over a prefix match. */
   var EXTRAS = [
     {
       slug:  "the-map-of-the-keep",
       label: "A Chart from the Kingdom",
       title: "The Map of the Keep",
-      path:  "pages/the-map-of-the-keep.html"
+      path:  "pages/the-map-of-the-keep.html",
+      level: 0
     },
     {
-      slug:  "dojo-index",
-      label: "A Wing of the Kingdom",
-      title: "The Dojo",
-      path:  "dojo/index.html"
+      slug:   "dojo-index",
+      label:  "A Wing of the Keep",
+      title:  "The Dojo",
+      path:   "dojo/index.html",
+      level:  1,
+      prefix: "dojo-"
     },
     {
       slug:  "dojo-how",
-      label: "The Dojo",
+      label: "Before you start",
       title: "How the belts work",
-      path:  "dojo/how-the-belts-work.html"
+      path:  "dojo/how-the-belts-work.html",
+      level: 2
     }
   ];
 
@@ -50,9 +57,9 @@
   var list = document.getElementById("epnav-list");
   if (!list) { return; }
 
-  function item(href, eyebrow, title, isCurrent) {
+  function item(href, eyebrow, title, isCurrent, level) {
     var li = document.createElement("li");
-    li.className = "epnav-item" + (isCurrent ? " is-current" : "");
+    li.className = "epnav-item lv-" + (level || 0) + (isCurrent ? " is-current" : "");
 
     var a = document.createElement("a");
     a.href = href;
@@ -72,15 +79,18 @@
     return li;
   }
 
+  var exact = EPISODES.concat(EXTRAS).some(function (e) { return e.slug === current; });
+
   EPISODES.forEach(function (ep) {
     list.appendChild(
-      item(base + "episodes/" + ep.file, "Episode " + ep.number, ep.title, ep.slug === current)
+      item(base + "episodes/" + ep.file, "Episode " + ep.number, ep.title,
+           ep.slug === current, 0)
     );
   });
 
   EXTRAS.forEach(function (x) {
-    list.appendChild(
-      item(base + x.path, x.label, x.title, x.slug === current)
-    );
+    var isCurrent = (x.slug === current) ||
+      (!exact && x.prefix && current.indexOf(x.prefix) === 0);
+    list.appendChild(item(base + x.path, x.label, x.title, isCurrent, x.level));
   });
 })();

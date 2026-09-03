@@ -171,11 +171,32 @@ decoration on the teaching: the series' central device is **the Second Question*
 obvious answer changes because somebody asks what it would *cause*. A static page can only assert that. A
 drill makes the reader do it, which is the one thing the episodes cannot do.
 
-**Two drills per case**, and the second one is the important one:
+**Four drills per case — two in each perspective.** Not one of each.
 
-- **Drill one — it is being done to you.** Somebody else wears the mask.
-- **Drill two — you are wearing it.** Same mask, reader in it. This is where the case earns its place, and
-  it should be the harder of the two.
+- **Drills one and two — it is being done to you.**
+- **Drills three and four — you are wearing it.** These are where the case earns its place, and they should
+  be the harder pair.
+
+**Why two of each rather than one.** A single instance teaches recognition of *that instance*. Two
+similar-but-different ones teach the rule underneath, because the reader has to work out what changed and
+what didn't — which is the part that transfers to an afternoon the drills never described. So the pair
+should differ on one axis and be identical on the rest, and the `drill-done` note should say plainly what
+the axis was.
+
+The Helper's four, as the worked example:
+
+| | Axis that moved |
+|---|---|
+| 1 · done to you, found out after | all evening to choose your words; cost is awkwardness |
+| 2 · done to you, in public | four seconds to choose; cost is standing exposed in front of the table |
+| 3 · you wear it, she is visibly struggling | it looks like rescue |
+| 4 · you wear it, nothing has gone wrong yet | it looks like being sensible — and is therefore far harder to catch |
+
+**A bystander drill was considered and rejected.** Watching a third party wear the mask changes the question
+being asked (*do I intervene?*) rather than deepening the skill (*what do I say?*), and it reintroduces the
+judging-an-interaction-you-are-not-in frame the wing is built to avoid. The one genuinely useful thing in it
+— that stepping in to stop somebody helping is itself stepping in — lives on `under-the-helper.html`
+instead.
 
 Each drill: scene (~120 words) → **the line that lands** (`.drill-lands`) → four choices → an outcome per
 choice → sensei.

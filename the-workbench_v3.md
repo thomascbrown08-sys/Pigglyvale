@@ -55,6 +55,11 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
       short and the ring is two clicks from the front door.
 - [ ] **Painted mask art** — optional, later. A row of masks on pegs in the yard, storybook style. The SVG
       layer is navigation and does not need replacing.
+- [x] **The Helper expanded to four drills** — two per perspective, differing on one axis each. The
+      pattern is documented in the design doc; it is the shape every case should now follow.
+- [ ] **The Mind-Reader needs the same treatment** — it has two drills and wants four. Suggested axes: a
+      second *done to you* where the reader must answer in front of other people, and a second *you wear it*
+      where the reading is about somebody's feelings toward a third party rather than toward you.
 - [ ] **The Turn** — brown belt. The case that justifies the belt ladder. Masked figure stays masked
       throughout. Genesis 3 and 1 Kings 18:17–18.
 - [ ] **The Rulebook** (Miss Quill) — the other-facing case at yellow or green.

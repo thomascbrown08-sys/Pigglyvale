@@ -17,6 +17,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/the-dojo-design.md`** | Dojo rules and its build order. Read before writing any case. |
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
+| **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
 | **`series-bible_v4.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live. |
 
 ---
@@ -52,14 +53,16 @@ Pick these up whenever. None of them is waiting on anything.
 
 4. **Convert the Helper's four drills to transcripts.** They are now visibly the old narrated style beside
    the rebuilt Mind-Reader. Pattern and reasoning: `docs/the-dojo-design.md`.
-5. ~~Build the Weather-Keeper mask~~ — **done.** White belt, four drills, branch + anatomy + prayer.
-   Next for it: the **yellow belt** case (the mood doing the asking, with a track record behind it).
+5. ~~Build the Weather-Keeper mask~~ — **done.** White *and* yellow belts, four drills each, branch +
+   anatomy + prayers. Next for it: green, where they genuinely believe you are responsible.
 6. **Roll `yolanda-sheet.png`.** She leads 003. `yolanda-crop.png` will carry her, but a lead deserves a
    sheet.
 7. **Decide the Episode 001 repair-beat renumbering** — *done*, and left in place. Nothing to do unless you
    want it reverted.
-8. **Write `patterns/contingent-worth.html` on My Toolbox.** Episode 002 motivates it and two deep links
-   are parked on the Toolbox index until it exists.
+8. **Work on My Toolbox.** `docs/TOOLBOX-SUGGESTIONS.md` — eleven proposed entries ordered by need, plus
+   one structural fix. **Contingent worth is first** and is already promised: Episode 002 motivates it and
+   two deep links are parked on the Toolbox index until it exists. Carry that file into the Toolbox chat;
+   it needs no Pigglyvale context.
 
 ---
 

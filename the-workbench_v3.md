@@ -167,6 +167,10 @@ From arc room §6. Not decisions — just what is next.
 
 ## 4. Logged, not scheduled
 
+- **Penelope the black sheep** — Carolyn's request, 2026-09-04. What a label does and how somebody thrives
+  in spite of one. Full note with craft cautions in `series-bible_v4.md` §9. The Toolbox already has
+  **labelling theory**, so the vocabulary exists to point at; the story teaches by plot as usual.
+
 - **When Keep Your Heart ships Ch 16 · Repair**, link it from Pigglyvale. It is the chapter this site most
   needs and has nowhere to point: the repair beat is the premise of every episode, and the Dojo has four
   prayers about apologising with no fuller treatment behind them. Best homes — the Episode 002 Advisor's

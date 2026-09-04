@@ -1,6 +1,13 @@
 # TODO — the master list
 
-**Start here.** This routes to the detailed lists; it does not duplicate them. If a line has no detail here,
+**Start here.** This routes to the detailed lists; it does not duplicate them.
+
+> **Three sites, verified live 2026-09-04.** My Toolbox is essentially complete (21 patterns, 7 dynamics,
+> 14 modalities — all eleven suggested additions built). Keep Your Heart is 24 of 27 chapters. Pigglyvale
+> has 2 episodes, the Keep, and a 7-case Dojo. **Cross-site rules and the full link map:
+> `docs/CROSS-SITE-RULES.md` — that file is v2 and should be pasted into Project Knowledge, replacing v1.**
+>
+> Items below are Pigglyvale unless marked otherwise. If a line has no detail here,
 that is on purpose — the detail lives in the file named beside it.
 
 Ordered by what unblocks the most. Dependencies are marked `→`.
@@ -17,6 +24,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/the-dojo-design.md`** | Dojo rules and its build order. Read before writing any case. |
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
 | **`prompts/ART-QUEUE.md`** | **All art.** What to roll, in order, one paste-block each. Everything else in `prompts/` is an archive. |
+| **`docs/CROSS-SITE-RULES.md`** | **v2.** Traffic directions, the link map, status of all three sites. Paste into Project Knowledge. |
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
 | **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
 | **`docs/KEEP-YOUR-HEART-TODO.md`** | Gaps and handoff for the Keep Your Heart site. For its own chat. |
@@ -59,14 +67,16 @@ Pick these up whenever. None of them is waiting on anything.
    anatomy + prayers. Next for it: green, where they genuinely believe you are responsible.
 6. ~~Roll `yolanda-sheet.png`~~ — now queue item 3 in `prompts/ART-QUEUE.md`.
 7. ~~Decide the Episode 001 repair-beat renumbering~~ — **done.**
-8. **Work on Keep Your Heart.** `docs/KEEP-YOUR-HEART-TODO.md`. The headline is that Pigglyvale has been
-   rebuilding chapters that already exist there — Ch. 15 *Burdens and Loads* is the Helper, Ch. 22 *What Was
-   Done To You* is the Watch, Ch. 14 *Truth in Love* is the Dojo's whole premise. Cross-links from
-   Pigglyvale are already in. Three real gaps: **Repair**, **Anger**, **Church hurt**.
-9. **Work on My Toolbox.** `docs/TOOLBOX-SUGGESTIONS.md` — eleven proposed entries ordered by need, plus
-   one structural fix. **Contingent worth is first** and is already promised: Episode 002 motivates it and
-   two deep links are parked on the Toolbox index until it exists. Carry that file into the Toolbox chat;
-   it needs no Pigglyvale context.
+8. **[Keep Your Heart]** Write **Ch 16 · Repair**, then **Ch 14 · Anger**. Detail in
+   `docs/KEEP-YOUR-HEART-TODO.md`, which is the author's own maintained file and is authoritative.
+   *Repair is the chapter Pigglyvale most needs and currently has nowhere to point.* **Ch 22 · Church Hurt
+   is blocked** on nine dials listed in that file.
+9. ~~Work on My Toolbox~~ — **essentially done.** All eleven suggestions built. `docs/TOOLBOX-SUGGESTIONS.md`
+   is now a status file: two items remain, and one of them (the spiritual-abuse page) is blocked on the same
+   dials as KYH Ch 22. The other is a one-pass structural fix — modality pages have no *what this is for*
+   list pointing back at the patterns they treat.
+9b. ~~Un-park Episode 002's Toolbox links~~ — **done 2026-09-04.** Contingent worth is live, so both links
+   now point at the real page, and five new Toolbox links were added where they land hardest.
 
 ---
 

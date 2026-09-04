@@ -441,6 +441,18 @@ color the kitchen door is. Future-you will need every one of these.)*
 *(Carolyn's own asks — characters she wants, arcs she wants, things she liked. Log them here with the date
 so nothing gets lost between sessions.)*
 
+**2026-09-04**
+- **Penelope the black sheep.** Carolyn's request. A character for exploring what a label does to a person
+  and how somebody thrives in spite of one. *(Details deliberately left open. Notes for whoever picks it up:
+  the mechanism already has a name on My Toolbox — **labelling theory**, *when one act becomes the lens every
+  future one gets read through* — which means the Pigglyvale side can teach it by plot and point outward for
+  the vocabulary, exactly as the Dojo does. Two craft cautions. First, a black sheep is a **label applied by
+  a group**, which makes this the first Pigglyvale idea whose antagonist is a crowd rather than a person —
+  and the series has no crowd villain and should not acquire one, so the label wants to have been applied
+  once, long ago, by people who were not being cruel and have simply never revisited it. Second, resist
+  making her secretly blameless; the label is far more interesting if she did the thing, once, and it was
+  genuinely bad, and it still should not have become her name.)*
+
 **2026-09-01**
 - **Donna** — a female deer. Wanted as a future character. Species and name fixed; engine, role and flaw
   still open. *(Note for whoever picks this up: Pigglyvale is majority pig, and a deer reads as tall,

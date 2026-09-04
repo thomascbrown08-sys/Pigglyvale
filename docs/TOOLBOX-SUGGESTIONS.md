@@ -1,124 +1,77 @@
-# Suggestions for My Toolbox
+# My Toolbox — status and remaining suggestions
 
-Scanned live at `https://thomascbrown08-sys.github.io/My_Toolbox/` on 2026-09-02. Thirteen patterns, seven
-dynamics, eleven modalities. These are gaps that surfaced while building the Pigglyvale Dojo, ordered by
-what the story work actually needed and could not find.
-
-**Carry this into the Toolbox chat.** Nothing here needs Pigglyvale context to be written.
+**Verified against the live site 2026-09-04.** 21 patterns · 7 dynamics · 14 modalities.
 
 ---
 
-## Already there and doing the work
+## ✅ All eleven suggestions from 2026-09-02 are built
 
-Worth knowing before adding anything, because three of these are now linked from the Dojo:
+Nothing on that list is outstanding. Recorded so it is not proposed again:
 
-- **Codependency** — the mechanism under both the Helper and the Weather-Keeper.
-- **Parentification** — where the Weather-Keeper's skill was usually learned.
-- **Nowhere safe to fail** — linked from the Helper, because someone never allowed to fail safely gets
-  helped out of every chance to try.
-- **DARVO** — the destination for the Dojo's brown-belt case, the Turn.
-- **Disorganized attachment** — linked from the Mind-Reader.
+| Suggested | Built as |
+|---|---|
+| Contingent worth | `patterns/contingent-worth.html` |
+| Over-responsibility for others' feelings | `patterns/over-responsibility.html` |
+| Emotional labour | `patterns/emotional-labour.html` |
+| Hypervigilance | `patterns/hypervigilance.html` |
+| Fawning | `patterns/fawning.html` |
+| Rupture and repair | `modalities/rupture-and-repair.html` — **as a modality, which is the better call** |
+| Differentiation | `patterns/differentiation.html` |
+| Ambiguous loss | `patterns/ambiguous-loss.html` |
+| Learned optimism / behavioural activation | `modalities/learned-optimism.html` |
+| Internal Family Systems | `modalities/ifs.html` |
+| Moral licensing | `patterns/moral-licensing.html` |
 
----
+**Plus one I did not suggest and should have:** `dynamics/labelling-theory.html` — *when one act becomes the
+lens every future one gets read through.* See §3.
 
-## The gap I would fill first
-
-### 1. Contingent worth *(pattern)*
-> **Note, 2026-09-04:** the *am I useful here* / *am I wanted here* split has now been added to Keep Your
-> Heart **Ch 2**. That is the Christian treatment; this page is still owed as the clinical one, and Episode
-> 002's two deep links remain parked on the Toolbox index until it exists.
-
-**Already promised.** Episode 002's case study motivates it and two deep links on the episode page are
-parked on the Toolbox index until it exists.
-
-*I am allowed to be here because I am useful.* Distinct from the neighbours already on the site: toxic shame
-says *I am bad*; this says *I am acceptable while I am producing*, which is more functional, far harder to
-spot, and frequently rewarded. The tell is that reassurance does not land — because it answers *am I
-wanted*, and the sufferer is asking *am I still useful*, which no amount of warmth can settle.
-
-The turn is that the two questions are not the same question, and only one of them is an evidence question
-at all. Points naturally at **Sabbath as regulation** (rest that is not earned) and **Confession & spiritual
-direction**.
-
-### 2. Over-responsibility for others' feelings *(pattern)*
-The Weather-Keeper, named clinically. Codependency covers the fused-stability version; this is the narrower
-and more ordinary one — *if you are upset, I did it, and I can fix it* — which shows up in people who are
-not codependent with anybody in particular and are simply exhausted by every room they enter.
-
-Romans 12:18 is unusually good here: the limit is inside the command. *If possible, so far as it depends on
-you.* Twice. A reader who has spent twenty years failing at this has been failing to obey something that was
-never asked.
-
-### 3. Emotional labour *(pattern or dynamic)*
-The reason the above is invisible. Managing a room's mood is work; it produces no artefact, so it is never
-counted by anyone, including the person doing it — which is how somebody ends up flat at four in the
-afternoon and unable to say from what. Sits naturally beside **Parentification** as the adult continuation
-of it.
+**Pigglyvale has been rewired to match.** Episode 002's two contingent-worth links were parked on the
+Toolbox index while the page did not exist; they now point at the real page. Five new links were added where
+they land hardest — see `CROSS-SITE-RULES.md` for the full map.
 
 ---
 
-## Strong candidates
+## Still outstanding
 
-### 4. Hypervigilance *(pattern)*
-Named nowhere on the site, and it is underneath at least four entries already there. The scanning that keeps
-a child safe and then never switches off. Explains why the Weather-Keeper reads the room before anybody has
-said anything, and why that reading is usually *accurate* — which is what makes it so hard to put down.
+### 1. The spiritual-abuse page
+The only one still held, and deliberately. It is a **linked decision** with Keep Your Heart's Ch 22 · Church
+Hurt — the dials for one shape the framing of the other, and KYH Ch 21 was kept general so as not to preempt
+it. Nine dials are written out in `KEEP-YOUR-HEART-TODO.md`.
 
-### 5. Fawning — the fourth F *(pattern)*
-Fight, flight, freeze and fawn. Three of those are common knowledge and the fourth is the one that gets
-mistaken for a personality: appeasement as a threat response. Directly under caving, which is half of the
-Dojo's whole geometry, and it reframes *I am too nice* as *I am frightened*, which is both truer and kinder.
+Worth noting the ground may be narrower than it was: **Institutional betrayal**, **Coercive control** and
+**Testimonial injustice** are all live and cover much of the clinical territory. What is missing is the
+specifically *spiritual* case — harm done in God's name, where the injury and the place you would go for
+help are the same building.
 
-### 6. Rupture and repair *(pattern, or arguably a modality)*
-> **Note, 2026-09-04:** Keep Your Heart is writing this as **Ch 16 · Repair**. The Toolbox page is still
-> worth having — clinical framing, and the finding that securely attached pairs repair rather than rupture
-> less — but check the chapter first so the two do not say the same thing in the same words.
-The single largest gap on the site. Every entry names something that goes wrong; almost nothing names what
-going *right* looks like. The finding is genuinely hopeful and worth stating plainly: securely attached
-pairs are not the ones who rupture less. They are the ones who repair reliably. That is the entire premise
-of Pigglyvale and it has no page.
-
-### 7. Differentiation *(pattern)*
-Being close to somebody without dissolving into their emotional state. The named alternative to
-codependency rather than merely its absence, and it gives the Weather-Keeper somewhere to walk toward
-instead of only something to stop doing.
+### 2. The structural fix, still open
+**Patterns point at modalities; nothing points back.** A reader arriving at **EMDR** or **Lament** has no way
+to see which patterns they treat. A short *what this is for* list at the foot of each modality page closes
+the loop in one editing pass, with no new writing. This is internal to the Toolbox and breaks no traffic
+rule.
 
 ---
 
-## Worth considering
+## 3. New candidates, arising from Pigglyvale work since
 
-### 8. Ambiguous loss *(pattern)*
-Grief for someone still alive — an estranged parent, a person who is present and unreachable. Sits beside
-**Disenfranchised grief**, which covers grief nobody grants you standing to feel; this covers grief with no
-event to point at and no ending to reach.
+Low priority. The site is in good shape and does not need padding.
 
-### 9. Learned optimism / behavioural activation *(modality)*
-**Learned helplessness** is on the site with no treatment page pointing back at it. Every other pattern has
-somewhere to go.
-
-### 10. Internal Family Systems *(modality)*
-**Family systems therapy** is there; IFS is a different thing with a confusingly similar name, it is very
-widely offered now, and a reader will meet the term. Worth one page if only to distinguish it — including an
-honest note on where its language sits relative to Christian anthropology, which the site is well placed to
-handle and most write-ups are not.
-
-### 11. Moral licensing *(dynamic)*
-How a person who has just done something good gives themselves permission to do something poor. The
-counterweight to **Moral injury**, which is already there, and useful to anyone whose self-account runs on a
-ledger.
+- **Adaptive preference** *(pattern)* — wanting less because you learned not to expect it, and then
+  mistaking that for contentment. Sits beside **Learned helplessness** and under Keep Your Heart's
+  *am I wanted here* material. The tell is that an offer produces suspicion rather than pleasure.
+- **Justification and rationalisation** *(pattern)* — the sentence a person tells themselves so that what
+  they are doing can keep feeling alright. The Dojo is built entirely on this and the Toolbox has no page
+  naming the mechanism itself, only its instances.
+- **Labelling theory is the page Pigglyvale will want next.** A character request has come in — *Penelope
+  the black sheep*, on thriving despite a label — and that page already says the thing the arc is about.
+  No Toolbox work needed; noted so the Pigglyvale side links to it when the character exists.
 
 ---
 
-## One structural note
+## Standing rule, restated because a previous version of this file got it wrong
 
-**Patterns point at modalities; nothing points back.** A reader arriving at **EMDR** or **Lament** has no
-way to see which patterns they treat. A short *what this is for* list at the foot of each modality page
-would close the loop in one editing pass, with no new writing.
+**The Toolbox never links out.** Not to Keep Your Heart, not to Pigglyvale. It has to stay usable by
+somebody who is not in this project at all — a reader bringing an informed question to a clinician — and an
+outbound link to a devotional workbook or a talking-animal kingdom costs it exactly that.
 
----
-
-## And the direction of travel
-
-Pigglyvale points at the Toolbox. **The Toolbox should not point back.** A clinical resource that links out
-to a talking-animal kingdom loses the register that makes it trustworthy, and the two audiences are not the
-same audience even when they are the same person.
+An earlier draft of this file proposed KYH ↔ Toolbox links *in both directions*. The second half was wrong.
+Traffic in is fine and welcome; traffic out is not.

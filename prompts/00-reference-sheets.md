@@ -1,3 +1,24 @@
+# ARCHIVE — Carolyn and Thomas reference sheets
+
+> ## ⚠ NOT CURRENT. Do not roll anything from this file.
+>
+> **The live list is [`ART-QUEUE.md`](ART-QUEUE.md).**
+>
+> Everything in this file is **finished**. Rounds One to Four produced Carolyn's and Thomas's portraits,
+> turnarounds, expression strips and key-beat strips, plus the scale pair, and all of them are approved and
+> filed in `images/_reference/`. Nothing here needs doing.
+>
+> It is kept for two reasons only: the notes explain *why* several canon decisions were made (the cuffs,
+> the apology-not-grief negative block, the scale ratio), and it is the record of what was tried.
+>
+> **Its prompts also predate the current image tool**, which has no negative field — so the `[NEGATIVE]`
+> blocks below would now actively summon what they were written to exclude. That alone makes this file
+> unusable as a source. See `ART-QUEUE.md` §5.
+
+The original text is preserved below, commented out so it cannot be copied by accident.
+
+<!-- ============================ ARCHIVED BELOW THIS LINE ============================
+
 # Reference Sheets — do this once, before any episode art
 
 A reference sheet is a plain, well-lit picture of a character that you **approve once and then attach to
@@ -254,3 +275,6 @@ honest, which is a steadier thing and much harder to draw.*
 
 *The tearful faces from Round Three are worth keeping in the folder. They are simply not her default hurt
 expression; they are for the rare episode that earns them.*
+
+
+============================ END OF ARCHIVE ============================ -->

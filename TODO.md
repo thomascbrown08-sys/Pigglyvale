@@ -16,6 +16,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/EPISODE-003-HANDOFF.md`** | Everything needed to hand Episode 003 to a fresh chat. Attach-list and opening prompt. |
 | **`docs/the-dojo-design.md`** | Dojo rules and its build order. Read before writing any case. |
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
+| **`prompts/ART-QUEUE.md`** | **All art.** What to roll, in order, one paste-block each. Everything else in `prompts/` is an archive. |
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
 | **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
 | **`docs/KEEP-YOUR-HEART-TODO.md`** | Gaps and handoff for the Keep Your Heart site. For its own chat. |
@@ -23,15 +24,13 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 
 ---
 
-## P0 — blocking. Two items, one evening.
+## P0 — blocking. One art session.
 
-Nothing else in the project is waiting on anything else.
-
-1. **Approve or amend Old Ambrose's token block.** `series-bible_v4.md` §3, marked PROPOSED.
-   *Blocks:* everything below it in this group.
-2. **Roll `ambrose-portrait.png` and `ambrose-sheet.png`.** → needs 1.
-   *Why now:* he opens Episode 003, he has never been drawn, and pipeline rule 16 says a named character
-   with nothing attached comes back the wrong species.
+1. ~~Approve Old Ambrose's token block~~ — **done, 2026-09-02.** Canon in `series-bible_v4.md` §3.
+2. **Roll the art queue.** → **`prompts/ART-QUEUE.md`** is the only art file you need open. Seven rolls,
+   in order, one copy-paste block each, with the attachments named per roll. Items 1 and 2 are Ambrose,
+   who opens Episode 003 and has never been drawn.
+   *Everything else in `prompts/` is now a marked archive and can be ignored.*
 
 > **Soft dependency worth knowing.** Episode 003 only needs Ambrose *drawn* if he appears in a frame. If
 > Thomas owns the correction in his own voice instead — in the Washing-Up or the Notes, with Ambrose
@@ -58,10 +57,8 @@ Pick these up whenever. None of them is waiting on anything.
    the rebuilt Mind-Reader. Pattern and reasoning: `docs/the-dojo-design.md`.
 5. ~~Build the Weather-Keeper mask~~ — **done.** White *and* yellow belts, four drills each, branch +
    anatomy + prayers. Next for it: green, where they genuinely believe you are responsible.
-6. **Roll `yolanda-sheet.png`.** She leads 003. `yolanda-crop.png` will carry her, but a lead deserves a
-   sheet.
-7. **Decide the Episode 001 repair-beat renumbering** — *done*, and left in place. Nothing to do unless you
-   want it reverted.
+6. ~~Roll `yolanda-sheet.png`~~ — now queue item 3 in `prompts/ART-QUEUE.md`.
+7. ~~Decide the Episode 001 repair-beat renumbering~~ — **done.**
 8. **Work on Keep Your Heart.** `docs/KEEP-YOUR-HEART-TODO.md`. The headline is that Pigglyvale has been
    rebuilding chapters that already exist there — Ch. 15 *Burdens and Loads* is the Helper, Ch. 22 *What Was
    Done To You* is the Watch, Ch. 14 *Truth in Love* is the Dojo's whole premise. Cross-links from
@@ -77,14 +74,14 @@ Pick these up whenever. None of them is waiting on anything.
 
 10. **Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both.
    → blocks **Episode 004** and the bench arc.
-11. **Write Bruno's token block, then roll his sheet.** He has no crop and has never been drawn.
-    → blocks **Episode 004**.
+11. **Write Bruno's token block, then roll his sheet.** He has no crop and has never been drawn. He is the
+    only entry in `prompts/ART-QUEUE.md` §3 that blocks anything. → blocks **Episode 004**.
 12. **Decide how long Season One is.** → sets the latency-ladder spacing → sets where the **Season One
     plant** goes (the badly-resolved dispute that pays off eighteen months later).
 13. **Decide Donna's engine and role.** → and see the ward brief §8, since she may be the ward.
 14. **Rule on "the Watch" as a name.** Canon by default; a find-and-replace now, more expensive every
     episode.
-15. **Roll proper sheets for Pim, Fig, Quill, Marisol.** Crops are carrying all four. Not blocking anything.
+15. ~~Roll proper sheets for Pim, Fig, Quill, Marisol~~ — now queue items 4–7 in `prompts/ART-QUEUE.md`.
 
 ---
 
@@ -101,8 +98,8 @@ Pick these up whenever. None of them is waiting on anything.
 
 ## If you only have one evening
 
-Do **P0**. It is two items, it is mostly reading, and it turns Episode 003 from *blocked* into *ready to
-hand off*.
+Open **`prompts/ART-QUEUE.md`** and work down it. Seven rolls, each one block to copy, nothing to look up
+elsewhere. Getting through items 1–3 turns Episode 003 from *blocked* into *ready to hand off*.
 
 ## If you have a weekend
 

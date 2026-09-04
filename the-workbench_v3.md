@@ -20,15 +20,13 @@ validates clean. Work in this order when you come back.
 
 | | Do this | Why now |
 |---|---|---|
-| **1** | **Approve or amend Old Ambrose's token block** (`series-bible_v4.md` §3, marked PROPOSED) | He opens Episode 003 and cannot be drawn. Ten minutes of reading, and it unblocks the roll. |
-| **2** | **Roll `ambrose-portrait.png` + `ambrose-sheet.png`** | Rule 9: the sheet goes before the episode art. He is owed one anyway — witness line, bench arc. |
-| **3** | **Roll `yolanda-sheet.png`** | She leads Episode 003. `yolanda-crop.png` will carry her, but a lead character deserves a sheet. |
-| **4** | **Hand off Episode 003** using `docs/EPISODE-003-HANDOFF.md` | File list and starter prompt are written. Fresh chat. |
-| **5** | Decide the Episode 001 repair beat (§1 below) | Two minutes, and it is purely yours. |
-| **6** | Roll `quill-sheet.png`, `marisol-sheet.png`, `pim-sheet.png` | Owed, not blocking. Crops are carrying all three. |
-| **7** | Write Bruno's token block | Blocks Episode 004, not 003. |
+| **1** | ~~Approve Ambrose's token block~~ | **Done 2026-09-02.** Canon. |
+| **2** | **Work down `prompts/ART-QUEUE.md`** | Seven rolls, one paste-block each. Items 1–2 are Ambrose, item 3 is Yolanda, who leads 003. |
+| **3** | **Hand off Episode 003** using `docs/EPISODE-003-HANDOFF.md` | File list and starter prompt are written. Fresh chat. |
+| **4** | ~~Episode 001 repair beat~~ | **Done.** Wired in, close renumbered, pager pointed forward. |
+| **5** | Write Bruno's token block | Blocks Episode 004, not 003. `ART-QUEUE.md` §3. |
 
-**Steps 1 and 2 are the only ones that block anything.** If you have one evening, spend it there.
+**Only the art queue blocks anything.** If you have one evening, spend it there.
 
 Decisions in §2 can wait — none of them blocks Episode 003, and two of them (season length, the Season One
 plant) are easier to answer after another episode exists.
@@ -99,78 +97,13 @@ Design rules in `docs/the-dojo-design.md`. Read that before writing any case.
 
 ## 1. Images to roll
 
-> **Prompt harness reminder.** The tool in use from Episode Two on has **one text box and no negative
-> field.** Everything named gets drawn. State every exclusion as a positive fact — *her eyes are dry and her
-> mouth is closed*, not *no tears*. To keep a character out of a frame, do not name them and do not attach
-> their sheet. Paste one slot at a time, never a whole prompt file. Bible §5, pipeline rules 13–17.
+> **Moved.** This section is now **`prompts/ART-QUEUE.md`** — the single master art file, with every
+> outstanding roll written as a self-contained copy-paste block, the attachments named per roll, a DONE
+> table, and a BLOCKED table for characters with no tokens yet.
+>
+> Nothing about art lives in this file any more. Old Ambrose's tokens were approved on 2026-09-02 and he is
+> queue items 1 and 2.
 
-### Priority — cleared
-
-**1. ~~Episode 001's repair beat~~ — done, 2026-09-02.**
-
-The image was in the folder the whole time; only the wiring was missing. `05-repair.png` now sits after the
-butterflies paragraph and the close was renumbered `06-close.png`, so Episode One matches the six-slot
-contract used from 002 on. Both episodes are now complete art, six slots each.
-
-~~*Still open:* Episode One's pager reads "Episode Two, shortly".~~ **Done 2026-09-02** — it points at
-Episode Two. Every pager on the site now resolves to a real page.
-
-### Round Five — already named in the bible as owed
-
-**2. `quill-sheet.png`** — tokens are canon and amended to what the art actually reproduces; running on
-`quill-crop.png` + `quill-face-crop.png`. Carry rule 10 in its corrected form: state her height as a fraction
-against a named character in frame and say *a grown woman at full adult proportion, a broad settled body,
-short limbs, a lined face*. Do **not** write the word *child* anywhere in the prompt — there is no negative
-field, and naming it draws it.
-
-**3. `marisol-sheet.png`** — tokens canon, running on `marisol-crop.png`. Rule 9 says the sheet goes before
-the episode art, not after; 002 proved it.
-
-### New — Season Two's blocker
-
-**4. Old Ambrose — tokens first, then a sheet.**
-He has **no appearance tokens and no reference of any kind.** All that exists: tortoise, retired, keeps bees,
-brings dark honey when he means to correct somebody. He corrects Thomas in the Notes, carries the
-once-a-season witness line, and is cast in the bench arc — load-bearing in three places and undrawable.
-Write the token block into the bible first; roll second.
-
-**5. `carolyn-bench.png` — three faces, Season Two.**
-Nothing in her five existing files covers judging. The nearest is *level and resolute*, which is her
-**boundary** face — deciding for herself. Ruling on someone else is a different muscle, and per the series'
-own rule we should not write it before there is a picture of it.
-
-1. **Listening to a case** — attentive, deliberately withholding judgment, not yet persuaded.
-2. **Ruling against someone she loves** — level, kind, unhappy, certain. Not stern, not apologetic.
-3. **Realising she got one wrong** — the moment before she says so.
-
-Positive-form exclusions throughout; #3 will otherwise come back crying.
-
-### Proper sheets — still on rough crops
-
-**Crops now exist for all of these except Bruno, Gus and Beatrix.** v2 of this file assumed `pim-crop.png`,
-`yolanda-crop.png` and `fig-crop.png` were already in `images/_reference/`; they were not, and Episode 003
-would have run Yolanda with nothing attached, which pipeline rule 16 says returns the wrong species. They
-were cut from the Episode 001 art on 2026-09-02 and are there now. **Episode 003 is unblocked.**
-
-Roll each proper sheet the first time the character carries a scene; attach `carolyn-sheet.png` for style
-every time.
-
-- **Auntie Yolanda Plum** — needed for **Arc C / Episode 003**, next in the sequence. Running on
-  `yolanda-crop.png`, which is a good full figure with the wings out.
-- **Pim** — highest value after Yolanda. She carries Season One's growth proof and the two-hundred-word beat
-  in 003–005. Running on `pim-crop.png`.
-- **Fig Bramblewick** — running on `fig-crop.png`.
-- **Bruno "Buckets" Marrow** — **no crop, never drawn.** Needed for Arc A (004) and again as the bench arc's
-  defendant. Tokens exist in bible §3 but no appearance block — same shape of gap as Ambrose, one episode
-  further out. Write tokens, then roll, before 004.
-- **Gus Thornapple** · **Beatrix Hollyhock** — no crops, no appearance blocks, lower priority.
-
-### Not yet — blocked on a decision
-
-- **Donna (deer)** — engine, role and flaw still open. Bible §9 proposes flight-response, which would be the
-  series' first, and flags the Abandonment Protocol. Settle before rolling.
-- **Bramblewick litter** (Dot, Sorrel, Bean) — names only. Group sheet when an episode needs all four.
-- **Episode 003 slots 01–06** — after the script.
 
 ---
 

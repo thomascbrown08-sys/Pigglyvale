@@ -156,7 +156,7 @@ is a reason otherwise.
 > wrong. Quill remains the one character whose whole shape is small, closed and vertical.
 
 
-**PROPOSED — Old Ambrose. Needs approval, then a sheet. Not yet canon.**
+**Old Ambrose — approved 2026-09-02. Canon. Sheet still to be rolled.**
 
 - **Old Ambrose:** an elderly anthropomorphic tortoise, a broad low domed shell in weathered olive and horn
   brown with the scute edges worn smooth, loose leathery grey-green skin folding at the neck, a blunt beaked
@@ -170,7 +170,8 @@ is a reason otherwise.
 > face matters — a brim over the eyes would hide the one thing he is for, which is looking at somebody
 > steadily while they work out that they were wrong.*
 
-> **Gap — Old Ambrose has no appearance tokens and no reference of any kind.** He is a tortoise, retired,
+> **~~Gap — Old Ambrose has no appearance tokens.~~ Closed 2026-09-02.** Tokens above are canon. He still
+> has no reference image of any kind, so he is the first item in `prompts/ART-QUEUE.md`. He is a tortoise, retired,
 > keeps bees, and brings a jar of dark honey when he intends to correct somebody. That is the whole of him on
 > record. He corrects Thomas inside the Advisor's Notes, he carries the once-a-season witness line, and he is
 > cast in the Season Two bench arc — so he is load-bearing in three places and cannot be drawn. Write tokens,

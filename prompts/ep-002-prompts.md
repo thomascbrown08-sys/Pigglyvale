@@ -1,5 +1,12 @@
 # Episode 002 — *The Column Nobody Read* — image prompts
 
+> **All six slots in this file are DONE and approved.** Episode 002's art is complete.
+>
+> This file is kept as the worked example of a per-episode prompt file — slots 02 and 05 are the two best
+> prompts written on this project — and Episode 003's prompts should follow its pattern.
+>
+> **For anything you actually need to roll, go to [`ART-QUEUE.md`](ART-QUEUE.md).**
+
 **Rewritten after the first two hero attempts. Read the next section before rolling anything.**
 
 ---
@@ -254,10 +261,14 @@ attaching purely for the room.*
 
 ---
 
-# The reference sheets, still to be rolled
+# ~~The reference sheets, still to be rolled~~ — MOVED
 
-Worth doing even now: the next episode will need them, and a crop is a stopgap. Same rules — one box at a
-time, no negative blocks.
+> **Superseded.** The character sheets that used to be listed here now live in
+> [`ART-QUEUE.md`](ART-QUEUE.md), rewritten as self-contained copy-paste blocks with the attachments
+> named per roll. Ambrose, Yolanda, Pim and Fig have been added; the versions below are older and
+> incomplete.
+
+<!-- ============================ ARCHIVED BELOW THIS LINE ============================
 
 ## `marisol-sheet.png` — 16:9
 
@@ -315,3 +326,5 @@ expression, flat buttermilk background, even soft light, hands out of frame.
 > *Face three is the one to keep rolling for. The tool will offer two easy answers — a weeping face or a
 > sour one — and both are wrong in the same way. What is happening is that a wall came down: the spines go
 > flat, and the eyes stay up and dry.*
+
+============================ END OF ARCHIVE ============================ -->

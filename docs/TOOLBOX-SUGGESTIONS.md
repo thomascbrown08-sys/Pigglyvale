@@ -24,6 +24,10 @@ Worth knowing before adding anything, because three of these are now linked from
 ## The gap I would fill first
 
 ### 1. Contingent worth *(pattern)*
+> **Note, 2026-09-04:** the *am I useful here* / *am I wanted here* split has now been added to Keep Your
+> Heart **Ch 2**. That is the Christian treatment; this page is still owed as the clinical one, and Episode
+> 002's two deep links remain parked on the Toolbox index until it exists.
+
 **Already promised.** Episode 002's case study motivates it and two deep links on the episode page are
 parked on the Toolbox index until it exists.
 
@@ -66,6 +70,9 @@ mistaken for a personality: appeasement as a threat response. Directly under cav
 Dojo's whole geometry, and it reframes *I am too nice* as *I am frightened*, which is both truer and kinder.
 
 ### 6. Rupture and repair *(pattern, or arguably a modality)*
+> **Note, 2026-09-04:** Keep Your Heart is writing this as **Ch 16 · Repair**. The Toolbox page is still
+> worth having — clinical framing, and the finding that securely attached pairs repair rather than rupture
+> less — but check the chapter first so the two do not say the same thing in the same words.
 The single largest gap on the site. Every entry names something that goes wrong; almost nothing names what
 going *right* looks like. The finding is genuinely hopeful and worth stating plainly: securely attached
 pairs are not the ones who rupture less. They are the ones who repair reliably. That is the entire premise

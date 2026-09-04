@@ -167,6 +167,11 @@ From arc room §6. Not decisions — just what is next.
 
 ## 4. Logged, not scheduled
 
+- **When Keep Your Heart ships Ch 16 · Repair**, link it from Pigglyvale. It is the chapter this site most
+  needs and has nowhere to point: the repair beat is the premise of every episode, and the Dojo has four
+  prayers about apologising with no fuller treatment behind them. Best homes — the Episode 002 Advisor's
+  Notes, and `under-the-weather-keeper.html` beside the yellow-belt drill on apologising and then stopping.
+
 - **The loaf that was not there before** — an episode against the zero-sum assumption, via Beatrix and
   Marisol. Full brief in `series-bible_v4.md` §9e, including the three guards and Proverbs 11:26. Pairs with
   the theft episode: trade creates, taking moves.

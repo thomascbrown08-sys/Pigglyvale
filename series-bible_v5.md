@@ -664,6 +664,19 @@ flaw, at kingdom scale.
 - **Butterflies were withheld in 003 on purpose**, to establish that an episode can have none. Yolanda's
   admission would have earned them. That was the point of not spending them. The next costly truth is free
   to have them.
+- **Grief — requested 2026-09-05, and it wants planning before it wants a spine.** Two kinds, and they are
+  not the same job: grief for people who are gone, and grief for lives that did not happen. The second is
+  the one this kingdom is better shaped to carry, because Pigglyvale has no dead and inventing one to teach
+  a lesson would be the worst thing this series could do. **Craft cautions, before any spine exists:**
+  *(a)* grief is not a problem with a repair beat at the end of it, so the episode's whole architecture has
+  to bend — the repair, if there is one, is for something a character did *inside* the grief, never for the
+  grief itself; *(b)* nobody in the kingdom gets to explain what the loss was for, Thomas least of all, and
+  the Advisor's Notes may go where the story must not; *(c)* Carolyn does not get comforted out of it inside
+  the episode, and the close cannot resolve it warm in the usual way; *(d)* the butterflies belong here and
+  would be very easy to spend cheaply — they mark a costly truth told, not a sad moment. See
+  `docs/CROSS-SITE-RULES.md` §Grief: both companion sites already hold the material, so this is a story
+  problem and not a research one.
+
 - **Quill did not move a ring in 003 and should not have.** Her rule became the hero instead. She is still
   owed one ring — Inner Court to the Long Table — later in the season, and it should cost something.
 - **"The Watch" as a name** was never ruled on — protective or punitive? Canon by default. *The Gate* and

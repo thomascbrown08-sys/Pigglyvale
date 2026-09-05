@@ -1,6 +1,12 @@
 # The Chronicles of Pigglyvale — complete site
 
-> **Build v2 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> **Build v3 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> *Also in this build:* a **full cross-site link audit** — all 22 outbound links re-checked against the live
+> Keep Your Heart and My Toolbox indexes; **all resolve and every label still matches its target's live
+> title**, so the KYH renumbering did not break anything here. Three now-shipped KYH chapters were linked in
+> for the first time (Ch 16 · Repair ×2, Ch 14 · Anger ×1). `docs/CROSS-SITE-RULES.md` is now **v3** and must
+> be re-pasted into Project Knowledge.
+>
 > *Added:* Episode Three, *Quantity Not Stated* — page, six image prompts, `images/ep-003/`, and its
 > Movement card generated from `tools/movement_card.py`. Canon is now `series-bible_v5.md`; production is
 > `the-workbench_v4.md`. Wiring updated: `assets/episodes.js`, `index.html`, and Episode Two's forward

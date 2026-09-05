@@ -177,10 +177,17 @@ From arc room §6. Not decisions — just what is next.
   in spite of one. Full note with craft cautions in `series-bible_v4.md` §9. The Toolbox already has
   **labelling theory**, so the vocabulary exists to point at; the story teaches by plot as usual.
 
-- **When Keep Your Heart ships Ch 16 · Repair**, link it from Pigglyvale. It is the chapter this site most
-  needs and has nowhere to point: the repair beat is the premise of every episode, and the Dojo has four
-  prayers about apologising with no fuller treatment behind them. Best homes — the Episode 002 Advisor's
-  Notes, and `under-the-weather-keeper.html` beside the yellow-belt drill on apologising and then stopping.
+- ~~**When Keep Your Heart ships Ch 16 · Repair**, link it from Pigglyvale.~~ **Done 2026-09-05.** Ch 16
+  shipped and is linked in both homes this entry named. Ch 14 · Anger also shipped and now gives the Dojo's
+  right-hand ditch its first outbound link, in `how-the-belts-work.html`. Keep Your Heart is complete at
+  27 of 27, so there are no more *when it ships* items of this kind outstanding.
+
+- **Grief, as a subject.** Requested 2026-09-05. Two kinds — lost people and lost possibilities — and the
+  second is the one this kingdom can carry without inventing a death. Craft cautions are in
+  `series-bible_v5.md` §10. **The research is already done on the other two sites** (see
+  `docs/CROSS-SITE-RULES.md` §Grief); the one real gap is a Toolbox page on grief for a life that did not
+  happen, which does not exist and which an episode on lost opportunity would want to point at. Propose it
+  to the Toolbox chat *before* writing the episode.
 
 - **The loaf that was not there before** — an episode against the zero-sum assumption, via Beatrix and
   Marisol. Full brief in `series-bible_v4.md` §9e, including the three guards and Proverbs 11:26. Pairs with

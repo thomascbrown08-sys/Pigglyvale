@@ -1,9 +1,13 @@
 # Cross-Site Standing Rules — Carolyn Stories Project
 
-**Version 2 · 2026-09-04 · supersedes v1**
-*Changed in this version:* verified all three sites live and added a §Status block, since the previous
-version had no way to tell what was actually built. Added the full link map. Corrected one rule that v1
-stated correctly but that my own suggestion files had drifted from. Everything else is unchanged.
+**Version 3 · 2026-09-05 · supersedes v2 (2026-09-04)**
+*Changed in this version:* **a full link audit was run against both live sites — all 22 outbound links
+resolve and every anchor label still matches its target's live title. Nothing broke.** Status block
+refreshed (KYH is now complete at 27 of 27; the Toolbox has an eighth Dynamic; Pigglyvale has three
+episodes). **All three open cross-site decisions are now closed** — Church Hurt and the spiritual-abuse
+page are both built, and Ch 16 and Ch 14 have shipped and are now linked. Link map extended with Episode
+003 and the three new links. New §Grief added, because all three sites now hold grief material and nobody
+had checked whether it agrees with itself. Traffic rules unchanged.
 
 **Paste this into Project Knowledge, replacing the previous copy.** Any chat working on Pigglyvale, Keep
 Your Heart, or My Toolbox should read it before making cross-site claims or links.
@@ -14,9 +18,9 @@ Your Heart, or My Toolbox should read it before making cross-site claims or link
 
 | Site | Live | State |
 |---|---|---|
-| **My Toolbox** | [link](https://thomascbrown08-sys.github.io/My_Toolbox/) | 21 patterns · 7 dynamics · 14 modalities. **All eleven suggested additions are built.** |
-| **Keep Your Heart** | [link](https://thomascbrown08-sys.github.io/KeepYourHeart/) | 27 chapters, 24 written. Ch 14 Anger, Ch 16 Repair, Ch 22 Church Hurt pending. Build v2.2. |
-| **Pigglyvale** | [link](https://thomascbrown08-sys.github.io/Pigglyvale/index.html) | 2 episodes complete with art · the Keep · the Dojo (5 masks, 7 belt cases) · **9 characters with approved reference sheets as of 2026-09-04.** Episode 003 unblocked. |
+| **My Toolbox** | [link](https://thomascbrown08-sys.github.io/My_Toolbox/) | 21 patterns · **8 dynamics** · 14 modalities. Spiritual abuse is built and live. |
+| **Keep Your Heart** | [link](https://thomascbrown08-sys.github.io/KeepYourHeart/) | **Complete: 27 of 27 chapters written and live**, plus front matter, Nutshells, Warrants, Lament Finder, Glossary, Tracker, Judgment-Call Log and Sources. Ch 14, 16 and 22 all shipped. |
+| **Pigglyvale** | [link](https://thomascbrown08-sys.github.io/Pigglyvale/index.html) | **3 episodes** (003 *Quantity Not Stated* shipped 2026-09-05, art pending) · the Keep · the Dojo (5 masks, 7 belt cases) · 9 approved reference sheets. **Episode 004 is blocked** on Bruno's sheet and the theft ruling. |
 
 Each site's own file is the authority for its detail: `TODO.md` (Pigglyvale, master),
 `KEEP-YOUR-HEART-TODO.md`, and `TOOLBOX-SUGGESTIONS.md`. This file carries only what does not change often.
@@ -76,11 +80,22 @@ with this."*
 | Under the Mind-Reader | Disorganized attachment · DARVO | ch27 · The Record That Survives · ch15 · Truth in Love |
 | Under the Long Winter | Learned helplessness · Toxic shame vs. guilt | ch03 · Why You Hurt |
 
+| Episode 003, Toolbox block | Differentiation | — |
+| Episode 002, Advisor's Notes | — | ch16 · Repair *(added 2026-09-05)* |
+| Under the Weather-Keeper | — | ch16 · Repair *(added 2026-09-05)* |
+| How the belts work, right-hand ditch | — | ch14 · Anger *(added 2026-09-05)* |
+
 **Chapter renumbering is the standing hazard.** Keep Your Heart renumbered on 2026-09-04 and eleven
 Pigglyvale links broke silently. Filenames change, not just labels. **Whenever a KYH chapter is inserted,
 the KYH chat must hand Pigglyvale a mapping table** — the one in `KEEP-YOUR-HEART-TODO.md` was exactly
 right and took ten minutes to apply. Note that `ch03` was missing from it because it was added after the
 table was written; a mapping table should be generated from the live links, not from memory.
+
+> **Audit, 2026-09-05.** Every outbound link was re-checked against both live indexes: 8 to Keep Your Heart,
+> 14 to My Toolbox, plus the two site roots. **All resolve, and every anchor label still matches the live
+> title of its target.** The 2026-09-04 mapping-table process worked and nothing has drifted since. Worth
+> repeating this audit after any KYH insertion — it takes one pass over the live index and it is the only
+> way to catch a link that is *wrong* rather than *broken*, since a renumbered chapter still returns a page.
 
 ## Site-specific conventions
 
@@ -96,7 +111,7 @@ lectern for plates, torn-paper border. Ships as `_SITE` (upload) and `_SOURCE` (
 the source zip**; it was reconstructed once from published HTML after a container reset. `TODO.md` is
 maintained on every update and is the authoritative status record.
 
-**Pigglyvale** — house style in `series-bible_v4.md`; structural rules in `docs/site-conventions.md`; all
+**Pigglyvale** — house style in `series-bible_v5.md`; structural rules in `docs/site-conventions.md`; all
 art in `prompts/ART-QUEUE.md`. Left-hand nav pane on every content page (index excepted). Episodes listed
 oldest-first. No local CSS, ever. **The image tool has no negative-prompt field** — every exclusion is
 written as a positive fact, and naming a thing to forbid it draws it.
@@ -105,21 +120,50 @@ written as a positive fact, and naming a thing to forbid it draws it.
 
 ## Currently open cross-site decisions
 
-- **Church Hurt (KYH Ch 22) and the Toolbox spiritual-abuse page are linked decisions.** The dials for one
-  shape the framing of the other; KYH Ch 21 was deliberately kept general so as not to preempt it. **Not yet
-  resolved.** Nine dials are written out in `KEEP-YOUR-HEART-TODO.md` and want answers before drafting.
-  Whoever picks this up should have both documents in view at once, not just one site's chat.
-  *Note: the Toolbox now has **Institutional betrayal**, **Coercive control** and **Testimonial injustice**
-  live, which cover much of the clinical ground — so the open question may be narrower than it was.*
+**None.** All three items carried in v2 closed on 2026-09-05. Kept below for the record.
 
-- **When KYH Ch 16 · Repair ships, Pigglyvale should link it.** It is the chapter Pigglyvale most needs and
-  has nowhere to point: the repair beat is the premise of every episode, and the Dojo carries four prayers
-  about apologising with no fuller treatment behind them. Best homes — the Episode 002 Advisor's Notes, and
-  `under-the-weather-keeper.html` beside the yellow-belt drill on apologising and then stopping.
+## Recently closed
 
-- **When KYH Ch 14 · Anger ships, the Dojo's right-hand ditch gets its first outbound link.** Lashing
-  currently has nowhere to go on either companion site, while caving now has Fawning. That asymmetry is
-  worth closing.
+- ~~**Church Hurt (KYH Ch 22) and the Toolbox spiritual-abuse page.**~~ **Both built and live.** Division of
+  labour as settled: **My Toolbox names the mechanism; Keep Your Heart works it.** The Toolbox page is
+  mechanism-only — no Scripture, no devotional register — and it is the one page on that site that closes
+  with *Further reading* rather than *Look up*. Worth knowing before assuming every Toolbox page has the
+  same shape.
+- ~~**When KYH Ch 16 · Repair ships, Pigglyvale should link it.**~~ **Shipped and linked 2026-09-05**, in
+  both of the homes this file named: the Episode 002 Advisor's Notes and `under-the-weather-keeper.html`.
+- ~~**When KYH Ch 14 · Anger ships, the Dojo's right-hand ditch gets its first outbound link.**~~
+  **Shipped and linked 2026-09-05**, in `how-the-belts-work.html`. Both ditches now have a door: caving has
+  *Fawning* on the Toolbox, lashing has *Anger* on Keep Your Heart. The asymmetry is closed.
+
+---
+
+## Grief — which site owns which piece
+
+Added 2026-09-05, because grief material accumulated independently on all three sites and nobody had
+checked whether the three accounts agree. They do, and they divide cleanly, but the division was accidental
+and should now be deliberate.
+
+| | Holds | Does not |
+|---|---|---|
+| **My Toolbox** | The mechanisms, named and checkable: **Ambiguous loss** (grief for someone still alive), **Disenfranchised grief** (grief nobody has granted you standing to feel), **Godly grief vs. worldly grief** (sorted by what the sorrow produces, not by how heavy it is). | Comfort. Meaning. Any instruction about what to do. |
+| **Keep Your Heart** | The work: **Ch 10 · Lament** — God wrote a hymnbook and made complaint the largest section in it. **Ch 09 · The Cup and the Garden** — He said out loud that it was avoidable. **Ch 18 · A Life You Did Not Build.** Plus the **Lament Finder** and the **Lament as practice** modality. | Naming clinical mechanisms in clinical language. |
+| **Pigglyvale** | **Nothing yet.** | — |
+
+**Two things follow from that table and they are easy to get backwards.**
+
+**One: the companion sites are ahead of Pigglyvale here, not behind it.** The instinct when planning a
+grief episode is that it will generate work on the other two. On this subject it will not. The mechanisms
+are named and the theological work is done; what is missing is the *story*. A grief episode should be
+planned as a consumer of existing material, and the two doors it offers are already built.
+
+**Two: the one genuine gap is a Toolbox gap, and it is not about death.** There is a page for grief over
+someone still living and a page for grief nobody grants you standing to feel, but there is nothing for
+**grief over a life that did not happen** — the road not taken, the years spent somewhere that did not
+repay them, the thing you are now too old to start. That is *not* the same as ambiguous loss and it is only
+sometimes disenfranchised. If a Pigglyvale grief episode goes near lost opportunity rather than lost
+people, this is the page it will want and the page that does not exist. **Propose it to the Toolbox chat
+before writing the episode, not after** — the Toolbox is the base layer and it is much easier to write a
+page first and point at it than to point at a page and then have to write it to spec.
 
 ---
 

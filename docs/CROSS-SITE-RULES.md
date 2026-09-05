@@ -16,7 +16,7 @@ Your Heart, or My Toolbox should read it before making cross-site claims or link
 |---|---|---|
 | **My Toolbox** | [link](https://thomascbrown08-sys.github.io/My_Toolbox/) | 21 patterns · 7 dynamics · 14 modalities. **All eleven suggested additions are built.** |
 | **Keep Your Heart** | [link](https://thomascbrown08-sys.github.io/KeepYourHeart/) | 27 chapters, 24 written. Ch 14 Anger, Ch 16 Repair, Ch 22 Church Hurt pending. Build v2.2. |
-| **Pigglyvale** | [link](https://thomascbrown08-sys.github.io/Pigglyvale/index.html) | 2 episodes complete with art · the Keep · the Dojo (5 masks, 7 belt cases). |
+| **Pigglyvale** | [link](https://thomascbrown08-sys.github.io/Pigglyvale/index.html) | 2 episodes complete with art · the Keep · the Dojo (5 masks, 7 belt cases) · **9 characters with approved reference sheets as of 2026-09-04.** Episode 003 unblocked. |
 
 Each site's own file is the authority for its detail: `TODO.md` (Pigglyvale, master),
 `KEEP-YOUR-HEART-TODO.md`, and `TOOLBOX-SUGGESTIONS.md`. This file carries only what does not change often.

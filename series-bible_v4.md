@@ -158,11 +158,22 @@ is a reason otherwise.
 
 **Old Ambrose — approved 2026-09-02. Canon. Sheet still to be rolled.**
 
-- **Old Ambrose:** an elderly anthropomorphic tortoise, a broad low domed shell in weathered olive and horn
+- **Old Ambrose:** an elderly anthropomorphic tortoise, a broad domed shell in weathered olive and horn
   brown with the scute edges worn smooth, loose leathery grey-green skin folding at the neck, a blunt beaked
-  mouth, small deep-set dark eyes under heavy hooded lids, slow and entirely unhurried; a soft undyed linen
-  smock and a wide flat straw hat gone soft at the brim, worn pushed back off his face; short thick limbs
-  and blunt claws. He is not much taller than Miss Quill and roughly twice as wide.
+  mouth, small deep-set dark eyes under heavy hooded lids, slow and entirely unhurried; a loose pale linen
+  shirt open at the collar, soft olive work trousers turned up at the cuff, and a wide flat straw hat gone
+  soft at the brim, worn pushed back off his face; short thick limbs and blunt claws
+
+> **Amended 2026-09-04 to match the approved sheet.** The token block originally said *a soft undyed linen
+> smock*; the art returned a shirt and turned-up work trousers, consistently across all three views, and it
+> is better — a smock reads monastic, and he keeps bees. The shirt-and-trousers is now canon.
+>
+> **The height rule did not survive and has been moved rather than dropped.** He was specified as *not much
+> taller than Miss Quill and roughly twice as wide* — a deliberate silhouette contrast, low and horizontal
+> against her vertical and closed. The sheet shows him taller and more upright than that.
+> **A solo sheet cannot carry scale**, which is what `scale-pair.png` exists for with the principals, so
+> this is not a fault in the roll. Until an Ambrose-and-Quill pair exists, **state the ratio in the
+> composition block of every frame that holds them both**, exactly as is already required for Thomas.
 
 > *Design reasoning, so it can be argued with: he is the only character who is unhurried, so the shape
 > language is all horizontal and low where Quill's is vertical and closed. Straw and undyed linen keep him
@@ -170,8 +181,9 @@ is a reason otherwise.
 > face matters — a brim over the eyes would hide the one thing he is for, which is looking at somebody
 > steadily while they work out that they were wrong.*
 
-> **~~Gap — Old Ambrose has no appearance tokens.~~ Closed 2026-09-02.** Tokens above are canon. He still
-> has no reference image of any kind, so he is the first item in `prompts/ART-QUEUE.md`. He is a tortoise, retired,
+> **~~Gap — Old Ambrose has no appearance tokens.~~ Closed 2026-09-02.**
+> **~~He has no reference image.~~ Closed 2026-09-04** — `ambrose-portrait.png` and `ambrose-sheet.png` are
+> approved and filed. He is drawable. Episode 003 is unblocked. He is a tortoise, retired,
 > keeps bees, and brings a jar of dark honey when he intends to correct somebody. That is the whole of him on
 > record. He corrects Thomas inside the Advisor's Notes, he carries the once-a-season witness line, and he is
 > cast in the Season Two bench arc — so he is load-bearing in three places and cannot be drawn. Write tokens,
@@ -334,10 +346,14 @@ rediscovering it. Add to this every time something surprises you.
    rather than trusting a name or a pronoun to carry it. **Confirmed: crop attached plus positive shape
    language fixed species, sex, costume and scale in a single roll.** The combination is the reliable one —
    neither the crop nor the wording did it alone.
-18. **Thomas's sash drifts into a double crossed sash** on frames where he is gesturing or seated. The
+18. **A solo reference sheet cannot hold scale.** Seven sheets came back on 2026-09-04 and every one was
+   usable, but Ambrose's lost the *short and wide* build he was specified with — because a single figure on
+   a flat background has nothing to be short relative to. Sheets hold face, costume and proportion-to-self.
+   Height between characters is held by a pair image, or by a sentence in every shared composition block.
+19. **Thomas's sash drifts into a double crossed sash** on frames where he is gesturing or seated. The
    canon is one sash, worn across the chest, with the gold compass rose on it. Worth stating as *a single
    plum sash over one shoulder* whenever he is in a busy frame.
-19. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
+20. **The repair beat always gets its own illustration.** It is the emotional peak of every episode and it was
    missing from the first draft of the Episode One prompts. Six image slots, not five.
 
 ---

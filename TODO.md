@@ -32,24 +32,19 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 
 ---
 
-## P0 — blocking. One art session.
+## P0 — nothing is blocking.
 
-1. ~~Approve Old Ambrose's token block~~ — **done, 2026-09-02.** Canon in `series-bible_v4.md` §3.
-2. **Roll the art queue.** → **`prompts/ART-QUEUE.md`** is the only art file you need open. Seven rolls,
-   in order, one copy-paste block each, with the attachments named per roll. Items 1 and 2 are Ambrose,
-   who opens Episode 003 and has never been drawn.
-   *Everything else in `prompts/` is now a marked archive and can be ignored.*
-
-> **Soft dependency worth knowing.** Episode 003 only needs Ambrose *drawn* if he appears in a frame. If
-> Thomas owns the correction in his own voice instead — in the Washing-Up or the Notes, with Ambrose
-> referred to and not shown — then 003 can run before the sheet exists, and is arguably better for it. See
-> `docs/EPISODE-003-HANDOFF.md` §4.
+1. ~~Approve Old Ambrose's token block~~ — **done 2026-09-02.**
+2. ~~Roll the art queue~~ — **done 2026-09-04.** All seven sheets approved and filed: Ambrose portrait and
+   sheet, Yolanda, Quill, Marisol, Pim, Fig. **Every character in Episode 003 is now drawable.**
+   Two optional rolls remain in `prompts/ART-QUEUE.md` and neither blocks anything.
 
 ---
 
-## P1 — the next real deliverable
+## P1 — the next real deliverable, and it is now unblocked
 
-3. **Write Episode 003.** → needs 1–2, *or* the soft-dependency route above.
+3. **Write Episode 003.** **Nothing is waiting on anything.** Ambrose is drawn, so the §4 workaround in the
+   handoff (keeping him out of frame) is no longer needed and he can appear on the page.
    **Dedicated fresh chat.** Attach-list and opening prompt: `docs/EPISODE-003-HANDOFF.md`.
    *Unblocks:* the Season One clock, the Pim beat, everything sequenced after it.
 
@@ -108,8 +103,9 @@ Pick these up whenever. None of them is waiting on anything.
 
 ## If you only have one evening
 
-Open **`prompts/ART-QUEUE.md`** and work down it. Seven rolls, each one block to copy, nothing to look up
-elsewhere. Getting through items 1–3 turns Episode 003 from *blocked* into *ready to hand off*.
+**Start the Episode 003 chat.** It is the one thing everything else is sequenced behind, and as of
+2026-09-04 nothing is in its way. `docs/EPISODE-003-HANDOFF.md` has the six files to attach and the opening
+prompt already written.
 
 ## If you have a weekend
 

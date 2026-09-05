@@ -20,13 +20,13 @@ validates clean. Work in this order when you come back.
 
 | | Do this | Why now |
 |---|---|---|
-| **1** | ~~Approve Ambrose's token block~~ | **Done 2026-09-02.** Canon. |
-| **2** | **Work down `prompts/ART-QUEUE.md`** | Seven rolls, one paste-block each. Items 1–2 are Ambrose, item 3 is Yolanda, who leads 003. |
-| **3** | **Hand off Episode 003** using `docs/EPISODE-003-HANDOFF.md` | File list and starter prompt are written. Fresh chat. |
+| **1** | ~~Approve Ambrose's token block~~ | **Done 2026-09-02.** |
+| **2** | ~~Work down the art queue~~ | **Done 2026-09-04.** All seven sheets approved and filed. |
+| **3** | **Hand off Episode 003** using `docs/EPISODE-003-HANDOFF.md` | **Now the only live item.** Nothing blocks it. |
 | **4** | ~~Episode 001 repair beat~~ | **Done.** Wired in, close renumbered, pager pointed forward. |
 | **5** | Write Bruno's token block | Blocks Episode 004, not 003. `ART-QUEUE.md` §3. |
 
-**Only the art queue blocks anything.** If you have one evening, spend it there.
+**Nothing blocks anything.** Episode 003 is the next real thing; everything else is optional.
 
 Decisions in §2 can wait — none of them blocks Episode 003, and two of them (season length, the Season One
 plant) are easier to answer after another episode exists.

@@ -74,25 +74,22 @@ through plot mechanism only.
 
 ---
 
-## 4. The one thing that could block the episode
+## 4. ~~The one thing that could block the episode~~ — cleared 2026-09-04
 
-**Old Ambrose opens Episode 003 and has never been drawn.**
+**Old Ambrose is drawn.** `ambrose-portrait.png` and `ambrose-sheet.png` are approved and filed, along with
+sheets for Yolanda, Quill, Marisol, Pim and Fig. Every character who could appear in this episode has a
+reference. Nothing blocks the script or the art.
 
-The episode must open with Thomas owning Ambrose's correction. If that beat is a scene rather than a
-reported memory, Ambrose is in a frame — and pipeline rule 16 says a character named in a slot with nothing
-attached comes back the wrong species. There is no crop and no sheet.
+Two things carried forward from when this was a problem:
 
-A **proposed** token block is in `series-bible_v4.md` §3, marked PROPOSED. Three ways through, in order of
-preference:
-
-1. **Approve the tokens and roll `ambrose-portrait.png` and `ambrose-sheet.png` before the episode art.**
-   Cleanest, and he is owed a sheet regardless — he carries the once-a-season witness line and is cast in
-   the Season Two bench arc.
-2. **Write the opening so Ambrose is not in frame.** Thomas owns it in the Washing-Up or in his own Notes,
-   with Ambrose referred to and not drawn. Legitimate, and arguably better: the correction landing in
-   Thomas's own voice is stronger than staging it.
-3. Write the script first and roll art later. Workable, but rule 9 says the sheet goes before the episode
-   art, and Episode 002 proved what happens otherwise.
+- **He can now be staged.** The earlier workaround — keeping Ambrose off the page and letting Thomas own the
+  correction in his own voice — is no longer *necessary*. It may still be *better*: a correction landing in
+  Thomas's own mouth is stronger than watching it happen. That is now a craft choice rather than a
+  constraint.
+- **His height is not carried by his sheet.** He is canonically only slightly taller than Miss Quill and
+  about twice her width, and a solo sheet cannot hold that. **Any frame with Ambrose and another character
+  must state the ratio in the composition block**, exactly as Thomas's frames do. See
+  `prompts/ART-QUEUE.md` item 1 for the pair image that would fix it permanently.
 
 ---
 

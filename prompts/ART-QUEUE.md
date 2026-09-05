@@ -23,197 +23,78 @@ reference leaks into everything generated from it later.
 
 ---
 
-## 1. TO ROLL — seven, in this order
+## 1. TO ROLL — two, and neither blocks anything
 
-Ambrose first: he opens Episode 003 and has never been drawn. Yolanda second: she leads it.
-
----
-
-### 1 · `ambrose-portrait.png` — 1:1
-
-**Attach:** `carolyn-portrait.png` *(for style only — he looks nothing like her)*
-
-```
-Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
-Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Rounded, friendly
-character shapes; even soft light with no dramatic shadow; flat-ish depth and light rendering. A children's
-picture book with adult compositional care. The character is a clearly animal-faced person.
-
-This picture contains one character and nothing else.
-
-An elderly anthropomorphic tortoise. Loose leathery grey-green skin folding in soft rolls at the neck, a
-blunt beaked mouth, small deep-set dark eyes under heavy hooded lids, a broad low domed shell in weathered
-olive and horn brown with the scute edges worn smooth. He wears a soft undyed linen smock and a wide flat
-straw hat gone soft at the brim, pushed back off his face so that his eyes are fully visible. Short thick
-limbs and blunt claws. He is old, slow, and entirely unhurried, and his expression is calm and patient.
-
-A single head-and-shoulders portrait facing slightly to the left, calm neutral expression, flat buttermilk
-background, even soft light. Face fully visible. Hands out of frame.
-
-Square, 1:1, head and shoulders filling most of the frame.
-```
-
-*The hat brim matters. Pushed back, not pulled down — a shadow over his eyes hides the one thing he is for,
-which is looking at somebody steadily while they work out that they were wrong.*
+**The seven-item queue of 2026-09-04 is cleared.** Every character who appears in Episode 003 now has a
+sheet, so nothing here is holding up the script or the episode art.
 
 ---
 
-### 2 · `ambrose-sheet.png` — 16:9
+### 1 · `ambrose-and-quill-pair.png` — 4:3 — *the one worth doing*
 
-**Attach:** `ambrose-portrait.png` *(once approved)*, `carolyn-sheet.png`
+**Attach:** `ambrose-sheet.png`, `quill-sheet.png`
+
+Ambrose was specified as short and wide — *not much taller than Miss Quill and roughly twice as wide* — and
+his solo sheet could not carry that, because one figure on a flat background has nothing to be short
+relative to. This is the fix, and it is the same job `scale-pair.png` does for Carolyn and Thomas.
 
 ```
 Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
 Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
+with no cast shadows. Flat-ish depth and light rendering. Both characters are clearly animal-faced people.
 
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
+This picture contains two characters standing side by side against a flat buttermilk background, facing
+forward, arms at their sides, neutral expressions, hands empty. Nothing else is in the frame.
 
-An elderly anthropomorphic tortoise. Loose leathery grey-green skin folding at the neck, a blunt beaked
-mouth, small deep-set dark eyes under heavy hooded lids, a broad low domed shell in weathered olive and horn
-brown with the scute edges worn smooth. A soft undyed linen smock and a wide flat straw hat gone soft at the
-brim, pushed back off his face. Short thick limbs and blunt claws.
+On the left, an elderly anthropomorphic tortoise. Loose leathery grey-green skin folding at the neck, a
+blunt beaked mouth, small deep-set dark eyes under heavy hooded lids, a broad domed shell in weathered olive
+and horn brown. A loose pale linen shirt open at the collar, soft olive work trousers turned up at the cuff,
+and a wide flat straw hat pushed back off his face so his eyes are visible. He is built low and wide: short
+thick limbs, a heavy body close to the ground, broad across the shell.
 
-His build is low and horizontal: short, wide, heavy and close to the ground. He stands about two-thirds the
-height of a grown pig woman and is roughly twice her width. Arms at his sides, neutral expression, hands
-empty.
+On the right, a hedgehog woman in her fifties. Short soft dense spines sweeping back close against her head
+and shoulders. Wire-rimmed half-moon spectacles, a plum-grey bodice buttoned to the throat with a white
+collar and cuffs, a small green ribbon at the collar, an olive-green skirt. She is small, round and stands
+very upright.
 
-Flat buttermilk background and nothing else at all in the frame.
+Their heads are level with each other. He is only very slightly taller than she is, and he is roughly twice
+her width. His silhouette is low and horizontal; hers is narrow and vertical. If he looks tall beside her,
+the image is wrong.
 
-Wide, 16:9, full body, three figures the same height and evenly spaced.
+4:3, both figures full body with a little headroom above both.
 ```
 
 ---
 
-### 3 · `yolanda-sheet.png` — 16:9
+### 2 · `ambrose-key-beats.png` — 16:9 — *later, and only if a scene needs it*
 
-**Attach:** `yolanda-crop.png`, `carolyn-sheet.png`
-
-```
-Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
-Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
-
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
-
-A large anthropomorphic goose, white with grey wing edges and a grey cap over the head, a broad orange bill,
-a scarlet headwrap, and a pale work apron heavily stained with spice. She is big, broad and generous in
-build, and stands a little taller than a grown pig woman.
-
-In the front view her wings are folded at her sides. In the three-quarter view one wing is half raised as
-though mid-gesture. In the side view her wings are folded. Neutral expression, nothing held.
-
-Flat buttermilk background and nothing else at all in the frame.
-
-Wide, 16:9, full body, three figures the same height and evenly spaced.
-```
-
-*She leads Episode 003. The half-raised wing in the middle pose is worth having — the spread wings are how
-she talks, and a sheet with all three wings folded will not help when she is being drawn mid-sentence.*
-
----
-
-### 4 · `quill-sheet.png` — 16:9
-
-**Attach:** `quill-crop.png`, `quill-face-crop.png`
+**Attach:** `ambrose-portrait.png`
 
 ```
 Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
 Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
+with no cast shadows. The character is a clearly animal-faced person.
 
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
+An expression reference strip. The same elderly tortoise's head and shoulders repeated three times against a
+flat buttermilk background, identical in style and costume, straw hat pushed back off his face throughout.
 
-A hedgehog woman in her fifties, matching the attached images exactly. Her spines are short and soft and
-dense, sweeping back close against her head and shoulders in a smooth rounded shape. Warm brown fur, a pale
-cream muzzle, a small dark nose, warm brown eyes behind wire-rimmed half-moon spectacles, round cheeks. She
-wears a plum-grey bodice buttoned all the way to the throat with a crisp white collar and white cuffs, a
-small green ribbon tied at the collar, and an olive-green skirt. A pencil behind one ear.
+First: listening, and deliberately not yet deciding. Eyes steady and on the speaker, hooded lids relaxed,
+mouth closed and level.
 
-She is plainly a grown woman at full adult proportion: a small round body, short limbs, a settled and
-composed face. She is short — about two-thirds the height of a grown pig woman — and carries herself very
-upright. Arms at her sides, hands empty, neutral expression.
+Second: correcting somebody much younger than him, kindly. Eyes direct, brow untroubled, chin level, no
+triumph anywhere in it — this is a face doing somebody a favour, not winning something.
 
-Flat buttermilk background and nothing else at all in the frame.
+Third: finding out he was wrong, and knowing it, in the second before he says so. Eyes lowered a fraction
+and then lifted again, mouth closed, entirely undefended.
 
-Wide, 16:9, full body, three figures the same height and evenly spaced.
+Convey the expression through eye shape, lid height, brow and head angle rather than the mouth, which on a
+beaked face does not move much.
+
+Wide, 16:9, three evenly spaced heads at the same scale, single row.
 ```
 
----
-
-### 5 · `marisol-sheet.png` — 16:9
-
-**Attach:** `marisol-crop.png`
-
-```
-Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
-Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
-
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
-
-An anthropomorphic pig woman of about fifty, matching the attached image exactly. Sturdy and broad through
-the shoulders, dusty rose-grey skin, a broad flat snout, small dark eyes with deep laugh lines,
-close-cropped silver hair under a faded indigo headwrap, one small gold hoop earring. She wears a sleeveless
-oatmeal canvas smock stained with flour over a narrow blue-striped shirt, with bare floury forearms. She is
-weathered and entirely at ease. Arms at her sides, hands empty, neutral expression.
-
-Flat buttermilk background and nothing else at all in the frame.
-
-Wide, 16:9, full body, three figures the same height and evenly spaced.
-```
-
----
-
-### 6 · `pim-sheet.png` — 16:9
-
-**Attach:** `pim-crop.png`, `carolyn-sheet.png`
-
-```
-Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
-Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
-
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
-
-A very small anthropomorphic harvest mouse, matching the attached image exactly. Tawny gold fur, a pale
-cream belly, large round ears, enormous dark eyes, a long pink tail. She wears a child-sized white apron
-with a front pocket, and it is far too big for her. She is young — about fourteen — and very small: roughly
-a third the height of a grown pig woman. Arms at her sides, hands empty, neutral expression.
-
-Flat buttermilk background and nothing else at all in the frame.
-
-Wide, 16:9, full body, three figures the same height and evenly spaced.
-```
-
----
-
-### 7 · `fig-sheet.png` — 16:9
-
-**Attach:** `fig-crop.png`, `carolyn-sheet.png`
-
-```
-Warm storybook illustration in gouache and soft ink linework, hand-painted texture, visible brush edges.
-Sun-warmed palette of deep plum, mango gold, guava pink, herb green and buttermilk paper. Even flat lighting
-with no cast shadows. Flat-ish depth and light rendering. The character is a clearly animal-faced person.
-
-A character reference sheet. One character only, shown three times standing upright in a row: front view,
-three-quarter view, and side view, identical in all three.
-
-A very young anthropomorphic piglet, matching the attached image exactly. Pink, with a dark grey patch over
-one eye, wearing a patched blue denim pinafore. She is about four years old and very small — roughly a
-quarter the height of a grown pig woman — with a round body and short limbs. Arms at her sides, hands empty,
-neutral expression.
-
-Flat buttermilk background and nothing else at all in the frame.
-
-Wide, 16:9, full body, three figures the same height and evenly spaced.
-```
+*Not needed until an episode makes his face carry a beat. Worth having before the one where he corrects
+Thomas, since the whole scene turns on face two.*
 
 ---
 
@@ -223,15 +104,18 @@ No prompts here. This is the record, so you can see at a glance who is finished.
 
 | Character | Files | Status |
 |---|---|---|
-| **Carolyn** | `carolyn-portrait.png` · `carolyn-sheet.png` · `carolyn-expressions.png` · `carolyn-key-beats.png` · `carolyn-apology.png` | **Complete.** Nothing further needed. |
-| **Thomas** | `thomas-portrait.png` · `thomas-sheet.png` · `thomas-expressions.png` · `thomas-key-beats.png` | **Complete.** Nothing further needed. |
-| **Both** | `scale-pair.png` | **Complete.** Fixes the 1.4× height / 2× width ratio. |
-| **Marisol** | `marisol-crop.png` | Crop only — sheet is queue item 5. |
-| **Quill** | `quill-crop.png` · `quill-face-crop.png` | Crops only — sheet is queue item 4. |
-| **Yolanda** | `yolanda-crop.png` | Crop only — sheet is queue item 3. |
-| **Pim** | `pim-crop.png` | Crop only — sheet is queue item 6. |
-| **Fig** | `fig-crop.png` | Crop only — sheet is queue item 7. |
-| **Ambrose** | *none* | Tokens approved 2026-09-02. Nothing drawn. Queue items 1 and 2. |
+| **Carolyn** | `carolyn-portrait` · `carolyn-sheet` · `carolyn-expressions` · `carolyn-key-beats` · `carolyn-apology` | **Complete.** |
+| **Thomas** | `thomas-portrait` · `thomas-sheet` · `thomas-expressions` · `thomas-key-beats` | **Complete.** |
+| **Carolyn + Thomas** | `scale-pair` | **Complete.** Holds the 1.4× height / 2× width ratio. |
+| **Old Ambrose** | `ambrose-portrait` · `ambrose-sheet` | **Approved 2026-09-04.** Costume amended in canon to match: shirt and work trousers, not a smock. Height not carried by the sheet — see queue item 1. |
+| **Auntie Yolanda** | `yolanda-sheet` · `yolanda-crop` | **Approved 2026-09-04.** The half-raised wing in the three-quarter view came through, which is what she needed. |
+| **Miss Quill** | `quill-sheet` · `quill-crop` · `quill-face-crop` | **Approved 2026-09-04.** Spines a little longer than the crops; consistent across all three views, so it stands. |
+| **Marisol Vega** | `marisol-sheet` · `marisol-crop` | **Approved 2026-09-04.** Matches the crop closely. |
+| **Pim** | `pim-sheet` · `pim-crop` | **Approved 2026-09-04.** |
+| **Fig Bramblewick** | `fig-sheet` · `fig-crop` | **Approved 2026-09-04.** |
+
+**Every character who appears in Episode 003 has a sheet.** The crops are kept because they are still the
+best reference for a specific pose or expression, but the sheets are now the identity anchors.
 
 **Episode art:** Episodes 001 and 002 are both complete — six slots each, all approved, in
 `images/ep-001/` and `images/ep-002/`. Nothing outstanding.
@@ -257,9 +141,6 @@ needed before Episode 004 and is the only one on this list that blocks anything.
 
 ## 4. LATER — nothing is waiting on these
 
-- **`ambrose-key-beats.png`** — three faces, once his sheet exists. *(1) listening without deciding;
-  (2) correcting somebody younger, kindly and with no triumph in it; (3) being wrong and knowing it.*
-  Worth rolling before the episode where he corrects Thomas has to carry his face.
 - **Episode 003 illustration slots** — six, after the script exists. Prompts get written then, in a
   per-episode file, using the pattern in `prompts/ep-002-prompts.md`.
 - **Dojo mask art** — painted masks on pegs in the practice yard, storybook style. Entirely optional; the
@@ -281,5 +162,8 @@ short version.
 - **Small characters read as children.** Give a fraction against a named character and say *grown woman at
   full adult proportion.* Never write the word *child* to exclude one.
 - **State Thomas's scale in every shared frame:** 1.4× Carolyn's height, twice her width.
+- **A solo sheet cannot hold scale.** It holds face, costume, and proportion-to-itself. Height *between*
+  characters needs a pair image, or a sentence in every shared composition block. Ambrose's sheet lost his
+  short-and-wide build for exactly this reason and nothing was done wrong.
 - **Crops off failed images are legitimate references.** Three of the ones in use came from rolls that were
   unusable as pictures.

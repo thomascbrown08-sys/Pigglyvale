@@ -122,7 +122,7 @@ picture will.*
 
 ## Later, when you want them
 
-Supporting cast sheets, in the same format, using the character blocks from `series-bible_v4.md`:
+Supporting cast sheets, in the same format, using the character blocks from `series-bible_v6.md`:
 Pim · Auntie Yolanda Plum · Miss Delphine Quill · Bruno "Buckets" Marrow · Old Ambrose ·
 Beatrix Hollyhock · Gus Thornapple · the Bramblewick litter.
 

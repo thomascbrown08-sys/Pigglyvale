@@ -1,6 +1,12 @@
 # The Chronicles of Pigglyvale — complete site
 
-> **Build v3 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> **Build v4 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> *Also in this build:* **Bruno's and Gus's appearance token blocks are approved and canon**
+> (`series-bible_v6.md` §3), which moves both out of the art queue's BLOCKED table and into it as rollable
+> items 3 and 4. Episode 004's script is no longer blocked on art — only on the theft ruling. Canon is now
+> **`series-bible_v6.md`** and production is **`the-workbench_v5.md`**; both must be re-pasted into Project
+> Knowledge.
+>
 > *Also in this build:* a **full cross-site link audit** — all 22 outbound links re-checked against the live
 > Keep Your Heart and My Toolbox indexes; **all resolve and every label still matches its target's live
 > title**, so the KYH renumbering did not break anything here. Three now-shipped KYH chapters were linked in
@@ -8,8 +14,7 @@
 > be re-pasted into Project Knowledge.
 >
 > *Added:* Episode Three, *Quantity Not Stated* — page, six image prompts, `images/ep-003/`, and its
-> Movement card generated from `tools/movement_card.py`. Canon is now `series-bible_v5.md`; production is
-> `the-workbench_v4.md`. Wiring updated: `assets/episodes.js`, `index.html`, and Episode Two's forward
+> Movement card generated from `tools/movement_card.py`. Wiring updated: `assets/episodes.js`, `index.html`, and Episode Two's forward
 > pager. `TODO.md` rewritten — **Episode Four is blocked on Bruno's sheet and the theft ruling.**
 > *Not included:* Episode Three's six images. The page is complete and waiting for them.
 
@@ -18,8 +23,8 @@ Everything is in here. Unzip, upload the whole folder, done.
 ```
 TODO.md                 ← START HERE. Master list, priorities, dependencies.
 index.html
-series-bible_v5.md      canon — continuity, characters, pipeline rules
-the-workbench_v4.md     production detail behind the master list
+series-bible_v6.md      canon — continuity, characters, pipeline rules
+the-workbench_v5.md     production detail behind the master list
 assets/          style.css · episodes.js · dojo.js
 episodes/        ep-001 · ep-002 · ep-003 · _TEMPLATE.html
 dojo/            the practice yard — masks, belts, drills
@@ -33,8 +38,9 @@ docs/            site-conventions.md · the-arc-room_v2.md · the-dojo-design.md
 images/          _reference/ · keep/ · ep-001/ · ep-002/ · ep-003/ (empty)
 ```
 
-**Superseded files are kept, not overwritten.** `series-bible_v4.md` and `the-workbench_v3.md` are still in
-here. The filename carries the version and so does the block at the top of each file — check both before
+**Superseded files are kept, not overwritten.** `series-bible_v4.md`, `series-bible_v5.md`,
+`the-workbench_v3.md` and `the-workbench_v4.md` are all still in here. **The current pair is
+`series-bible_v6.md` and `the-workbench_v5.md`.** The filename carries the version and so does the block at the top of each file — check both before
 working from any copy.
 
 ---
@@ -82,7 +88,7 @@ involved:
 | `assets/style.css` | The original, plus four component blocks at the foot — the Washing-Up, the Movement card, the Toolbox citation, and the Keep — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
 | `assets/episodes.js` | Both episode pages load it and it was not in the project. Adding an episode is one line in the `EPISODES` array. |
 | `tools/movement_card.py` | Rebuilt from the arc room's three-elements spec. Run it, paste the block into the Notes. The Episode Two card on the page is this script's own output, so the two cannot drift. |
-| `series-bible_v5.md` | No longer reconstructed. The author's v3 was supplied and now stands; v4 applied four corrections and v5 added Episode Three. Each version logs its own changes in its header. `docs/002-bible-delta.md` records what Episode Two added. |
+| `series-bible_v6.md` | No longer reconstructed. The author's v3 was supplied and now stands; v4 applied four corrections and v5 added Episode Three. Each version logs its own changes in its header. `docs/002-bible-delta.md` records what Episode Two added. |
 | `prompts/00-reference-sheets.md` | Unchanged from the project. Round Five now lives at the foot of `prompts/ep-002-prompts.md` instead. |
 
 Not rebuilt, because nothing in the handoff describes it: `voice-for-carolyn.md`. The register rules quoted

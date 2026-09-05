@@ -19,7 +19,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | File | Holds |
 |---|---|
 | **`TODO.md`** | this. Priorities, dependencies, and where to go next. |
-| **`the-workbench_v4.md`** | Pigglyvale production. Images to roll, decisions outstanding, sequenced episodes. The biggest list. |
+| **`the-workbench_v5.md`** | Pigglyvale production. Images to roll, decisions outstanding, sequenced episodes. The biggest list. |
 | **`docs/EPISODE-003-HANDOFF.md`** | **Spent.** Episode 003 shipped 2026-09-05. Kept as the worked example of what a handoff needs; do not work from it. |
 | **`docs/the-dojo-design.md`** | Dojo rules and its build order. Read before writing any case. |
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
@@ -28,35 +28,49 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
 | **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
 | **`docs/KEEP-YOUR-HEART-TODO.md`** | Gaps and handoff for the Keep Your Heart site. For its own chat. |
-| **`series-bible_v5.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live, and §11 is the art gap that blocks 004. |
+| **`series-bible_v6.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live. |
 
 ---
 
-## P0 — two things now block Episode 004
-
-1. **Write Bruno's token block, then roll his sheet.** He has no block, no crop and has never been drawn,
-   and he is the **lead** of Arc A. Positive shape language, the way Ambrose's and Quill's were written, then
-   roll the sheet *before* the episode art. `prompts/ART-QUEUE.md` §3, `series-bible_v5.md` §11.
-   → blocks **Episode 004** outright.
-2. **Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both, and 004 is
-   Arc A. → blocks **Episode 004** and the bench arc.
+> **The two tracks do not need each other.** Art runs on Gemini and needs no writing session; writing runs
+> on Claude and needs no art. Everything below is marked **[ART]** or **[WRITE]** so an evening can be spent
+> entirely in one of them. Nothing in one track is waiting on anything in the other.
 
 ---
 
-## P1 — the next real deliverable
+## P0 — one thing blocks Episode 004
 
-3. **Roll Episode 003's six images.** The page is live and complete — all six `<img>` tags and their alt
-   text are already written, so the files drop into `images/ep-003/` under the given names and nothing needs
-   editing. Prompts: `prompts/ep-003-prompts.md`, one self-contained box per slot.
-   **Slot 05 is the repair beat and is the one that matters** — the tool draws "sorry" as "crying," and the
-   calm/dry/eyes-lifted language in that slot is doing the whole job.
-   *Waiting on:* nothing.
+1. **[WRITE] Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both, and
+   004 is Arc A. → blocks **Episode 004** and the bench arc. **This is the only remaining block, and no
+   amount of art moves it.**
+
+1b. ~~Write Bruno's token block~~ — **done 2026-09-05**, with Gus's in the same sitting. Both canon in
+   `series-bible_v6.md` §3. The Episode 004 *script* is now unblocked; only its art waits on a sheet.
+
+---
+
+## P1 — the art queue, in roll order
+
+**Four jobs, every one with a finished paste block, none waiting on anything.** A whole evening of Gemini
+work with no writing session needed.
+
+2. **[ART] `bruno-sheet.png`** — `ART-QUEUE.md` §1 item 3. **Roll this first.** He is the lead of Episode
+   004 and has never been drawn. Watch for: long and narrow with a body-length tail. If he comes back short
+   and round, re-roll.
+3. **[ART] Episode 003's six images** — `prompts/ep-003-prompts.md`. The page is live and every `<img>` tag
+   and alt text is already written, so files drop into `images/ep-003/` under the given names and nothing
+   needs editing. **Slot 05 is the repair beat and is the one that matters** — the tool draws "sorry" as
+   "crying," and the calm/dry/eyes-lifted language in that slot is doing the whole job.
+3b. **[ART] `gus-sheet.png`** — `ART-QUEUE.md` §1 item 4. Blocks nothing. Watch for: *pig man*, not a feral
+   boar; and braced-weight-forward, so he does not read as Old Ambrose.
+3c. **[ART] `ambrose-and-quill-pair.png`** — `ART-QUEUE.md` §1 item 1. Blocks nothing, but it permanently
+   fixes the Ambrose height problem instead of restating the ratio in every shared frame forever.
 
 3b. ~~Write Episode 003.~~ **Shipped 2026-09-05** as *Quantity Not Stated*. Thomas owned the Ambrose
    correction at the head of the Notes, discharging the apology rule — **he is not due again until 006 or
    007.** Miss Quill's rewritten grant rule landed on the page in full. Butterflies were deliberately
    withheld, the first episode with none. Ledger, Season Clock and Open Threads are updated in
-   `series-bible_v5.md`.
+   `series-bible_v6.md`.
 
 ---
 
@@ -88,10 +102,14 @@ Pick these up whenever. None of them is waiting on anything.
 ## P3 — queued, each waiting on something
 
 10. ~~Resolve the theft double-booking~~ — **promoted to P0.** It blocks 004.
-11. ~~Write Bruno's token block~~ — **promoted to P0.** He is the lead of 004.
-11b. **Write Gus Thornapple's token block.** Not blocking, but he has now been in three episodes and drawn
-    in none of them, and Episode 003 had to describe a Marketrow crowd generically to keep him out of frame.
-    That will start to show. `series-bible_v5.md` §11.
+11. ~~Write Bruno's token block~~ — **done 2026-09-05.** Now an art item, P1.
+11b. ~~Write Gus Thornapple's token block~~ — **done 2026-09-05**, same sitting. Now an art item, P1.
+11c. **[WRITE] Episode 004 itself.** Writable the moment the theft ruling exists — Bruno can be named and
+    written against his approved tokens whether or not his sheet is rolled yet.
+11d. **[WRITE] The grief work.** Needs a ruling first: lost people or lost opportunity. Craft cautions in
+    `series-bible_v6.md` §10; the cross-site division is in `docs/CROSS-SITE-RULES.md` §Grief. **The
+    companion sites are ahead here, not behind** — the one real gap is a Toolbox page on grief for a life
+    that did not happen, and it should be proposed to the Toolbox chat *before* the episode is written.
 12. **Decide how long Season One is.** → sets the latency-ladder spacing → sets where the **Season One
     plant** goes (the badly-resolved dispute that pays off eighteen months later).
 13. **Decide Donna's engine and role.** → and see the ward brief §8, since she may be the ward.
@@ -114,11 +132,15 @@ Pick these up whenever. None of them is waiting on anything.
 
 ## If you only have one evening
 
-**Roll Episode 003's art.** The page is already live and waiting for it, the prompts are written one box
-per slot, and it needs no decisions from you. `prompts/ep-003-prompts.md`.
+**Roll `bruno-sheet.png`.** One image, no decisions, and it is the thing standing between you and Episode
+004's art. `ART-QUEUE.md` §1 item 3.
+
+## If you have an art evening
+
+Bruno's sheet, then Episode 003's six slots, then Gus, then the Ambrose-and-Quill pair. Four jobs, all
+paste-ready, no writing session needed at any point.
 
 ## If you have a weekend
 
-P0 first — Bruno's block and the theft ruling — because together they are the only thing standing between
-you and Episode 004. Then the 003 art. Do not do P2 first: it is the fun list, and it will eat the
-weekend.
+**Rule on the theft double-booking first** — it is one decision and it unblocks Episode 004 entirely. Then
+either track. Do not do P2 first: it is the fun list, and it will eat the weekend.

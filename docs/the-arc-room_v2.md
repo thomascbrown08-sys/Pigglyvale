@@ -6,7 +6,7 @@
 > sequencing table. Nothing else was altered; §§1–3 are byte-identical to v1.
 
 Planning only. Nothing here is canon until it ships. Carry this into a writing session; update
-`series-bible_v4.md` after, not before.
+`series-bible_v6.md` after, not before.
 
 ---
 
@@ -440,7 +440,7 @@ gesture, changed function, no words spent.
 **Debts that stay open.** Bruno not repenting inside his episode is already a season clock. So is a
 friendship that stays cool across several episodes. What persists is what makes time visible.
 
-**Tracking:** the Season Clock table in `series-bible_v4.md` §6b. Two values per episode, filled in after the
+**Tracking:** the Season Clock table in `series-bible_v6.md` §6b. Two values per episode, filled in after the
 episode ships.
 
 ---

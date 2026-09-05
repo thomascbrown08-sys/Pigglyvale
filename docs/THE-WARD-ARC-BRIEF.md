@@ -161,9 +161,9 @@ Season One is too early. Season Two probably is as well. That is a feature.
 
 ## 9. What to bring into the dedicated chat
 
-- `series-bible_v4.md` — canon, and the Abandonment Protocol that needs amending
+- `series-bible_v6.md` — canon, and the Abandonment Protocol that needs amending
 - `docs/the-arc-room_v2.md` — Arc D is already logged there; start from it
-- `the-workbench_v3.md` — what is decided and what is not
+- `the-workbench_v5.md` — what is decided and what is not
 - `episodes/ep-001-the-small-yeses.html` and `ep-002-the-column-nobody-read.html` — tone and the repair rhythm
 - `pages/the-map-of-the-keep.html` — *blood gets you the seat, conduct keeps the keys* is the theological
   spine of this entire arc, and it is already written

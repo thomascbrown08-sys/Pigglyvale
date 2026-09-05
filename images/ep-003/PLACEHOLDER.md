@@ -22,7 +22,7 @@ whole file, and attach the sheets each slot names.
 - **Slots 01, 02, 05 and 06 each state their own scale sentence.** Stating it once at the top of a file has
   never held (pipeline rule 8). Slot 02 carries the hedgehog fraction; slot 06 carries the drake ratio and
   the single-sash line.
-- **No butterflies in any slot.** Deliberate — see the ledger row for 003 in `series-bible_v5.md`.
+- **No butterflies in any slot.** Deliberate — see the ledger row for 003 in `series-bible_v6.md`.
 
 **Gus Thornapple is in the prose of this episode and in none of its art**, because he has no token block and
 no reference. Slot 03 describes the crowd generically instead. See pipeline rule 21 and

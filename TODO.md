@@ -19,7 +19,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | File | Holds |
 |---|---|
 | **`TODO.md`** | this. Priorities, dependencies, and where to go next. |
-| **`the-workbench_v5.md`** | Pigglyvale production. Images to roll, decisions outstanding, sequenced episodes. The biggest list. |
+| **`the-workbench_v6.md`** | Pigglyvale production. Images to roll, decisions outstanding, sequenced episodes. The biggest list. |
 | **`docs/EPISODE-003-HANDOFF.md`** | **Spent.** Episode 003 shipped 2026-09-05. Kept as the worked example of what a handoff needs; do not work from it. |
 | **`docs/the-dojo-design.md`** | Dojo rules and its build order. Read before writing any case. |
 | **`docs/THE-WARD-ARC-BRIEF.md`** | Arc D. Parked deliberately. Carries its own five-item readiness checklist. |
@@ -28,7 +28,7 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 | **`docs/site-conventions.md`** | Structural rules. Read before adding any page. |
 | **`docs/TOOLBOX-SUGGESTIONS.md`** | Proposed additions to the My Toolbox site. For the *other* chat. |
 | **`docs/KEEP-YOUR-HEART-TODO.md`** | Gaps and handoff for the Keep Your Heart site. For its own chat. |
-| **`series-bible_v6.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live. |
+| **`series-bible_v7.md`** | Canon. Not a to-do list, but §10 Open Threads is where unscheduled story ideas live. |
 
 ---
 
@@ -38,14 +38,26 @@ Ordered by what unblocks the most. Dependencies are marked `→`.
 
 ---
 
-## P0 — one thing blocks Episode 004
+## P0 — nothing is blocking anything
 
-1. **[WRITE] Resolve the theft double-booking.** Arc A vs the Season Two bench arc; it cannot be both, and
-   004 is Arc A. → blocks **Episode 004** and the bench arc. **This is the only remaining block, and no
-   amount of art moves it.**
-
+1. ~~Resolve the theft double-booking~~ — **done 2026-09-05.** A false conflict: one thread across two
+   seasons, and both bookings kept. 004 carries the offence, the pardon and the **withheld key**; the Season
+   Two bench carries the reoffence, the hearing and the **restitution**. Bruno is the bench's third or fourth
+   case, never its opener. Ruling: `docs/the-arc-room_v3.md` §Arc A. **It settled the Watch's name as a side
+   effect — protective, the name stands, the find-and-replace is retired.**
 1b. ~~Write Bruno's token block~~ — **done 2026-09-05**, with Gus's in the same sitting. Both canon in
-   `series-bible_v6.md` §3. The Episode 004 *script* is now unblocked; only its art waits on a sheet.
+   `series-bible_v7.md` §3.
+
+**Episode 004 is unblocked and is the next real deliverable.**
+
+---
+
+## P1b — the next episode
+
+1c. **[WRITE] Episode 004 — Arc A, the Watch.** Nothing is waiting on it, and the art can lag the script.
+   **The one beat it must not miss: the key does not go back.** Forgive and restore access, and Season Two's
+   reoffence indicts Carolyn's judgment; forgive and set the Watch, and it vindicates her. Bruno does not
+   repent. Spine and guards: `docs/the-arc-room_v3.md` §Arc A.
 
 ---
 
@@ -70,7 +82,7 @@ work with no writing session needed.
    correction at the head of the Notes, discharging the apology rule — **he is not due again until 006 or
    007.** Miss Quill's rewritten grant rule landed on the page in full. Butterflies were deliberately
    withheld, the first episode with none. Ledger, Season Clock and Open Threads are updated in
-   `series-bible_v6.md`.
+   `series-bible_v7.md`.
 
 ---
 
@@ -107,14 +119,15 @@ Pick these up whenever. None of them is waiting on anything.
 11c. **[WRITE] Episode 004 itself.** Writable the moment the theft ruling exists — Bruno can be named and
     written against his approved tokens whether or not his sheet is rolled yet.
 11d. **[WRITE] The grief work.** Needs a ruling first: lost people or lost opportunity. Craft cautions in
-    `series-bible_v6.md` §10; the cross-site division is in `docs/CROSS-SITE-RULES.md` §Grief. **The
+    `series-bible_v7.md` §10; the cross-site division is in `docs/CROSS-SITE-RULES.md` §Grief. **The
     companion sites are ahead here, not behind** — the one real gap is a Toolbox page on grief for a life
     that did not happen, and it should be proposed to the Toolbox chat *before* the episode is written.
 12. **Decide how long Season One is.** → sets the latency-ladder spacing → sets where the **Season One
     plant** goes (the badly-resolved dispute that pays off eighteen months later).
 13. **Decide Donna's engine and role.** → and see the ward brief §8, since she may be the ward.
-14. **Rule on "the Watch" as a name.** Canon by default; a find-and-replace now, more expensive every
-    episode.
+14. ~~Rule on "the Watch" as a name~~ — **settled 2026-09-05**, as a consequence of the theft ruling rather
+    than by direct decision. Restitution rather than punishment makes the Watch protective. **The name
+    stands.**
 15. ~~Roll proper sheets for Pim, Fig, Quill, Marisol~~ — now queue items 4–7 in `prompts/ART-QUEUE.md`.
 
 ---
@@ -142,5 +155,5 @@ paste-ready, no writing session needed at any point.
 
 ## If you have a weekend
 
-**Rule on the theft double-booking first** — it is one decision and it unblocks Episode 004 entirely. Then
-either track. Do not do P2 first: it is the fun list, and it will eat the weekend.
+**Write Episode 004.** It is unblocked, it is the next real thing, and everything else is sequenced behind
+it. Do not do P2 first: it is the fun list, and it will eat the weekend.

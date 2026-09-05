@@ -106,7 +106,7 @@ Thomas, since the whole scene turns on face two.*
 **Attach:** nothing. This is his first image; there is no reference to attach yet.
 
 He is the lead of Episode 004 and has never been drawn. Tokens approved 2026-09-05 and canon in
-`series-bible_v6.md` §3. **Roll this before any Episode 004 art**, not alongside it (rule 9) — without a
+`series-bible_v7.md` §3. **Roll this before any Episode 004 art**, not alongside it (rule 9) — without a
 sheet holding the face, text tokens hold nothing and the model substitutes the nearest character it does
 have a sheet for.
 
@@ -142,7 +142,7 @@ tailed is the whole silhouette, and it is the only fast-moving shape in the cast
 
 ### 4 · `gus-sheet.png` — 16:9
 
-**Attach:** nothing. First image. Tokens approved 2026-09-05, `series-bible_v6.md` §3.
+**Attach:** nothing. First image. Tokens approved 2026-09-05, `series-bible_v7.md` §3.
 
 Three episodes in the prose and never once in the art — Episode 003 had to describe a Marketrow crowd
 generically to keep him out of frame.
@@ -214,9 +214,9 @@ Not in the queue because there is nothing to write a prompt from.
 | **Dot, Sorrel, Bean** | Names only. Group sheet when an episode needs all four Bramblewicks. | nothing yet |
 
 **Bruno and Gus have left this table.** Both token blocks were approved 2026-09-05 and are canon in
-`series-bible_v6.md` §3; they are now §1 items 3 and 4. **Nothing on this list blocks anything.**
+`series-bible_v7.md` §3; they are now §1 items 3 and 4. **Nothing on this list blocks anything.**
 
-**To unblock any of the rest:** write a token block into `series-bible_v6.md` §3 the way Bruno's and Gus's
+**To unblock any of the rest:** write a token block into `series-bible_v7.md` §3 the way Bruno's and Gus's
 were written — positive shape language, a head noun that returns the right animal, and a scale sentence,
 because a solo sheet cannot hold height (rule 18). Then it joins §1.
 
@@ -237,7 +237,7 @@ because a solo sheet cannot hold height (rule 18). Then it joins §1.
 
 ## 5. The rules, in one place
 
-These caused every failure so far. They are in `series-bible_v6.md` §5b as pipeline rules 9–22; this is the
+These caused every failure so far. They are in `series-bible_v7.md` §5b as pipeline rules 9–22; this is the
 short version.
 
 - **No negative prompts.** One text box, everything named gets drawn. Naming a thing to forbid it draws it.

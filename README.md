@@ -1,10 +1,14 @@
 # The Chronicles of Pigglyvale — complete site
 
-> **Build v4 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> **Build v5 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> *Also in this build:* **the theft double-booking is resolved and the Watch's name is settled.** Theft runs
+> as one thread across two seasons rather than two episodes competing for one plot, and **Episode 004 is now
+> blocked on nothing.** Planning is **`docs/the-arc-room_v3.md`**.
+>
 > *Also in this build:* **Bruno's and Gus's appearance token blocks are approved and canon**
-> (`series-bible_v6.md` §3), which moves both out of the art queue's BLOCKED table and into it as rollable
+> (`series-bible_v7.md` §3), which moves both out of the art queue's BLOCKED table and into it as rollable
 > items 3 and 4. Episode 004's script is no longer blocked on art — only on the theft ruling. Canon is now
-> **`series-bible_v6.md`** and production is **`the-workbench_v5.md`**; both must be re-pasted into Project
+> **`series-bible_v7.md`** and production is **`the-workbench_v6.md`**; both must be re-pasted into Project
 > Knowledge.
 >
 > *Also in this build:* a **full cross-site link audit** — all 22 outbound links re-checked against the live
@@ -23,8 +27,8 @@ Everything is in here. Unzip, upload the whole folder, done.
 ```
 TODO.md                 ← START HERE. Master list, priorities, dependencies.
 index.html
-series-bible_v6.md      canon — continuity, characters, pipeline rules
-the-workbench_v5.md     production detail behind the master list
+series-bible_v7.md      canon — continuity, characters, pipeline rules
+the-workbench_v6.md     production detail behind the master list
 assets/          style.css · episodes.js · dojo.js
 episodes/        ep-001 · ep-002 · ep-003 · _TEMPLATE.html
 dojo/            the practice yard — masks, belts, drills
@@ -32,16 +36,16 @@ pages/           the-map-of-the-keep.html
 prompts/         ART-QUEUE.md ← all art · 00-reference-sheets.md
                  ep-002-prompts.md · ep-003-prompts.md
 tools/           movement_card.py · dojo_icons.py
-docs/            site-conventions.md · the-arc-room_v2.md · the-dojo-design.md
+docs/            site-conventions.md · the-arc-room_v3.md · the-dojo-design.md
                  CROSS-SITE-RULES.md · THE-WARD-ARC-BRIEF.md
                  EPISODE-003-HANDOFF.md (spent) · HANDOFF.md (historical)
 images/          _reference/ · keep/ · ep-001/ · ep-002/ · ep-003/ (empty)
 ```
 
-**Superseded files are kept, not overwritten.** `series-bible_v4.md`, `series-bible_v5.md`,
-`the-workbench_v3.md` and `the-workbench_v4.md` are all still in here. **The current pair is
-`series-bible_v6.md` and `the-workbench_v5.md`.** The filename carries the version and so does the block at the top of each file — check both before
-working from any copy.
+**Superseded files are kept, not overwritten.** Every prior bible, workbench and arc room is still in here.
+**The current set is `series-bible_v7.md`, `the-workbench_v6.md` and `docs/the-arc-room_v3.md`.** The
+filename carries the version and so does the block at the top of each file — check both before working from
+any copy.
 
 ---
 
@@ -78,17 +82,17 @@ Episode Two's links point at it, and Quill and Marisol both have proper referenc
 ## What was rebuilt rather than recovered
 
 The handoff listed several files to paste into the project. Some of them did not arrive, so they were
-reconstructed here from the specification in `docs/the-arc-room_v2.md` and `docs/HANDOFF.md`. **If you still
+reconstructed here from the specification in `docs/the-arc-room_v3.md` and `docs/HANDOFF.md`. **If you still
 have the originals from that session, paste them over these.** They are, in order of how much guessing was
 involved:
 
 | File | What happened |
 |---|---|
-| `pages/the-map-of-the-keep.html` | **No longer reconstructed — the original was supplied and now stands.** An earlier version in this folder was a summary written from `docs/the-arc-room_v2.md`; it has been discarded entirely. The live page is the author's `v3`, unaltered except for four file paths and two pager links repointed to this folder structure. Its CSS is in `assets/style.css` under *THE KEEP*. Masthead and footer standardised to match the rest of the site. |
+| `pages/the-map-of-the-keep.html` | **No longer reconstructed — the original was supplied and now stands.** An earlier version in this folder was a summary written from `docs/the-arc-room_v3.md`; it has been discarded entirely. The live page is the author's `v3`, unaltered except for four file paths and two pager links repointed to this folder structure. Its CSS is in `assets/style.css` under *THE KEEP*. Masthead and footer standardised to match the rest of the site. |
 | `assets/style.css` | The original, plus four component blocks at the foot — the Washing-Up, the Movement card, the Toolbox citation, and the Keep — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
 | `assets/episodes.js` | Both episode pages load it and it was not in the project. Adding an episode is one line in the `EPISODES` array. |
 | `tools/movement_card.py` | Rebuilt from the arc room's three-elements spec. Run it, paste the block into the Notes. The Episode Two card on the page is this script's own output, so the two cannot drift. |
-| `series-bible_v6.md` | No longer reconstructed. The author's v3 was supplied and now stands; v4 applied four corrections and v5 added Episode Three. Each version logs its own changes in its header. `docs/002-bible-delta.md` records what Episode Two added. |
+| `series-bible_v7.md` | No longer reconstructed. The author's v3 was supplied and now stands; every version since logs its own changes in its own header. `docs/002-bible-delta.md` records what Episode Two added. |
 | `prompts/00-reference-sheets.md` | Unchanged from the project. Round Five now lives at the foot of `prompts/ep-002-prompts.md` instead. |
 
 Not rebuilt, because nothing in the handoff describes it: `voice-for-carolyn.md`. The register rules quoted

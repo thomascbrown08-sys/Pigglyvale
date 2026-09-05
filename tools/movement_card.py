@@ -3,7 +3,7 @@
 movement_card.py — build one episode's Movement card as inline SVG.
 
 The arc room refers to this tool as already generated; it was not in the
-project, so it has been rebuilt from the spec in `docs/the-arc-room_v2.md`:
+project, so it has been rebuilt from the spec in `docs/the-arc-room_v3.md`:
 
     Three elements only.
       - where they stood   (a dot on one ring)

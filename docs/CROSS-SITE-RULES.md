@@ -111,7 +111,7 @@ lectern for plates, torn-paper border. Ships as `_SITE` (upload) and `_SOURCE` (
 the source zip**; it was reconstructed once from published HTML after a container reset. `TODO.md` is
 maintained on every update and is the authoritative status record.
 
-**Pigglyvale** — house style in `series-bible_v6.md`; structural rules in `docs/site-conventions.md`; all
+**Pigglyvale** — house style in `series-bible_v7.md`; structural rules in `docs/site-conventions.md`; all
 art in `prompts/ART-QUEUE.md`. Left-hand nav pane on every content page (index excepted). Episodes listed
 oldest-first. No local CSS, ever. **The image tool has no negative-prompt field** — every exclusion is
 written as a positive fact, and naming a thing to forbid it draws it.

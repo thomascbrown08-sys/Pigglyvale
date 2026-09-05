@@ -3,7 +3,7 @@
 **Status: not to be written yet.** This document exists so that when it is written, it is written on purpose.
 It is a brief for a *dedicated planning session*, not a spine. Nothing here is canon.
 
-Related: `the-arc-room_v2.md` §6 already logs **Arc D, the ward** as *later, told in advance*. Whatever is
+Related: `the-arc-room_v3.md` §6 already logs **Arc D, the ward** as *later, told in advance*. Whatever is
 sketched there is the starting point and this brief sits on top of it.
 
 ---
@@ -161,9 +161,9 @@ Season One is too early. Season Two probably is as well. That is a feature.
 
 ## 9. What to bring into the dedicated chat
 
-- `series-bible_v6.md` — canon, and the Abandonment Protocol that needs amending
-- `docs/the-arc-room_v2.md` — Arc D is already logged there; start from it
-- `the-workbench_v5.md` — what is decided and what is not
+- `series-bible_v7.md` — canon, and the Abandonment Protocol that needs amending
+- `docs/the-arc-room_v3.md` — Arc D is already logged there; start from it
+- `the-workbench_v6.md` — what is decided and what is not
 - `episodes/ep-001-the-small-yeses.html` and `ep-002-the-column-nobody-read.html` — tone and the repair rhythm
 - `pages/the-map-of-the-keep.html` — *blood gets you the seat, conduct keeps the keys* is the theological
   spine of this entire arc, and it is already written

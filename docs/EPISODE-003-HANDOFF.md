@@ -1,4 +1,15 @@
-# Handoff — Episode 003
+# Handoff — Episode 003 — ~~LIVE~~ **DISCHARGED 2026-09-05**
+
+> **This handoff has been used and the episode has shipped.** *Quantity Not Stated* is at
+> `episodes/ep-003-quantity-not-stated.html`, with `prompts/ep-003-prompts.md` and `series-bible_v5.md`.
+> Keep this file as the worked example of what a handoff needs to contain — §3, *things the new session
+> will get wrong unless told*, was the part that earned its place — but do not work from it. The current
+> state is in `TODO.md` and `the-workbench_v4.md`.
+>
+> **Two things in it went stale between writing and use**, both worth knowing before the next handoff is
+> written: the Dojo path in §3 predates the room → mask → belt restructure, and §4's "every character who
+> could appear in this episode has a reference" was true of the cast as planned and not of the cast as
+> written — Gus Thornapple turned up in three scenes with no token block, and had to be kept out of the art.
 
 Everything a fresh chat needs to write *Episode 003 · Arc C · saying the expectation out loud.*
 Start a **new** conversation. Do not continue an old one — the durable state is in these files, which is

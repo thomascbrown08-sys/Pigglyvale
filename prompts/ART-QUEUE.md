@@ -134,7 +134,7 @@ Not in the queue because there is nothing to write a prompt from.
 | **Donna** | Species only (a deer). Engine, role and flaw all undecided. | nothing yet |
 | **Dot, Sorrel, Bean** | Names only. Group sheet when an episode needs all four Bramblewicks. | nothing yet |
 
-**To unblock Bruno:** write his token block into `series-bible_v4.md` §3, then he joins this queue. He is
+**To unblock Bruno:** write his token block into `series-bible_v5.md` §3, then he joins this queue. He is
 needed before Episode 004 and is the only one on this list that blocks anything.
 
 ---

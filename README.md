@@ -1,22 +1,35 @@
 # The Chronicles of Pigglyvale — complete site
 
+> **Build v2 · 2026-09-05 · supersedes v1 (Episode Two + the Dojo).**
+> *Added:* Episode Three, *Quantity Not Stated* — page, six image prompts, `images/ep-003/`, and its
+> Movement card generated from `tools/movement_card.py`. Canon is now `series-bible_v5.md`; production is
+> `the-workbench_v4.md`. Wiring updated: `assets/episodes.js`, `index.html`, and Episode Two's forward
+> pager. `TODO.md` rewritten — **Episode Four is blocked on Bruno's sheet and the theft ruling.**
+> *Not included:* Episode Three's six images. The page is complete and waiting for them.
+
 Everything is in here. Unzip, upload the whole folder, done.
 
 ```
 TODO.md                 ← START HERE. Master list, priorities, dependencies.
 index.html
-series-bible_v4.md      canon — continuity, characters, pipeline rules
-the-workbench_v3.md     production detail behind the master list
-assets/          style.css · episodes.js
-episodes/        ep-001 · ep-002 · _TEMPLATE.html
+series-bible_v5.md      canon — continuity, characters, pipeline rules
+the-workbench_v4.md     production detail behind the master list
+assets/          style.css · episodes.js · dojo.js
+episodes/        ep-001 · ep-002 · ep-003 · _TEMPLATE.html
+dojo/            the practice yard — masks, belts, drills
 pages/           the-map-of-the-keep.html
-prompts/         00-reference-sheets.md · ep-002-prompts.md
-tools/           movement_card.py
+prompts/         ART-QUEUE.md ← all art · 00-reference-sheets.md
+                 ep-002-prompts.md · ep-003-prompts.md
+tools/           movement_card.py · dojo_icons.py
 docs/            site-conventions.md · the-arc-room_v2.md · the-dojo-design.md
-                 EPISODE-003-HANDOFF.md · THE-WARD-ARC-BRIEF.md
-                 002-bible-delta.md · HANDOFF.md (historical)
-images/          _reference/ · keep/ · ep-001/ · ep-002/
+                 CROSS-SITE-RULES.md · THE-WARD-ARC-BRIEF.md
+                 EPISODE-003-HANDOFF.md (spent) · HANDOFF.md (historical)
+images/          _reference/ · keep/ · ep-001/ · ep-002/ · ep-003/ (empty)
 ```
+
+**Superseded files are kept, not overwritten.** `series-bible_v4.md` and `the-workbench_v3.md` are still in
+here. The filename carries the version and so does the block at the top of each file — check both before
+working from any copy.
 
 ---
 
@@ -25,12 +38,16 @@ images/          _reference/ · keep/ · ep-001/ · ep-002/
 **`TODO.md`.** It is the master list: what is blocking, what is unblocked, which way the dependencies run,
 and which file holds the detail for each item. Everything else is a sublist it points at.
 
-## Before it goes live — three things
+## Before it goes live — one thing
 
-**1. Both episodes have their art.** Episode Two has all six slots filled and approved. Episode One is
-unchanged from the project version — five slots, original markup — with a sixth image (`05-repair.png`)
-sitting in the folder unreferenced, because adding it would mean editing an episode the handoff said to
-leave alone. See `images/ep-001/PLACEHOLDER.md`.
+**Episode Three has no art yet.** The page is complete and links six images that do not exist, so those
+six plates will be blank until the files land in `images/ep-003/`. Everything about them is pre-written —
+filenames, alt text, prompts — so it is a drop-in, not an edit. See `images/ep-003/PLACEHOLDER.md` and
+`prompts/ep-003-prompts.md`.
+
+Episodes One and Two are both fully illustrated. Episode One remains at five referenced slots with a sixth
+image (`05-repair.png`) sitting unreferenced in its folder, by instruction; see
+`images/ep-001/PLACEHOLDER.md`.
 
 Before writing any new prompt, read the opening section of `prompts/ep-002-prompts.md`. **This image tool
 has no negative-prompt field** — one text box, everything named gets drawn — so the old `[NEGATIVE]` blocks
@@ -40,15 +57,9 @@ attached for every character named in the frame. `images/ep-001/` still
 needs its five files; Episode One's prompts were never in the project, so its placeholder file lists the
 subjects rather than the prompts.
 
-**2. The Toolbox links point at the index, not at a pattern page.** `patterns/contingent-worth.html` does
-not exist on My Toolbox yet. Both links in Episode Two go to the index for now, with the future URL sitting
-in an HTML comment right beside them — when you write that page, swap the two `href`s and delete the
-comment. Pigglyvale points at the Toolbox; the Toolbox never points back.
-
-**3. Quill and Marisol still have no proper reference sheets** — only crops cut from their own good
-episode images (`marisol-crop.png`, `quill-crop.png`, `quill-face-crop.png`). Those crops carried all six
-Episode Two illustrations and are fine to keep using, but roll the sheets before Episode Three. The prompts
-are at the foot of `prompts/ep-002-prompts.md`.
+*(Two items that used to sit here are resolved: `patterns/contingent-worth.html` is live on My Toolbox and
+Episode Two's links point at it, and Quill and Marisol both have proper reference sheets as of
+2026-09-04.)*
 
 ---
 
@@ -65,7 +76,7 @@ involved:
 | `assets/style.css` | The original, plus four component blocks at the foot — the Washing-Up, the Movement card, the Toolbox citation, and the Keep — plus the `.layout` / `.epnav` rules, which Episode One's markup already used but which were missing from the project copy. **If the previous session's stylesheet was ever pasted in, check for duplicate class names.** |
 | `assets/episodes.js` | Both episode pages load it and it was not in the project. Adding an episode is one line in the `EPISODES` array. |
 | `tools/movement_card.py` | Rebuilt from the arc room's three-elements spec. Run it, paste the block into the Notes. The Episode Two card on the page is this script's own output, so the two cannot drift. |
-| `series-bible_v4.md` | No longer reconstructed. The author's v3 was supplied and now stands, with four corrections applied and logged in its own version header. `docs/002-bible-delta.md` records what Episode Two added. |
+| `series-bible_v5.md` | No longer reconstructed. The author's v3 was supplied and now stands; v4 applied four corrections and v5 added Episode Three. Each version logs its own changes in its header. `docs/002-bible-delta.md` records what Episode Two added. |
 | `prompts/00-reference-sheets.md` | Unchanged from the project. Round Five now lives at the foot of `prompts/ep-002-prompts.md` instead. |
 
 Not rebuilt, because nothing in the handoff describes it: `voice-for-carolyn.md`. The register rules quoted
@@ -88,14 +99,23 @@ inside the skill file were followed for all analysis prose.
 Read `docs/site-conventions.md`. It carries the standing structural rules — the left navigation pane on
 every content page, no local CSS, one masthead and footer, and how relative paths work here.
 
-## Adding Episode Three
+## Adding an episode
+
+Episode Three was built this way and is the current worked example.
 
 1. Copy `episodes/_TEMPLATE.html`. It already has the left navigation pane wired in.
 2. Add one line to the `EPISODES` array in `assets/episodes.js`.
 3. Add a `.plate` block to the `.plates` grid in `index.html` — at the **end** of the episode run, above
    the Map of the Keep. Episodes are listed in sequence, oldest first; see `docs/site-conventions.md` §2.
-4. Edit `MOVES` in `tools/movement_card.py`, run it, paste the block into the Notes.
-5. Update the ledger, the facts, the gags and Open Threads in `series-bible_v4.md`.
+4. Point the **previous** episode's pager forward. It ships saying *"Episode N, shortly"* and stays that way
+   unless somebody remembers.
+5. Edit `MOVES` in `tools/movement_card.py`, run it, paste the block into the Notes. Never hand-write the
+   SVG — the card on the page and the script's output are byte-equivalent, which is the only thing keeping
+   them from drifting. A leg from a ring **to itself** renders as a bare dot, which is how Episode Three
+   draws a character whose standing deliberately did not move.
+6. Create `images/ep-00N/` with a `PLACEHOLDER.md` listing the slots.
+7. Update the ledger, the Season Clock, the facts, the gags and Open Threads, and ship the bible as the next
+   version number rather than editing in place.
 
-Episode Three opens with Thomas owning the correction Ambrose gave him in the Episode Two Notes. That is
-logged in Open Threads and it is the first thing on the list.
+**Episode Four is blocked.** Bruno is its lead and has never been drawn, and the theft double-booking has
+to be ruled on first. Both are P0 in `TODO.md`.

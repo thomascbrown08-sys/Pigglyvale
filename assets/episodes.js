@@ -21,6 +21,12 @@
       number: "Two",
       title:  "The Column Nobody Read",
       file:   "ep-002-the-column-nobody-read.html"
+    },
+    {
+      slug:   "ep-003-quantity-not-stated",
+      number: "Three",
+      title:  "Quantity Not Stated",
+      file:   "ep-003-quantity-not-stated.html"
     }
   ];
 

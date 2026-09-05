@@ -19,7 +19,7 @@ Writing a card is filling in values, not drawing anything.
 
 Usage
 -----
-    python3 tools/movement_card.py                 # prints Episode 002's card
+    python3 tools/movement_card.py                 # prints Episode 003's card
     python3 tools/movement_card.py > card.svg      # paste into the Notes
 
 Editing
@@ -57,38 +57,44 @@ RINGS = {
 
 # --- this episode ---------------------------------------------------------
 
-TITLE = "The Movement Card — Episode Two"
+TITLE = "The Movement Card — Episode Three"
 
 MOVES = [
     {
         "who": "Marisol Vega",
-        "note": ["Road to Long Table, four rings,",
-                 "none of them earned. Then out to Marketrow."],
-        "angle": 200,          # degrees, where on the chart this move sits
+        "note": ["Marketrow to the Great Hall. One ring,",
+                 "on a month of ordinary Tuesdays."],
+        "angle": 200,
         "legs": [
-            # (from_ring, to_ring, style, colour-var[, end_angle])
-            (6, 2, "skip", "--mango"),
-            (2, 5, "clean", "--guava", 243),   # snap back, fanned out
+            (5, 4, "clean", "--sofrito"),
         ],
     },
     {
-        "who": "Delphine Quill",
-        "note": ["Great Hall to Inner Court.",
-                 "One ring. Twenty years."],
-        "angle": 20,
+        # A deliberate non-move. A leg from a ring to itself renders as a
+        # single dot with no path, which is exactly what is wanted: her seat
+        # did not move, a key did. Keep this pattern for any episode where
+        # the point is that nobody's standing changed.
+        "who": "Auntie Yolanda Plum",
+        "note": ["The Long Table, where she has sat",
+                 "for thirty years. She does not move."],
+        "angle": 25,
         "legs": [
-            (4, 3, "clean", "--sofrito"),
+            (2, 2, "clean", "--guava"),
         ],
     },
 ]
 
 CAPTION = (
-    "Two movements this fortnight. The big one is drawn with a broken line, "
-    "because nothing was underneath it — four rings inward in a fortnight, on "
-    "three delightful weeks and a smell of good bread, and then straight back "
-    "out to the edge the moment any weight came on. The other one is the tick "
-    "mark in the corner. It took twenty years, it moved one ring, and it is "
-    "the only one of the two that will still be there next spring."
+    "Two entries this month, and one of them is a dot. Marisol Vega has been "
+    "coming to the Kitchen Royal twice a week since the autumn, on time, "
+    "without anybody having to think about her — which is the whole of how a "
+    "person moves one ring, and why it takes a season and not a fortnight. "
+    "Auntie Yolanda does not move at all. She has had her place at the Long "
+    "Table for thirty years and nothing that happened this month put a mark "
+    "on it. What changed was a key: the Kitchen Royal now runs on four "
+    "written lines, read out loud before anybody starts. A seat and a key "
+    "are different things, and this is what it looks like when only one of "
+    "them is adjusted."
 )
 
 # --- geometry -------------------------------------------------------------
